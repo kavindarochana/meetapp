@@ -1,0 +1,759 @@
+[14-Feb-2019 22:27:39 Asia/Kolkata] PHP Warning:  require(log.php): failed to open stream: No such file or directory in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/ussdap.php on line 8
+[14-Feb-2019 22:27:39 Asia/Kolkata] PHP Fatal error:  require(): Failed opening required 'log.php' (include_path='.:/usr/share/php') in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/ussdap.php on line 8
+[14-Feb-2019 22:28:23 Asia/Kolkata] PHP Warning:  require(log.php): failed to open stream: No such file or directory in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/ussdap.php on line 8
+[14-Feb-2019 22:28:23 Asia/Kolkata] PHP Fatal error:  require(): Failed opening required 'log.php' (include_path='.:/usr/share/php') in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/ussdap.php on line 8
+[14-Feb-2019 22:29:09 Asia/Kolkata] PHP Fatal error:  Uncaught Exception: Some of the required parameters are not provided in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/libs/MoUssdReceiver.php:40
+Stack trace:
+#0 /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/ussdap.php(22): UssdReceiver->__construct()
+#1 {main}
+  thrown in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/libs/MoUssdReceiver.php on line 40
+[14-Feb-2019 22:29:34 Asia/Kolkata] PHP Notice:  Undefined variable: conn in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/class/operationsClass.php on line 18
+[14-Feb-2019 22:29:34 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/class/operationsClass.php:18
+Stack trace:
+#0 /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/ussdap.php(54): Operations->setSessions(Array)
+#1 {main}
+  thrown in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/class/operationsClass.php on line 18
+[14-Feb-2019 22:29:42 Asia/Kolkata] PHP Notice:  Undefined variable: conn in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/class/operationsClass.php on line 18
+[14-Feb-2019 22:29:42 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/class/operationsClass.php:18
+Stack trace:
+#0 /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/ussdap.php(54): Operations->setSessions(Array)
+#1 {main}
+  thrown in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/class/operationsClass.php on line 18
+[14-Feb-2019 22:30:59 Asia/Kolkata] PHP Notice:  Undefined variable: conn in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/class/operationsClass.php on line 18
+[14-Feb-2019 22:30:59 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/class/operationsClass.php:18
+Stack trace:
+#0 /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/ussdap.php(54): Operations->setSessions(Array)
+#1 {main}
+  thrown in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/class/operationsClass.php on line 18
+[14-Feb-2019 22:35:15 Asia/Kolkata] PHP Notice:  Undefined variable: conn in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/class/operationsClass.php on line 18
+[14-Feb-2019 22:35:15 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/class/operationsClass.php:18
+Stack trace:
+#0 /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/ussdap.php(54): Operations->setSessions(Array)
+#1 {main}
+  thrown in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/class/operationsClass.php on line 18
+[14-Feb-2019 22:35:41 Asia/Kolkata] PHP Warning:  require(../db.php): failed to open stream: No such file or directory in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/class/operationsClass.php on line 2
+[14-Feb-2019 22:35:41 Asia/Kolkata] PHP Fatal error:  require(): Failed opening required '../db.php' (include_path='.:/usr/share/php') in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/class/operationsClass.php on line 2
+[14-Feb-2019 22:42:10 Asia/Kolkata] set session
+[14-Feb-2019 22:43:02 Asia/Kolkata] set session
+[14-Feb-2019 22:43:02 Asia/Kolkata] {"errorInfo":["22007",1292,"Incorrect datetime value: 'CURRENT_TIMESTAMP' for column 'created_at' at row 1"]}
+[14-Feb-2019 22:43:56 Asia/Kolkata] set session
+[14-Feb-2019 22:44:04 Asia/Kolkata] set session
+[14-Feb-2019 22:44:04 Asia/Kolkata] {"errorInfo":["23000",1062,"Duplicate entry '1' for key 'PRIMARY'"]}
+[14-Feb-2019 22:44:10 Asia/Kolkata] set session
+[14-Feb-2019 22:44:10 Asia/Kolkata] {"errorInfo":["23000",1062,"Duplicate entry '1' for key 'PRIMARY'"]}
+[14-Feb-2019 22:44:16 Asia/Kolkata] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Operations::getSession(), 1 passed in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/ussdap.php on line 66 and exactly 2 expected in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/class/operationsClass.php:29
+Stack trace:
+#0 /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/ussdap.php(66): Operations->getSession('1')
+#1 {main}
+  thrown in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/class/operationsClass.php on line 29
+[14-Feb-2019 22:45:04 Asia/Kolkata] PHP Warning:  error_log() expects parameter 1 to be string, object given in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/class/operationsClass.php on line 35
+[14-Feb-2019 22:45:16 Asia/Kolkata] PHP Warning:  error_log() expects parameter 1 to be string, object given in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/class/operationsClass.php on line 35
+[14-Feb-2019 22:45:24 Asia/Kolkata] set session
+[14-Feb-2019 22:45:24 Asia/Kolkata] {"errorInfo":["23000",1062,"Duplicate entry '1' for key 'PRIMARY'"]}
+[14-Feb-2019 22:46:07 Asia/Kolkata] set session
+[14-Feb-2019 22:46:07 Asia/Kolkata] {"errorInfo":["23000",1062,"Duplicate entry '1' for key 'PRIMARY'"]}
+[14-Feb-2019 22:46:32 Asia/Kolkata] set session
+[14-Feb-2019 22:46:32 Asia/Kolkata] {"errorInfo":["23000",1062,"Duplicate entry '11' for key 'PRIMARY'"]}
+[14-Feb-2019 22:46:41 Asia/Kolkata] {"queryString":"SELECT *  FROM  `sessions` WHERE  sessionsid='11'"}
+[14-Feb-2019 22:48:02 Asia/Kolkata] PHP Parse error:  syntax error, unexpected 'error_log' (T_STRING) in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/class/operationsClass.php on line 36
+[14-Feb-2019 22:48:33 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined method PDOStatement::fetch_assoc() in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/class/operationsClass.php:35
+Stack trace:
+#0 /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/ussdap.php(66): Operations->getSession('11', Object(PDO))
+#1 {main}
+  thrown in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/class/operationsClass.php on line 35
+[14-Feb-2019 22:48:45 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined method PDOStatement::fetch_assoc() in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/class/operationsClass.php:35
+Stack trace:
+#0 /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/ussdap.php(66): Operations->getSession('11', Object(PDO))
+#1 {main}
+  thrown in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/class/operationsClass.php on line 35
+[14-Feb-2019 22:49:21 Asia/Kolkata] true
+[14-Feb-2019 22:49:21 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/class/operationsClass.php:49
+Stack trace:
+#0 /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/ussdap.php(110): Operations->saveSesssion()
+#1 {main}
+  thrown in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/class/operationsClass.php on line 49
+[14-Feb-2019 22:51:21 Asia/Kolkata] true
+[14-Feb-2019 22:51:21 Asia/Kolkata] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Operations::saveSesssion(), 0 passed in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/ussdap.php on line 110 and exactly 1 expected in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/class/operationsClass.php:42
+Stack trace:
+#0 /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/ussdap.php(110): Operations->saveSesssion()
+#1 {main}
+  thrown in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/class/operationsClass.php on line 42
+[14-Feb-2019 22:51:56 Asia/Kolkata] true
+[14-Feb-2019 22:52:14 Asia/Kolkata] set session
+[14-Feb-2019 22:52:14 Asia/Kolkata] {"errorInfo":["23000",1062,"Duplicate entry '11' for key 'PRIMARY'"]}
+[14-Feb-2019 22:52:32 Asia/Kolkata] set session
+[14-Feb-2019 22:52:44 Asia/Kolkata] set session
+[14-Feb-2019 22:52:44 Asia/Kolkata] {"errorInfo":["23000",1062,"Duplicate entry '111' for key 'PRIMARY'"]}
+[14-Feb-2019 22:52:50 Asia/Kolkata] set session
+[14-Feb-2019 22:52:55 Asia/Kolkata] true
+[14-Feb-2019 22:53:36 Asia/Kolkata] set session
+[14-Feb-2019 22:53:36 Asia/Kolkata] {"errorInfo":["23000",1062,"Duplicate entry '11111' for key 'PRIMARY'"]}
+[14-Feb-2019 22:53:54 Asia/Kolkata] set session
+[14-Feb-2019 22:54:13 Asia/Kolkata] true
+[14-Feb-2019 22:56:09 Asia/Kolkata] set session
+[14-Feb-2019 22:56:09 Asia/Kolkata] {"errorInfo":["23000",1062,"Duplicate entry '111112' for key 'PRIMARY'"]}
+[14-Feb-2019 22:56:18 Asia/Kolkata] set session
+[14-Feb-2019 22:56:28 Asia/Kolkata] true
+[14-Feb-2019 22:56:28 Asia/Kolkata] 
+[14-Feb-2019 22:57:32 Asia/Kolkata] set session
+[14-Feb-2019 22:57:32 Asia/Kolkata] {"errorInfo":["23000",1062,"Duplicate entry '1111112' for key 'PRIMARY'"]}
+[14-Feb-2019 22:57:35 Asia/Kolkata] SELECT *  FROM  `sessions` WHERE  sessionsid='1111112'
+[14-Feb-2019 22:57:35 Asia/Kolkata] true
+[14-Feb-2019 22:57:35 Asia/Kolkata] 
+[14-Feb-2019 22:59:26 Asia/Kolkata] set session
+[14-Feb-2019 22:59:26 Asia/Kolkata] {"errorInfo":["23000",1062,"Duplicate entry '1111112' for key 'PRIMARY'"]}
+[14-Feb-2019 22:59:33 Asia/Kolkata] set session
+[14-Feb-2019 22:59:33 Asia/Kolkata] {"errorInfo":["23000",1062,"Duplicate entry '1111112' for key 'PRIMARY'"]}
+[14-Feb-2019 23:01:49 Asia/Kolkata] SELECT *  FROM  `sessions` WHERE  sessionsid='1111112'
+[14-Feb-2019 23:01:49 Asia/Kolkata] true
+[14-Feb-2019 23:03:21 Asia/Kolkata] SELECT *  FROM  `sessions` WHERE  sessionsid='1111112'
+[14-Feb-2019 23:03:21 Asia/Kolkata] false
+[14-Feb-2019 23:07:54 Asia/Kolkata] 
+[14-Feb-2019 23:07:54 Asia/Kolkata] PHP Notice:  Undefined variable: fet_sessions in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/class/operationsClass.php on line 42
+[14-Feb-2019 23:08:18 Asia/Kolkata] 
+[14-Feb-2019 23:08:18 Asia/Kolkata] PHP Notice:  Undefined variable: fet_sessions in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/class/operationsClass.php on line 42
+[14-Feb-2019 23:08:30 Asia/Kolkata] 
+[14-Feb-2019 23:08:30 Asia/Kolkata] PHP Notice:  Undefined variable: fet_sessions in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/class/operationsClass.php on line 42
+[14-Feb-2019 23:09:05 Asia/Kolkata] 
+[14-Feb-2019 23:09:15 Asia/Kolkata] 
+[14-Feb-2019 23:09:16 Asia/Kolkata] 
+[14-Feb-2019 23:09:27 Asia/Kolkata] set session
+[14-Feb-2019 23:09:27 Asia/Kolkata] {"errorInfo":["23000",1062,"Duplicate entry '1111112' for key 'PRIMARY'"]}
+[14-Feb-2019 23:09:31 Asia/Kolkata] 
+[14-Feb-2019 23:11:45 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined method PDOStatement::query() in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/class/operationsClass.php:35
+Stack trace:
+#0 /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/ussdap.php(66): Operations->getSession('1111112', Object(PDO))
+#1 {main}
+  thrown in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/class/operationsClass.php on line 35
+[14-Feb-2019 23:12:13 Asia/Kolkata] {"queryString":"SELECT *  FROM  `sessions` WHERE  sessionsid='1111112'"}
+[14-Feb-2019 23:12:13 Asia/Kolkata] 
+[14-Feb-2019 23:13:58 Asia/Kolkata] true
+[14-Feb-2019 23:13:58 Asia/Kolkata] PHP Notice:  Undefined variable: dbh in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/class/operationsClass.php on line 42
+[14-Feb-2019 23:13:58 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/class/operationsClass.php:42
+Stack trace:
+#0 /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/ussdap.php(66): Operations->getSession('1111112', Object(PDO))
+#1 {main}
+  thrown in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/class/operationsClass.php on line 42
+[14-Feb-2019 23:14:16 Asia/Kolkata] true
+[14-Feb-2019 23:14:16 Asia/Kolkata] PHP Notice:  Undefined variable: dbh in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/class/operationsClass.php on line 42
+[14-Feb-2019 23:14:16 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/class/operationsClass.php:42
+Stack trace:
+#0 /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/ussdap.php(66): Operations->getSession('1111112', Object(PDO))
+#1 {main}
+  thrown in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/class/operationsClass.php on line 42
+[14-Feb-2019 23:14:31 Asia/Kolkata] true
+[14-Feb-2019 23:14:31 Asia/Kolkata] PHP Notice:  Undefined variable: db in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/class/operationsClass.php on line 42
+[14-Feb-2019 23:14:31 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/class/operationsClass.php:42
+Stack trace:
+#0 /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/ussdap.php(66): Operations->getSession('1111112', Object(PDO))
+#1 {main}
+  thrown in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/class/operationsClass.php on line 42
+[14-Feb-2019 23:14:40 Asia/Kolkata] true
+[14-Feb-2019 23:14:40 Asia/Kolkata] PHP Notice:  Undefined variable: db in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/class/operationsClass.php on line 42
+[14-Feb-2019 23:14:40 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/class/operationsClass.php:42
+Stack trace:
+#0 /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/ussdap.php(66): Operations->getSession('1111112', Object(PDO))
+#1 {main}
+  thrown in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/class/operationsClass.php on line 42
+[14-Feb-2019 23:14:56 Asia/Kolkata] true
+[14-Feb-2019 23:14:56 Asia/Kolkata] PHP Warning:  PDO::query() expects parameter 1 to be string, object given in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/class/operationsClass.php on line 42
+[14-Feb-2019 23:14:56 Asia/Kolkata] 
+[14-Feb-2019 23:14:56 Asia/Kolkata] true
+[14-Feb-2019 23:14:56 Asia/Kolkata] PHP Warning:  PDO::query() expects parameter 1 to be string, object given in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/class/operationsClass.php on line 42
+[14-Feb-2019 23:14:56 Asia/Kolkata] 
+[14-Feb-2019 23:15:27 Asia/Kolkata] true
+[14-Feb-2019 23:15:27 Asia/Kolkata] PHP Warning:  error_log() expects parameter 1 to be string, object given in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/class/operationsClass.php on line 44
+[14-Feb-2019 23:15:38 Asia/Kolkata] true
+[14-Feb-2019 23:15:38 Asia/Kolkata] PHP Warning:  error_log() expects parameter 1 to be string, object given in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/class/operationsClass.php on line 44
+[14-Feb-2019 23:16:02 Asia/Kolkata] true
+[14-Feb-2019 23:16:02 Asia/Kolkata] {"queryString":"SELECT *  FROM  `sessions` WHERE  sessionsid='1111112'"}
+[14-Feb-2019 23:16:11 Asia/Kolkata] true
+[14-Feb-2019 23:16:11 Asia/Kolkata] {"queryString":"SELECT *  FROM  `sessions` WHERE  sessionsid='1111112'"}
+[14-Feb-2019 23:16:39 Asia/Kolkata] true
+[14-Feb-2019 23:16:39 Asia/Kolkata] PHP Warning:  error_log() expects parameter 1 to be string, object given in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/class/operationsClass.php on line 44
+[14-Feb-2019 23:17:00 Asia/Kolkata] true
+[14-Feb-2019 23:17:00 Asia/Kolkata] PHP Notice:  Undefined property: PDOStatement::$id in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/class/operationsClass.php on line 44
+[14-Feb-2019 23:17:00 Asia/Kolkata] 
+[14-Feb-2019 23:17:12 Asia/Kolkata] true
+[14-Feb-2019 23:17:12 Asia/Kolkata] PHP Notice:  Undefined property: PDOStatement::$id in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/class/operationsClass.php on line 44
+[14-Feb-2019 23:17:12 Asia/Kolkata] 
+[14-Feb-2019 23:17:52 Asia/Kolkata] true
+[14-Feb-2019 23:17:52 Asia/Kolkata] PHP Notice:  Undefined property: PDOStatement::$tel in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/class/operationsClass.php on line 44
+[14-Feb-2019 23:17:52 Asia/Kolkata] 
+[14-Feb-2019 23:17:59 Asia/Kolkata] true
+[14-Feb-2019 23:17:59 Asia/Kolkata] PHP Notice:  Undefined property: PDOStatement::$tel in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/class/operationsClass.php on line 44
+[14-Feb-2019 23:17:59 Asia/Kolkata] 
+[14-Feb-2019 23:19:59 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined method PDO::fetchAll() in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/class/operationsClass.php:42
+Stack trace:
+#0 /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/ussdap.php(66): Operations->getSession('1111112', Object(PDO))
+#1 {main}
+  thrown in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/class/operationsClass.php on line 42
+[14-Feb-2019 23:21:32 Asia/Kolkata] tel:8801866742387
+[14-Feb-2019 23:22:48 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Cannot use object of type PDOStatement as array in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/ussdap.php:67
+Stack trace:
+#0 {main}
+  thrown in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/ussdap.php on line 67
+[14-Feb-2019 23:22:55 Asia/Kolkata] set session
+[14-Feb-2019 23:22:55 Asia/Kolkata] {"errorInfo":["23000",1062,"Duplicate entry '1111112' for key 'PRIMARY'"]}
+[14-Feb-2019 23:23:04 Asia/Kolkata] set session
+[14-Feb-2019 23:23:14 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Cannot use object of type PDOStatement as array in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/ussdap.php:67
+Stack trace:
+#0 {main}
+  thrown in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/ussdap.php on line 67
+[14-Feb-2019 23:23:20 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Cannot use object of type PDOStatement as array in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/ussdap.php:67
+Stack trace:
+#0 {main}
+  thrown in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/ussdap.php on line 67
+[14-Feb-2019 23:25:54 Asia/Kolkata] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/class/operationsClass.php on line 32
+[14-Feb-2019 23:25:54 Asia/Kolkata] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/class/operationsClass.php on line 33
+[14-Feb-2019 23:26:00 Asia/Kolkata] set session
+[14-Feb-2019 23:26:00 Asia/Kolkata] {"errorInfo":["23000",1062,"Duplicate entry '01111112' for key 'PRIMARY'"]}
+[14-Feb-2019 23:26:03 Asia/Kolkata] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/class/operationsClass.php on line 32
+[14-Feb-2019 23:26:03 Asia/Kolkata] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/class/operationsClass.php on line 33
+[14-Feb-2019 23:29:05 Asia/Kolkata] set session
+[14-Feb-2019 23:29:05 Asia/Kolkata] {"errorInfo":["23000",1062,"Duplicate entry '01111112' for key 'PRIMARY'"]}
+[14-Feb-2019 23:29:18 Asia/Kolkata] set session
+[14-Feb-2019 23:29:26 Asia/Kolkata] PHP Notice:  Undefined variable: sql_session in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/class/operationsClass.php on line 38
+[14-Feb-2019 23:30:17 Asia/Kolkata] set session
+[14-Feb-2019 23:31:22 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Cannot use object of type PDOStatement as array in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/ussdap.php:67
+Stack trace:
+#0 {main}
+  thrown in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/ussdap.php on line 67
+[14-Feb-2019 23:32:12 Asia/Kolkata] set session
+[14-Feb-2019 23:32:57 Asia/Kolkata] 
+[14-Feb-2019 23:32:58 Asia/Kolkata] 
+[14-Feb-2019 23:33:04 Asia/Kolkata] set session
+[14-Feb-2019 23:33:08 Asia/Kolkata] 
+[14-Feb-2019 23:35:34 Asia/Kolkata] set session
+[14-Feb-2019 23:35:34 Asia/Kolkata] {"sessionid":"2","tel":"tel:8801866742387","menu":"main","pg":"","others":""}
+[14-Feb-2019 23:35:36 Asia/Kolkata] set session
+[14-Feb-2019 23:35:36 Asia/Kolkata] {"errorInfo":["23000",1062,"Duplicate entry '2' for key 'PRIMARY'"]}
+[14-Feb-2019 23:35:36 Asia/Kolkata] {"sessionid":"2","tel":"tel:8801866742387","menu":"main","pg":"","others":""}
+[14-Feb-2019 23:35:36 Asia/Kolkata] set session
+[14-Feb-2019 23:35:36 Asia/Kolkata] {"errorInfo":["23000",1062,"Duplicate entry '2' for key 'PRIMARY'"]}
+[14-Feb-2019 23:35:36 Asia/Kolkata] {"sessionid":"2","tel":"tel:8801866742387","menu":"main","pg":"","others":""}
+[14-Feb-2019 23:35:36 Asia/Kolkata] set session
+[14-Feb-2019 23:35:36 Asia/Kolkata] {"errorInfo":["23000",1062,"Duplicate entry '2' for key 'PRIMARY'"]}
+[14-Feb-2019 23:35:36 Asia/Kolkata] {"sessionid":"2","tel":"tel:8801866742387","menu":"main","pg":"","others":""}
+[14-Feb-2019 23:35:37 Asia/Kolkata] set session
+[14-Feb-2019 23:35:37 Asia/Kolkata] {"errorInfo":["23000",1062,"Duplicate entry '2' for key 'PRIMARY'"]}
+[14-Feb-2019 23:35:37 Asia/Kolkata] {"sessionid":"2","tel":"tel:8801866742387","menu":"main","pg":"","others":""}
+[14-Feb-2019 23:35:38 Asia/Kolkata] set session
+[14-Feb-2019 23:35:38 Asia/Kolkata] {"errorInfo":["23000",1062,"Duplicate entry '2' for key 'PRIMARY'"]}
+[14-Feb-2019 23:35:38 Asia/Kolkata] {"sessionid":"2","tel":"tel:8801866742387","menu":"main","pg":"","others":""}
+[14-Feb-2019 23:35:39 Asia/Kolkata] set session
+[14-Feb-2019 23:35:39 Asia/Kolkata] {"errorInfo":["23000",1062,"Duplicate entry '2' for key 'PRIMARY'"]}
+[14-Feb-2019 23:35:39 Asia/Kolkata] {"sessionid":"2","tel":"tel:8801866742387","menu":"main","pg":"","others":""}
+[14-Feb-2019 23:35:39 Asia/Kolkata] set session
+[14-Feb-2019 23:35:39 Asia/Kolkata] {"errorInfo":["23000",1062,"Duplicate entry '2' for key 'PRIMARY'"]}
+[14-Feb-2019 23:35:39 Asia/Kolkata] {"sessionid":"2","tel":"tel:8801866742387","menu":"main","pg":"","others":""}
+[14-Feb-2019 23:35:39 Asia/Kolkata] set session
+[14-Feb-2019 23:35:39 Asia/Kolkata] {"errorInfo":["23000",1062,"Duplicate entry '2' for key 'PRIMARY'"]}
+[14-Feb-2019 23:35:39 Asia/Kolkata] {"sessionid":"2","tel":"tel:8801866742387","menu":"main","pg":"","others":""}
+[14-Feb-2019 23:35:39 Asia/Kolkata] set session
+[14-Feb-2019 23:35:39 Asia/Kolkata] {"errorInfo":["23000",1062,"Duplicate entry '2' for key 'PRIMARY'"]}
+[14-Feb-2019 23:35:39 Asia/Kolkata] {"sessionid":"2","tel":"tel:8801866742387","menu":"main","pg":"","others":""}
+[14-Feb-2019 23:35:40 Asia/Kolkata] set session
+[14-Feb-2019 23:35:40 Asia/Kolkata] {"errorInfo":["23000",1062,"Duplicate entry '2' for key 'PRIMARY'"]}
+[14-Feb-2019 23:35:40 Asia/Kolkata] {"sessionid":"2","tel":"tel:8801866742387","menu":"main","pg":"","others":""}
+[14-Feb-2019 23:35:40 Asia/Kolkata] set session
+[14-Feb-2019 23:35:40 Asia/Kolkata] {"errorInfo":["23000",1062,"Duplicate entry '2' for key 'PRIMARY'"]}
+[14-Feb-2019 23:35:40 Asia/Kolkata] {"sessionid":"2","tel":"tel:8801866742387","menu":"main","pg":"","others":""}
+[14-Feb-2019 23:35:40 Asia/Kolkata] set session
+[14-Feb-2019 23:35:41 Asia/Kolkata] {"errorInfo":["23000",1062,"Duplicate entry '2' for key 'PRIMARY'"]}
+[14-Feb-2019 23:35:41 Asia/Kolkata] {"sessionid":"2","tel":"tel:8801866742387","menu":"main","pg":"","others":""}
+[14-Feb-2019 23:35:53 Asia/Kolkata] 
+[14-Feb-2019 23:36:23 Asia/Kolkata] set session
+[14-Feb-2019 23:36:23 Asia/Kolkata] {"errorInfo":["23000",1062,"Duplicate entry '2' for key 'PRIMARY'"]}
+[14-Feb-2019 23:36:23 Asia/Kolkata] {"sessionid":"2","tel":"tel:8801866742387","menu":"main","pg":"","others":""}
+[14-Feb-2019 23:36:35 Asia/Kolkata] set session
+[14-Feb-2019 23:36:35 Asia/Kolkata] {"errorInfo":["23000",1062,"Duplicate entry '2' for key 'PRIMARY'"]}
+[14-Feb-2019 23:36:35 Asia/Kolkata] {"sessionid":"2","tel":"tel:8801866742387","menu":"main","pg":"","others":""}
+[14-Feb-2019 23:36:39 Asia/Kolkata] set session
+[14-Feb-2019 23:36:39 Asia/Kolkata] {"errorInfo":["23000",1062,"Duplicate entry '2' for key 'PRIMARY'"]}
+[14-Feb-2019 23:36:39 Asia/Kolkata] {"sessionid":"2","tel":"tel:8801866742387","menu":"main","pg":"","others":""}
+[14-Feb-2019 23:36:40 Asia/Kolkata] set session
+[14-Feb-2019 23:36:40 Asia/Kolkata] {"errorInfo":["23000",1062,"Duplicate entry '2' for key 'PRIMARY'"]}
+[14-Feb-2019 23:36:40 Asia/Kolkata] {"sessionid":"2","tel":"tel:8801866742387","menu":"main","pg":"","others":""}
+[14-Feb-2019 23:36:40 Asia/Kolkata] set session
+[14-Feb-2019 23:36:40 Asia/Kolkata] {"errorInfo":["23000",1062,"Duplicate entry '2' for key 'PRIMARY'"]}
+[14-Feb-2019 23:36:40 Asia/Kolkata] {"sessionid":"2","tel":"tel:8801866742387","menu":"main","pg":"","others":""}
+[14-Feb-2019 23:36:41 Asia/Kolkata] set session
+[14-Feb-2019 23:36:41 Asia/Kolkata] {"errorInfo":["23000",1062,"Duplicate entry '2' for key 'PRIMARY'"]}
+[14-Feb-2019 23:36:41 Asia/Kolkata] {"sessionid":"2","tel":"tel:8801866742387","menu":"main","pg":"","others":""}
+[14-Feb-2019 23:36:41 Asia/Kolkata] set session
+[14-Feb-2019 23:36:41 Asia/Kolkata] {"errorInfo":["23000",1062,"Duplicate entry '2' for key 'PRIMARY'"]}
+[14-Feb-2019 23:36:41 Asia/Kolkata] {"sessionid":"2","tel":"tel:8801866742387","menu":"main","pg":"","others":""}
+[14-Feb-2019 23:36:42 Asia/Kolkata] set session
+[14-Feb-2019 23:36:42 Asia/Kolkata] {"errorInfo":["23000",1062,"Duplicate entry '2' for key 'PRIMARY'"]}
+[14-Feb-2019 23:36:42 Asia/Kolkata] {"sessionid":"2","tel":"tel:8801866742387","menu":"main","pg":"","others":""}
+[14-Feb-2019 23:36:42 Asia/Kolkata] set session
+[14-Feb-2019 23:36:42 Asia/Kolkata] {"errorInfo":["23000",1062,"Duplicate entry '2' for key 'PRIMARY'"]}
+[14-Feb-2019 23:36:42 Asia/Kolkata] {"sessionid":"2","tel":"tel:8801866742387","menu":"main","pg":"","others":""}
+[14-Feb-2019 23:36:42 Asia/Kolkata] set session
+[14-Feb-2019 23:36:42 Asia/Kolkata] {"errorInfo":["23000",1062,"Duplicate entry '2' for key 'PRIMARY'"]}
+[14-Feb-2019 23:36:42 Asia/Kolkata] {"sessionid":"2","tel":"tel:8801866742387","menu":"main","pg":"","others":""}
+[14-Feb-2019 23:36:43 Asia/Kolkata] set session
+[14-Feb-2019 23:36:43 Asia/Kolkata] {"errorInfo":["23000",1062,"Duplicate entry '2' for key 'PRIMARY'"]}
+[14-Feb-2019 23:36:43 Asia/Kolkata] {"sessionid":"2","tel":"tel:8801866742387","menu":"main","pg":"","others":""}
+[14-Feb-2019 23:36:43 Asia/Kolkata] set session
+[14-Feb-2019 23:36:43 Asia/Kolkata] {"errorInfo":["23000",1062,"Duplicate entry '2' for key 'PRIMARY'"]}
+[14-Feb-2019 23:36:43 Asia/Kolkata] {"sessionid":"2","tel":"tel:8801866742387","menu":"main","pg":"","others":""}
+[14-Feb-2019 23:36:43 Asia/Kolkata] set session
+[14-Feb-2019 23:36:43 Asia/Kolkata] {"errorInfo":["23000",1062,"Duplicate entry '2' for key 'PRIMARY'"]}
+[14-Feb-2019 23:36:43 Asia/Kolkata] {"sessionid":"2","tel":"tel:8801866742387","menu":"main","pg":"","others":""}
+[14-Feb-2019 23:36:43 Asia/Kolkata] set session
+[14-Feb-2019 23:36:43 Asia/Kolkata] {"errorInfo":["23000",1062,"Duplicate entry '2' for key 'PRIMARY'"]}
+[14-Feb-2019 23:36:43 Asia/Kolkata] {"sessionid":"2","tel":"tel:8801866742387","menu":"main","pg":"","others":""}
+[14-Feb-2019 23:36:44 Asia/Kolkata] set session
+[14-Feb-2019 23:36:44 Asia/Kolkata] {"errorInfo":["23000",1062,"Duplicate entry '2' for key 'PRIMARY'"]}
+[14-Feb-2019 23:36:44 Asia/Kolkata] {"sessionid":"2","tel":"tel:8801866742387","menu":"main","pg":"","others":""}
+[14-Feb-2019 23:36:44 Asia/Kolkata] set session
+[14-Feb-2019 23:36:44 Asia/Kolkata] {"errorInfo":["23000",1062,"Duplicate entry '2' for key 'PRIMARY'"]}
+[14-Feb-2019 23:36:44 Asia/Kolkata] {"sessionid":"2","tel":"tel:8801866742387","menu":"main","pg":"","others":""}
+[14-Feb-2019 23:36:44 Asia/Kolkata] set session
+[14-Feb-2019 23:36:44 Asia/Kolkata] {"errorInfo":["23000",1062,"Duplicate entry '2' for key 'PRIMARY'"]}
+[14-Feb-2019 23:36:44 Asia/Kolkata] {"sessionid":"2","tel":"tel:8801866742387","menu":"main","pg":"","others":""}
+[14-Feb-2019 23:36:44 Asia/Kolkata] set session
+[14-Feb-2019 23:36:44 Asia/Kolkata] {"errorInfo":["23000",1062,"Duplicate entry '2' for key 'PRIMARY'"]}
+[14-Feb-2019 23:36:44 Asia/Kolkata] {"sessionid":"2","tel":"tel:8801866742387","menu":"main","pg":"","others":""}
+[14-Feb-2019 23:36:45 Asia/Kolkata] set session
+[14-Feb-2019 23:36:45 Asia/Kolkata] {"errorInfo":["23000",1062,"Duplicate entry '2' for key 'PRIMARY'"]}
+[14-Feb-2019 23:36:45 Asia/Kolkata] {"sessionid":"2","tel":"tel:8801866742387","menu":"main","pg":"","others":""}
+[14-Feb-2019 23:36:45 Asia/Kolkata] set session
+[14-Feb-2019 23:36:45 Asia/Kolkata] {"errorInfo":["23000",1062,"Duplicate entry '2' for key 'PRIMARY'"]}
+[14-Feb-2019 23:36:45 Asia/Kolkata] {"sessionid":"2","tel":"tel:8801866742387","menu":"main","pg":"","others":""}
+[14-Feb-2019 23:36:45 Asia/Kolkata] set session
+[14-Feb-2019 23:36:45 Asia/Kolkata] {"errorInfo":["23000",1062,"Duplicate entry '2' for key 'PRIMARY'"]}
+[14-Feb-2019 23:36:45 Asia/Kolkata] {"sessionid":"2","tel":"tel:8801866742387","menu":"main","pg":"","others":""}
+[14-Feb-2019 23:36:45 Asia/Kolkata] set session
+[14-Feb-2019 23:36:45 Asia/Kolkata] {"errorInfo":["23000",1062,"Duplicate entry '2' for key 'PRIMARY'"]}
+[14-Feb-2019 23:36:45 Asia/Kolkata] {"sessionid":"2","tel":"tel:8801866742387","menu":"main","pg":"","others":""}
+[14-Feb-2019 23:36:45 Asia/Kolkata] set session
+[14-Feb-2019 23:36:45 Asia/Kolkata] {"errorInfo":["23000",1062,"Duplicate entry '2' for key 'PRIMARY'"]}
+[14-Feb-2019 23:36:45 Asia/Kolkata] {"sessionid":"2","tel":"tel:8801866742387","menu":"main","pg":"","others":""}
+[14-Feb-2019 23:36:46 Asia/Kolkata] set session
+[14-Feb-2019 23:36:46 Asia/Kolkata] {"errorInfo":["23000",1062,"Duplicate entry '2' for key 'PRIMARY'"]}
+[14-Feb-2019 23:36:46 Asia/Kolkata] {"sessionid":"2","tel":"tel:8801866742387","menu":"main","pg":"","others":""}
+[14-Feb-2019 23:37:33 Asia/Kolkata] set session
+[14-Feb-2019 23:37:33 Asia/Kolkata] {"errorInfo":["23000",1062,"Duplicate entry '2' for key 'PRIMARY'"]}
+[14-Feb-2019 23:37:33 Asia/Kolkata] {"sessionid":"2","tel":"tel:8801866742387","menu":"main","pg":"","others":""}
+[14-Feb-2019 23:37:33 Asia/Kolkata] set session
+[14-Feb-2019 23:37:33 Asia/Kolkata] {"errorInfo":["23000",1062,"Duplicate entry '2' for key 'PRIMARY'"]}
+[14-Feb-2019 23:37:33 Asia/Kolkata] {"sessionid":"2","tel":"tel:8801866742387","menu":"main","pg":"","others":""}
+[14-Feb-2019 23:37:33 Asia/Kolkata] set session
+[14-Feb-2019 23:37:33 Asia/Kolkata] {"errorInfo":["23000",1062,"Duplicate entry '2' for key 'PRIMARY'"]}
+[14-Feb-2019 23:37:33 Asia/Kolkata] {"sessionid":"2","tel":"tel:8801866742387","menu":"main","pg":"","others":""}
+[14-Feb-2019 23:37:36 Asia/Kolkata] set session
+[14-Feb-2019 23:37:36 Asia/Kolkata] {"errorInfo":["23000",1062,"Duplicate entry '2' for key 'PRIMARY'"]}
+[14-Feb-2019 23:37:36 Asia/Kolkata] {"sessionid":"2","tel":"tel:8801866742387","menu":"main","pg":"","others":""}
+[14-Feb-2019 23:37:45 Asia/Kolkata] set session
+[14-Feb-2019 23:37:45 Asia/Kolkata] {"errorInfo":["23000",1062,"Duplicate entry '2' for key 'PRIMARY'"]}
+[14-Feb-2019 23:37:45 Asia/Kolkata] {"sessionid":"2","tel":"tel:8801866742387","menu":"main","pg":"","others":""}
+[14-Feb-2019 23:37:56 Asia/Kolkata] 
+[15-Feb-2019 09:09:01 Asia/Kolkata] PHP Notice:  Undefined index: sessionId in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/libs/MoUssdReceiver.php on line 36
+[15-Feb-2019 09:09:01 Asia/Kolkata] PHP Notice:  Undefined index: ussdOperation in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/libs/MoUssdReceiver.php on line 37
+[15-Feb-2019 09:09:01 Asia/Kolkata] 
+[15-Feb-2019 09:09:23 Asia/Kolkata] set session
+[15-Feb-2019 09:09:23 Asia/Kolkata] {"sessionid":"123","tel":"tel:8801866742387","menu":"main","pg":"","others":""}
+[15-Feb-2019 09:11:54 Asia/Kolkata] set session
+[15-Feb-2019 09:11:54 Asia/Kolkata] {"errorInfo":["23000",1062,"Duplicate entry '123' for key 'PRIMARY'"]}
+[15-Feb-2019 09:11:54 Asia/Kolkata] {"sessionid":"123","tel":"tel:8801866742387","menu":"main","pg":"","others":""}
+[15-Feb-2019 09:12:05 Asia/Kolkata] 
+[15-Feb-2019 09:12:10 Asia/Kolkata] 
+[15-Feb-2019 13:01:09 Asia/Kolkata] PHP Notice:  Undefined index: sessionId in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/libs/MoUssdReceiver.php on line 36
+[15-Feb-2019 13:01:09 Asia/Kolkata] PHP Notice:  Undefined index: ussdOperation in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/libs/MoUssdReceiver.php on line 37
+[15-Feb-2019 13:01:09 Asia/Kolkata] 
+[15-Feb-2019 13:01:41 Asia/Kolkata] set session
+[15-Feb-2019 13:01:41 Asia/Kolkata] {"errorInfo":["23000",1062,"Duplicate entry '123' for key 'PRIMARY'"]}
+[15-Feb-2019 13:01:41 Asia/Kolkata] {"sessionid":"123","tel":"tel:8801866742387","menu":"main","pg":"","others":""}
+[15-Feb-2019 13:03:25 Asia/Kolkata] set session
+[15-Feb-2019 13:03:25 Asia/Kolkata] {"sessionid":"1231","tel":"tel:8801866742387","menu":"main","pg":"","others":""}
+[15-Feb-2019 13:03:30 Asia/Kolkata] 
+[15-Feb-2019 14:30:43 Asia/Kolkata] 
+[15-Feb-2019 14:30:48 Asia/Kolkata] set session
+[15-Feb-2019 14:30:48 Asia/Kolkata] {"errorInfo":["23000",1062,"Duplicate entry '1231' for key 'PRIMARY'"]}
+[15-Feb-2019 14:30:48 Asia/Kolkata] {"sessionid":"1231","tel":"tel:8801866742387","menu":"main","pg":"","others":""}
+[15-Feb-2019 14:31:22 Asia/Kolkata] set session
+[15-Feb-2019 14:31:22 Asia/Kolkata] {"errorInfo":["23000",1062,"Duplicate entry '1231' for key 'PRIMARY'"]}
+[15-Feb-2019 14:31:22 Asia/Kolkata] {"sessionid":"1231","tel":"tel:8801866742387","menu":"main","pg":"","others":""}
+[15-Feb-2019 14:31:42 Asia/Kolkata] set session
+[15-Feb-2019 14:31:42 Asia/Kolkata] {"errorInfo":["23000",1062,"Duplicate entry '1231' for key 'PRIMARY'"]}
+[15-Feb-2019 14:31:42 Asia/Kolkata] {"sessionid":"1231","tel":"tel:8801866742387","menu":"main","pg":"","others":""}
+[15-Feb-2019 14:32:05 Asia/Kolkata] set session
+[15-Feb-2019 14:32:05 Asia/Kolkata] {"errorInfo":["23000",1062,"Duplicate entry '1231' for key 'PRIMARY'"]}
+[15-Feb-2019 14:32:05 Asia/Kolkata] {"sessionid":"1231","tel":"tel:8801866742387","menu":"main","pg":"","others":""}
+[15-Feb-2019 14:32:24 Asia/Kolkata] set session
+[15-Feb-2019 14:32:24 Asia/Kolkata] {"errorInfo":["23000",1062,"Duplicate entry '1231' for key 'PRIMARY'"]}
+[15-Feb-2019 14:32:24 Asia/Kolkata] {"sessionid":"1231","tel":"tel:8801866742387","menu":"main","pg":"","others":""}
+[15-Feb-2019 14:32:40 Asia/Kolkata] set session
+[15-Feb-2019 14:32:40 Asia/Kolkata] {"errorInfo":["23000",1062,"Duplicate entry '1231' for key 'PRIMARY'"]}
+[15-Feb-2019 14:32:40 Asia/Kolkata] {"sessionid":"1231","tel":"tel:8801866742387","menu":"main","pg":"","others":""}
+[15-Feb-2019 14:34:09 Asia/Kolkata] set session
+[15-Feb-2019 14:34:09 Asia/Kolkata] {"errorInfo":["23000",1062,"Duplicate entry '1231' for key 'PRIMARY'"]}
+[15-Feb-2019 14:34:09 Asia/Kolkata] {"sessionid":"1231","tel":"tel:8801866742387","menu":"main","pg":"","others":""}
+[15-Feb-2019 14:34:44 Asia/Kolkata] set session
+[15-Feb-2019 14:34:44 Asia/Kolkata] {"errorInfo":["23000",1062,"Duplicate entry '1231' for key 'PRIMARY'"]}
+[15-Feb-2019 14:34:44 Asia/Kolkata] {"sessionid":"1231","tel":"tel:8801866742387","menu":"main","pg":"","others":""}
+[15-Feb-2019 14:35:08 Asia/Kolkata] set session
+[15-Feb-2019 14:35:08 Asia/Kolkata] {"errorInfo":["23000",1062,"Duplicate entry '1231' for key 'PRIMARY'"]}
+[15-Feb-2019 14:35:08 Asia/Kolkata] {"sessionid":"1231","tel":"tel:8801866742387","menu":"main","pg":"","others":""}
+[15-Feb-2019 14:35:21 Asia/Kolkata] set session
+[15-Feb-2019 14:35:21 Asia/Kolkata] {"errorInfo":["23000",1062,"Duplicate entry '1231' for key 'PRIMARY'"]}
+[15-Feb-2019 14:35:21 Asia/Kolkata] {"sessionid":"1231","tel":"tel:8801866742387","menu":"main","pg":"","others":""}
+[15-Feb-2019 14:36:35 Asia/Kolkata] 
+[15-Feb-2019 14:37:38 Asia/Kolkata] set session
+[15-Feb-2019 14:37:38 Asia/Kolkata] {"sessionid":"22","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[15-Feb-2019 14:38:08 Asia/Kolkata] 
+[15-Feb-2019 14:39:10 Asia/Kolkata] 
+[15-Feb-2019 14:41:54 Asia/Kolkata] PHP Notice:  Undefined variable: results in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/class/operationsClass.php on line 51
+[15-Feb-2019 14:41:54 Asia/Kolkata] 
+[15-Feb-2019 14:41:54 Asia/Kolkata] PHP Notice:  Undefined variable: results in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/class/operationsClass.php on line 52
+[15-Feb-2019 14:41:54 Asia/Kolkata] 
+[15-Feb-2019 14:42:44 Asia/Kolkata] set session
+[15-Feb-2019 14:42:44 Asia/Kolkata] {"sessionid":"1121212211","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[15-Feb-2019 14:42:53 Asia/Kolkata] PHP Notice:  Undefined variable: results in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/class/operationsClass.php on line 51
+[15-Feb-2019 14:42:53 Asia/Kolkata] 
+[15-Feb-2019 14:42:53 Asia/Kolkata] PHP Notice:  Undefined variable: results in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/class/operationsClass.php on line 53
+[15-Feb-2019 14:42:53 Asia/Kolkata] 
+[15-Feb-2019 14:43:42 Asia/Kolkata] 
+[15-Feb-2019 14:43:42 Asia/Kolkata] 
+[15-Feb-2019 14:44:09 Asia/Kolkata] PHP Notice:  Undefined variable: session_others in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/class/operationsClass.php on line 51
+[15-Feb-2019 14:44:09 Asia/Kolkata] 
+[15-Feb-2019 14:44:09 Asia/Kolkata] 
+[15-Feb-2019 14:44:25 Asia/Kolkata] set session
+[15-Feb-2019 14:44:25 Asia/Kolkata] {"sessionid":"11212122111","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[15-Feb-2019 14:44:29 Asia/Kolkata] PHP Notice:  Undefined variable: session_others in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/class/operationsClass.php on line 51
+[15-Feb-2019 14:44:29 Asia/Kolkata] 
+[15-Feb-2019 14:44:29 Asia/Kolkata] 
+[15-Feb-2019 14:46:09 Asia/Kolkata] 
+[15-Feb-2019 21:39:02 Asia/Kolkata] set session
+[15-Feb-2019 21:39:02 Asia/Kolkata] {"errorInfo":["23000",1062,"Duplicate entry '123' for key 'PRIMARY'"]}
+[15-Feb-2019 21:39:02 Asia/Kolkata] {"sessionid":"123","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[15-Feb-2019 21:39:19 Asia/Kolkata] main
+[15-Feb-2019 21:39:19 Asia/Kolkata] 
+[15-Feb-2019 21:41:53 Asia/Kolkata] PHP Notice:  Undefined variable:  in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/class/operationsClass.php on line 49
+[15-Feb-2019 21:41:53 Asia/Kolkata] 
+[15-Feb-2019 21:41:53 Asia/Kolkata] PHP Notice:  Undefined variable:  in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/class/operationsClass.php on line 49
+[15-Feb-2019 21:41:53 Asia/Kolkata] 
+[15-Feb-2019 21:46:59 Asia/Kolkata] PHP Warning:  error_log() expects at least 1 parameter, 0 given in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/ussdap.php on line 79
+[15-Feb-2019 21:46:59 Asia/Kolkata] aaaaaafalse
+[15-Feb-2019 21:47:59 Asia/Kolkata] aaaaaafalse
+[15-Feb-2019 21:50:13 Asia/Kolkata] aaaaaa{"sessionsid":"123","tel":"tel:8801866742387","menu":"main","pg":"","created_at":"2019-02-15 09:09:23","others":""}
+[15-Feb-2019 21:50:13 Asia/Kolkata] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Operations::saveSesssion(), 0 passed in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/ussdap.php on line 88 and exactly 1 expected in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/class/operationsClass.php:56
+Stack trace:
+#0 /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/ussdap.php(88): Operations->saveSesssion()
+#1 {main}
+  thrown in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/class/operationsClass.php on line 56
+[15-Feb-2019 21:51:05 Asia/Kolkata] set session
+[15-Feb-2019 21:51:05 Asia/Kolkata] {"sessionid":"123000","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[15-Feb-2019 21:51:18 Asia/Kolkata] aaaaaa{"sessionsid":"123000","tel":"tel:8801866742387","menu":"main","pg":"","created_at":"2019-02-15 21:51:05","others":"name"}
+[15-Feb-2019 21:51:18 Asia/Kolkata] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Operations::saveSesssion(), 0 passed in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/ussdap.php on line 88 and exactly 1 expected in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/class/operationsClass.php:56
+Stack trace:
+#0 /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/ussdap.php(88): Operations->saveSesssion()
+#1 {main}
+  thrown in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/class/operationsClass.php on line 56
+[15-Feb-2019 21:52:41 Asia/Kolkata] aaaaaa{"sessionsid":"123000","tel":"tel:8801866742387","menu":"main","pg":"","created_at":"2019-02-15 21:51:05","others":"name"}
+[15-Feb-2019 21:53:28 Asia/Kolkata] set session
+[15-Feb-2019 21:53:28 Asia/Kolkata] {"sessionid":"12300","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[15-Feb-2019 22:04:27 Asia/Kolkata] set session
+[15-Feb-2019 22:04:27 Asia/Kolkata] {"errorInfo":["23000",1062,"Duplicate entry '12300' for key 'PRIMARY'"]}
+[15-Feb-2019 22:04:27 Asia/Kolkata] {"sessionid":"12300","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[15-Feb-2019 22:04:34 Asia/Kolkata] aaaaaa{"sessionsid":"12300","tel":"tel:8801866742387","menu":"main","pg":"","created_at":"2019-02-15 21:53:28","others":"name"}
+[15-Feb-2019 22:05:17 Asia/Kolkata] aaaaaa{"sessionsid":"12300","tel":"tel:8801866742387","menu":"Name","pg":"0","created_at":"2019-02-15 21:53:28","others":"main"}
+[15-Feb-2019 22:06:07 Asia/Kolkata] set session
+[15-Feb-2019 22:06:07 Asia/Kolkata] {"errorInfo":["23000",1062,"Duplicate entry '12300' for key 'PRIMARY'"]}
+[15-Feb-2019 22:06:07 Asia/Kolkata] {"sessionid":"12300","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[15-Feb-2019 22:06:17 Asia/Kolkata] set session
+[15-Feb-2019 22:06:17 Asia/Kolkata] {"errorInfo":["23000",1062,"Duplicate entry '12300' for key 'PRIMARY'"]}
+[15-Feb-2019 22:06:17 Asia/Kolkata] {"sessionid":"12300","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[15-Feb-2019 22:06:25 Asia/Kolkata] aaaaaa{"sessionsid":"12300","tel":"tel:8801866742387","menu":"main","pg":"0","created_at":"2019-02-15 21:53:28","others":"Name"}
+[15-Feb-2019 22:07:18 Asia/Kolkata] set session
+[15-Feb-2019 22:07:18 Asia/Kolkata] {"errorInfo":["23000",1062,"Duplicate entry '12300' for key 'PRIMARY'"]}
+[15-Feb-2019 22:07:18 Asia/Kolkata] {"sessionid":"12300","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[15-Feb-2019 22:07:22 Asia/Kolkata] aaaaaa{"sessionsid":"12300","tel":"tel:8801866742387","menu":"main","pg":"0","created_at":"2019-02-15 21:53:28","others":"main"}
+[15-Feb-2019 22:10:31 Asia/Kolkata] set session
+[15-Feb-2019 22:10:31 Asia/Kolkata] {"errorInfo":["23000",1062,"Duplicate entry '12300' for key 'PRIMARY'"]}
+[15-Feb-2019 22:10:31 Asia/Kolkata] {"sessionid":"12300","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[15-Feb-2019 22:10:53 Asia/Kolkata] set session
+[15-Feb-2019 22:10:53 Asia/Kolkata] {"sessionid":"12300","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[15-Feb-2019 22:11:06 Asia/Kolkata] set session
+[15-Feb-2019 22:11:06 Asia/Kolkata] {"errorInfo":["23000",1062,"Duplicate entry '12300' for key 'PRIMARY'"]}
+[15-Feb-2019 22:11:06 Asia/Kolkata] {"sessionid":"12300","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[15-Feb-2019 22:12:12 Asia/Kolkata] set session
+[15-Feb-2019 22:12:12 Asia/Kolkata] {"errorInfo":["23000",1062,"Duplicate entry '12300' for key 'PRIMARY'"]}
+[15-Feb-2019 22:12:12 Asia/Kolkata] {"sessionid":"12300","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[15-Feb-2019 22:13:05 Asia/Kolkata] set session
+[15-Feb-2019 22:13:05 Asia/Kolkata] {"errorInfo":["23000",1062,"Duplicate entry '12300' for key 'PRIMARY'"]}
+[15-Feb-2019 22:13:05 Asia/Kolkata] {"sessionid":"12300","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[15-Feb-2019 22:13:12 Asia/Kolkata] set session
+[15-Feb-2019 22:13:12 Asia/Kolkata] {"errorInfo":["23000",1062,"Duplicate entry '12300' for key 'PRIMARY'"]}
+[15-Feb-2019 22:13:12 Asia/Kolkata] {"sessionid":"12300","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[15-Feb-2019 22:13:20 Asia/Kolkata] aaaaaa{"sessionsid":"12300","tel":"tel:8801866742387","menu":"main","pg":"","created_at":"2019-02-15 22:10:53","others":"name"}
+[15-Feb-2019 22:13:34 Asia/Kolkata] aaaaaa{"sessionsid":"12300","tel":"tel:8801866742387","menu":"Name","pg":"0","created_at":"2019-02-15 22:10:53","others":"main"}
+[15-Feb-2019 22:17:55 Asia/Kolkata] set session
+[15-Feb-2019 22:17:55 Asia/Kolkata] {"errorInfo":["23000",1062,"Duplicate entry '12300' for key 'PRIMARY'"]}
+[15-Feb-2019 22:17:55 Asia/Kolkata] {"sessionid":"12300","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[15-Feb-2019 22:18:02 Asia/Kolkata] set session
+[15-Feb-2019 22:18:02 Asia/Kolkata] {"errorInfo":["23000",1062,"Duplicate entry '12300' for key 'PRIMARY'"]}
+[15-Feb-2019 22:18:02 Asia/Kolkata] {"sessionid":"12300","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[15-Feb-2019 22:18:20 Asia/Kolkata] aaaaaa{"sessionsid":"12300","tel":"tel:8801866742387","menu":"main","pg":"0","created_at":"2019-02-15 22:10:53","others":"Name"}
+[15-Feb-2019 22:18:21 Asia/Kolkata] aaaaaa{"sessionsid":"12300","tel":"tel:8801866742387","menu":"main","pg":"0","created_at":"2019-02-15 22:10:53","others":"Name"}
+[15-Feb-2019 22:22:32 Asia/Kolkata] set session
+[15-Feb-2019 22:22:32 Asia/Kolkata] {"errorInfo":["23000",1062,"Duplicate entry '12300' for key 'PRIMARY'"]}
+[15-Feb-2019 22:22:32 Asia/Kolkata] {"sessionid":"12300","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[15-Feb-2019 22:22:41 Asia/Kolkata] aaaaaa{"sessionsid":"12300","tel":"tel:8801866742387","menu":"main","pg":"0","created_at":"2019-02-15 22:10:53","others":"Name"}
+[15-Feb-2019 22:23:59 Asia/Kolkata] set session
+[15-Feb-2019 22:23:59 Asia/Kolkata] {"errorInfo":["23000",1062,"Duplicate entry '12300' for key 'PRIMARY'"]}
+[15-Feb-2019 22:23:59 Asia/Kolkata] {"sessionid":"12300","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[15-Feb-2019 22:24:11 Asia/Kolkata] aaaaaa{"sessionsid":"12300","tel":"tel:8801866742387","menu":"Name","pg":"0","created_at":"2019-02-15 22:10:53","others":"main"}
+[15-Feb-2019 22:28:42 Asia/Kolkata] set session
+[15-Feb-2019 22:28:42 Asia/Kolkata] {"errorInfo":["23000",1062,"Duplicate entry '12300' for key 'PRIMARY'"]}
+[15-Feb-2019 22:28:42 Asia/Kolkata] {"sessionid":"12300","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[15-Feb-2019 22:28:51 Asia/Kolkata] set session
+[15-Feb-2019 22:28:51 Asia/Kolkata] {"errorInfo":["23000",1062,"Duplicate entry '12300' for key 'PRIMARY'"]}
+[15-Feb-2019 22:28:51 Asia/Kolkata] {"sessionid":"12300","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[15-Feb-2019 22:29:12 Asia/Kolkata] set session
+[15-Feb-2019 22:29:12 Asia/Kolkata] {"errorInfo":["23000",1062,"Duplicate entry '12300' for key 'PRIMARY'"]}
+[15-Feb-2019 22:29:12 Asia/Kolkata] {"sessionid":"12300","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[15-Feb-2019 22:33:08 Asia/Kolkata] set session
+[15-Feb-2019 22:33:08 Asia/Kolkata] {"errorInfo":["23000",1062,"Duplicate entry '12300' for key 'PRIMARY'"]}
+[15-Feb-2019 22:33:08 Asia/Kolkata] {"sessionid":"12300","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[15-Feb-2019 22:33:14 Asia/Kolkata] aaaaaa{"sessionsid":"12300","tel":"tel:8801866742387","menu":"Age","pg":"0","created_at":"2019-02-15 22:10:53","others":"Name"}
+[15-Feb-2019 22:33:21 Asia/Kolkata] aaaaaa{"sessionsid":"12300","tel":"tel:8801866742387","menu":"main","pg":"0","created_at":"2019-02-15 22:10:53","others":"Age"}
+[15-Feb-2019 22:33:29 Asia/Kolkata] set session
+[15-Feb-2019 22:33:29 Asia/Kolkata] {"errorInfo":["23000",1062,"Duplicate entry '12300' for key 'PRIMARY'"]}
+[15-Feb-2019 22:33:29 Asia/Kolkata] {"sessionid":"12300","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[15-Feb-2019 22:33:39 Asia/Kolkata] aaaaaa{"sessionsid":"12300","tel":"tel:8801866742387","menu":"Name","pg":"0","created_at":"2019-02-15 22:10:53","others":"main"}
+[15-Feb-2019 22:34:03 Asia/Kolkata] set session
+[15-Feb-2019 22:34:03 Asia/Kolkata] {"sessionid":"111","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[15-Feb-2019 22:34:16 Asia/Kolkata] aaaaaa{"sessionsid":"111","tel":"tel:8801866742387","menu":"main","pg":"","created_at":"2019-02-15 22:34:03","others":"name"}
+[15-Feb-2019 22:35:30 Asia/Kolkata] aaaaaafalse
+[15-Feb-2019 22:35:53 Asia/Kolkata] aaaaaa{"sessionsid":"111","tel":"tel:8801866742387","menu":"Name","pg":"0","created_at":"2019-02-15 22:34:03","others":"main"}
+[15-Feb-2019 22:35:58 Asia/Kolkata] aaaaaa{"sessionsid":"111","tel":"tel:8801866742387","menu":"Age","pg":"0","created_at":"2019-02-15 22:34:03","others":"Name"}
+[15-Feb-2019 22:36:13 Asia/Kolkata] set session
+[15-Feb-2019 22:36:13 Asia/Kolkata] {"sessionid":"1111","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[15-Feb-2019 22:36:19 Asia/Kolkata] set session
+[15-Feb-2019 22:36:19 Asia/Kolkata] {"errorInfo":["23000",1062,"Duplicate entry '1111' for key 'PRIMARY'"]}
+[15-Feb-2019 22:36:19 Asia/Kolkata] {"sessionid":"1111","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[15-Feb-2019 22:36:54 Asia/Kolkata] set session
+[15-Feb-2019 22:36:54 Asia/Kolkata] {"sessionid":"11111","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[15-Feb-2019 22:37:07 Asia/Kolkata] aaaaaa{"sessionsid":"11111","tel":"tel:8801866742387","menu":"main","pg":"","created_at":"2019-02-15 22:36:54","others":"name"}
+[15-Feb-2019 22:37:08 Asia/Kolkata] aaaaaa{"sessionsid":"11111","tel":"tel:8801866742387","menu":"Name","pg":"0","created_at":"2019-02-15 22:36:54","others":"main"}
+[15-Feb-2019 22:37:21 Asia/Kolkata] aaaaaa{"sessionsid":"11111","tel":"tel:8801866742387","menu":"Age","pg":"0","created_at":"2019-02-15 22:36:54","others":"Name"}
+[15-Feb-2019 22:37:57 Asia/Kolkata] set session
+[15-Feb-2019 22:37:57 Asia/Kolkata] {"sessionid":"111111","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[15-Feb-2019 22:38:01 Asia/Kolkata] aaaaaa{"sessionsid":"111111","tel":"tel:8801866742387","menu":"main","pg":"","created_at":"2019-02-15 22:37:57","others":"name"}
+[15-Feb-2019 22:38:12 Asia/Kolkata] aaaaaa{"sessionsid":"111111","tel":"tel:8801866742387","menu":"Name","pg":"0","created_at":"2019-02-15 22:37:57","others":"main"}
+[15-Feb-2019 22:38:27 Asia/Kolkata] aaaaaa{"sessionsid":"111111","tel":"tel:8801866742387","menu":"Age","pg":"0","created_at":"2019-02-15 22:37:57","others":"Name"}
+[15-Feb-2019 22:40:20 Asia/Kolkata] set session
+[15-Feb-2019 22:40:20 Asia/Kolkata] {"sessionid":"1111112","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[15-Feb-2019 22:41:13 Asia/Kolkata] set session
+[15-Feb-2019 22:41:13 Asia/Kolkata] {"errorInfo":["23000",1062,"Duplicate entry '1111112' for key 'PRIMARY'"]}
+[15-Feb-2019 22:41:13 Asia/Kolkata] {"sessionid":"1111112","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[15-Feb-2019 22:41:24 Asia/Kolkata] aaaaaa{"sessionsid":"1111112","tel":"tel:8801866742387","menu":"main","pg":"","created_at":"2019-02-15 22:40:20","others":"name"}
+[15-Feb-2019 22:41:34 Asia/Kolkata] aaaaaa{"sessionsid":"1111112","tel":"tel:8801866742387","menu":"small","pg":"0","created_at":"2019-02-15 22:40:20","others":"main"}
+[15-Feb-2019 22:42:32 Asia/Kolkata] set session
+[15-Feb-2019 22:42:32 Asia/Kolkata] {"errorInfo":["23000",1062,"Duplicate entry '1111112' for key 'PRIMARY'"]}
+[15-Feb-2019 22:42:32 Asia/Kolkata] {"sessionid":"1111112","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[15-Feb-2019 22:42:46 Asia/Kolkata] aaaaaa{"sessionsid":"1111112","tel":"tel:8801866742387","menu":"medium","pg":"0","created_at":"2019-02-15 22:40:20","others":"11"}
+[15-Feb-2019 22:43:11 Asia/Kolkata] set session
+[15-Feb-2019 22:43:11 Asia/Kolkata] {"sessionid":"11111121","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[15-Feb-2019 22:43:33 Asia/Kolkata] aaaaaa{"sessionsid":"11111121","tel":"tel:8801866742387","menu":"main","pg":"","created_at":"2019-02-15 22:43:11","others":"name"}
+[15-Feb-2019 22:43:41 Asia/Kolkata] aaaaaa{"sessionsid":"11111121","tel":"tel:8801866742387","menu":"large","pg":"0","created_at":"2019-02-15 22:43:11","others":"main"}
+[15-Feb-2019 22:43:52 Asia/Kolkata] set session
+[15-Feb-2019 22:43:52 Asia/Kolkata] {"errorInfo":["23000",1062,"Duplicate entry '11111121' for key 'PRIMARY'"]}
+[15-Feb-2019 22:43:52 Asia/Kolkata] {"sessionid":"11111121","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[15-Feb-2019 22:43:58 Asia/Kolkata] aaaaaa{"sessionsid":"11111121","tel":"tel:8801866742387","menu":"large","pg":"0","created_at":"2019-02-15 22:43:11","others":"main"}
+[15-Feb-2019 22:44:17 Asia/Kolkata] set session
+[15-Feb-2019 22:44:17 Asia/Kolkata] {"sessionid":"111111213","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[15-Feb-2019 22:44:32 Asia/Kolkata] aaaaaa{"sessionsid":"111111213","tel":"tel:8801866742387","menu":"main","pg":"","created_at":"2019-02-15 22:44:17","others":"name"}
+[15-Feb-2019 22:44:40 Asia/Kolkata] aaaaaa{"sessionsid":"111111213","tel":"tel:8801866742387","menu":"medium","pg":"0","created_at":"2019-02-15 22:44:17","others":"main"}
+[15-Feb-2019 23:48:42 Asia/Kolkata] PHP Notice:  Undefined variable: subscriber in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/ussdap.php on line 46
+[15-Feb-2019 23:48:42 Asia/Kolkata] set session
+[15-Feb-2019 23:48:42 Asia/Kolkata] {"errorInfo":["23000",1062,"Duplicate entry '111111213' for key 'PRIMARY'"]}
+[15-Feb-2019 23:48:42 Asia/Kolkata] {"sessionid":"111111213","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[15-Feb-2019 23:49:01 Asia/Kolkata] PHP Notice:  Undefined variable: subscriber in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/ussdap.php on line 46
+[15-Feb-2019 23:49:01 Asia/Kolkata] set session
+[15-Feb-2019 23:49:01 Asia/Kolkata] {"errorInfo":["23000",1062,"Duplicate entry '111111213' for key 'PRIMARY'"]}
+[15-Feb-2019 23:49:01 Asia/Kolkata] {"sessionid":"111111213","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[15-Feb-2019 23:49:24 Asia/Kolkata] PHP Notice:  Undefined variable: subscriber in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/ussdap.php on line 46
+[15-Feb-2019 23:49:24 Asia/Kolkata] aaaaaa{"sessionsid":"111111213","tel":"tel:8801866742387","menu":"medium","pg":"0","created_at":"2019-02-15 22:44:17","others":"main"}
+[15-Feb-2019 23:49:43 Asia/Kolkata] PHP Notice:  Undefined variable: subscriber in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/ussdap.php on line 46
+[15-Feb-2019 23:49:43 Asia/Kolkata] set session
+[15-Feb-2019 23:49:43 Asia/Kolkata] {"errorInfo":["23000",1062,"Duplicate entry '111111213' for key 'PRIMARY'"]}
+[15-Feb-2019 23:49:43 Asia/Kolkata] {"sessionid":"111111213","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[15-Feb-2019 23:49:47 Asia/Kolkata] PHP Notice:  Undefined variable: subscriber in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/ussdap.php on line 46
+[15-Feb-2019 23:49:47 Asia/Kolkata] set session
+[15-Feb-2019 23:49:47 Asia/Kolkata] {"sessionid":"123","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[15-Feb-2019 23:49:55 Asia/Kolkata] PHP Notice:  Undefined variable: subscriber in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/ussdap.php on line 46
+[15-Feb-2019 23:49:55 Asia/Kolkata] aaaaaa{"sessionsid":"123","tel":"tel:8801866742387","menu":"main","pg":"","created_at":"2019-02-15 23:49:47","others":"name"}
+[15-Feb-2019 23:52:07 Asia/Kolkata] PHP Notice:  Undefined variable: subscriber in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/ussdap.php on line 46
+[15-Feb-2019 23:52:07 Asia/Kolkata] set session
+[15-Feb-2019 23:52:07 Asia/Kolkata] {"sessionid":"1123","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[15-Feb-2019 23:52:16 Asia/Kolkata] PHP Notice:  Undefined variable: subscriber in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/ussdap.php on line 46
+[15-Feb-2019 23:52:16 Asia/Kolkata] aaaaaa{"sessionsid":"1123","tel":"tel:8801866742387","menu":"main","pg":"","created_at":"2019-02-15 23:52:07","others":"name"}
+[15-Feb-2019 23:52:23 Asia/Kolkata] PHP Notice:  Undefined variable: subscriber in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/ussdap.php on line 46
+[15-Feb-2019 23:52:23 Asia/Kolkata] aaaaaa{"sessionsid":"1123","tel":"tel:8801866742387","menu":"name","pg":"0","created_at":"2019-02-15 23:52:07","others":"main"}
+[15-Feb-2019 23:54:18 Asia/Kolkata] PHP Notice:  Undefined variable: subscriber in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/ussdap.php on line 46
+[15-Feb-2019 23:54:18 Asia/Kolkata] set session
+[15-Feb-2019 23:54:18 Asia/Kolkata] {"sessionid":"11231","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[15-Feb-2019 23:54:27 Asia/Kolkata] PHP Notice:  Undefined variable: subscriber in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/ussdap.php on line 46
+[15-Feb-2019 23:54:27 Asia/Kolkata] aaaaaa{"sessionsid":"11231","tel":"tel:8801866742387","menu":"main","pg":"","created_at":"2019-02-15 23:54:18","others":"name"}
+[15-Feb-2019 23:54:39 Asia/Kolkata] PHP Notice:  Undefined variable: subscriber in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/ussdap.php on line 46
+[15-Feb-2019 23:54:39 Asia/Kolkata] aaaaaa{"sessionsid":"11231","tel":"tel:8801866742387","menu":"name","pg":"0","created_at":"2019-02-15 23:54:18","others":"main"}
+[15-Feb-2019 23:55:48 Asia/Kolkata] PHP Notice:  Undefined variable: subscriber in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/ussdap.php on line 46
+[15-Feb-2019 23:55:48 Asia/Kolkata] set session
+[15-Feb-2019 23:55:48 Asia/Kolkata] {"sessionid":"112311","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[15-Feb-2019 23:55:54 Asia/Kolkata] PHP Notice:  Undefined variable: subscriber in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/ussdap.php on line 46
+[15-Feb-2019 23:55:54 Asia/Kolkata] aaaaaa{"sessionsid":"112311","tel":"tel:8801866742387","menu":"main","pg":"","created_at":"2019-02-15 23:55:48","others":"name"}
+[15-Feb-2019 23:56:03 Asia/Kolkata] PHP Notice:  Undefined variable: subscriber in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/ussdap.php on line 46
+[15-Feb-2019 23:56:03 Asia/Kolkata] aaaaaa{"sessionsid":"112311","tel":"tel:8801866742387","menu":"name","pg":"0","created_at":"2019-02-15 23:55:48","others":"main"}
+[15-Feb-2019 23:56:18 Asia/Kolkata] PHP Notice:  Undefined variable: subscriber in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/ussdap.php on line 46
+[15-Feb-2019 23:56:18 Asia/Kolkata] aaaaaa{"sessionsid":"112311","tel":"tel:8801866742387","menu":"age","pg":"0","created_at":"2019-02-15 23:55:48","others":"KSRN"}
+[15-Feb-2019 23:56:28 Asia/Kolkata] PHP Notice:  Undefined variable: subscriber in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/ussdap.php on line 46
+[15-Feb-2019 23:56:28 Asia/Kolkata] aaaaaa{"sessionsid":"112311","tel":"tel:8801866742387","menu":"age","pg":"0","created_at":"2019-02-15 23:55:48","others":"KSRN"}
+[16-Feb-2019 00:10:43 Asia/Kolkata] PHP Notice:  Undefined variable: subscriber in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/ussdap.php on line 46
+[16-Feb-2019 00:10:43 Asia/Kolkata] set session
+[16-Feb-2019 00:10:43 Asia/Kolkata] {"sessionid":"1123111","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[16-Feb-2019 00:10:56 Asia/Kolkata] PHP Notice:  Undefined variable: subscriber in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/ussdap.php on line 46
+[16-Feb-2019 00:10:56 Asia/Kolkata] aaaaaa{"sessionsid":"1123111","tel":"tel:8801866742387","menu":"main","pg":"","created_at":"2019-02-16 00:10:43","others":"name"}
+[16-Feb-2019 00:11:13 Asia/Kolkata] PHP Notice:  Undefined variable: subscriber in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/ussdap.php on line 46
+[16-Feb-2019 00:11:13 Asia/Kolkata] aaaaaa{"sessionsid":"1123111","tel":"tel:8801866742387","menu":"name","pg":"0","created_at":"2019-02-16 00:10:43","others":"main"}
+[16-Feb-2019 00:11:13 Asia/Kolkata] set user
+[16-Feb-2019 00:11:13 Asia/Kolkata] PHP Notice:  Undefined variable: sname in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/class/operationsClass.php on line 81
+[16-Feb-2019 00:11:13 Asia/Kolkata] true
+[16-Feb-2019 00:11:44 Asia/Kolkata] PHP Notice:  Undefined variable: subscriber in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/ussdap.php on line 46
+[16-Feb-2019 00:11:44 Asia/Kolkata] set session
+[16-Feb-2019 00:11:44 Asia/Kolkata] {"errorInfo":["23000",1062,"Duplicate entry '1123111' for key 'PRIMARY'"]}
+[16-Feb-2019 00:11:44 Asia/Kolkata] {"sessionid":"1123111","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[16-Feb-2019 00:11:52 Asia/Kolkata] PHP Notice:  Undefined variable: subscriber in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/ussdap.php on line 46
+[16-Feb-2019 00:11:52 Asia/Kolkata] set session
+[16-Feb-2019 00:11:52 Asia/Kolkata] {"sessionid":"11123111","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[16-Feb-2019 00:11:59 Asia/Kolkata] PHP Notice:  Undefined variable: subscriber in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/ussdap.php on line 46
+[16-Feb-2019 00:11:59 Asia/Kolkata] aaaaaa{"sessionsid":"11123111","tel":"tel:8801866742387","menu":"main","pg":"","created_at":"2019-02-16 00:11:52","others":"name"}
+[16-Feb-2019 00:12:11 Asia/Kolkata] PHP Notice:  Undefined variable: subscriber in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/ussdap.php on line 46
+[16-Feb-2019 00:12:11 Asia/Kolkata] aaaaaa{"sessionsid":"11123111","tel":"tel:8801866742387","menu":"name","pg":"0","created_at":"2019-02-16 00:11:52","others":"main"}
+[16-Feb-2019 00:12:11 Asia/Kolkata] set user
+[16-Feb-2019 00:12:11 Asia/Kolkata] true
+[16-Feb-2019 00:13:52 Asia/Kolkata] PHP Notice:  Undefined variable: subscriber in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/ussdap.php on line 46
+[16-Feb-2019 00:13:52 Asia/Kolkata] set session
+[16-Feb-2019 00:13:52 Asia/Kolkata] {"errorInfo":["23000",1062,"Duplicate entry '11123111' for key 'PRIMARY'"]}
+[16-Feb-2019 00:13:52 Asia/Kolkata] {"sessionid":"11123111","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[16-Feb-2019 00:13:58 Asia/Kolkata] PHP Notice:  Undefined variable: subscriber in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/ussdap.php on line 46
+[16-Feb-2019 00:13:58 Asia/Kolkata] set session
+[16-Feb-2019 00:13:58 Asia/Kolkata] {"errorInfo":["23000",1062,"Duplicate entry '11123111' for key 'PRIMARY'"]}
+[16-Feb-2019 00:13:58 Asia/Kolkata] {"sessionid":"11123111","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[16-Feb-2019 00:14:23 Asia/Kolkata] PHP Notice:  Undefined variable: subscriber in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/ussdap.php on line 46
+[16-Feb-2019 00:14:23 Asia/Kolkata] aaaaaa{"sessionsid":"11123111","tel":"tel:8801866742387","menu":"age","pg":"0","created_at":"2019-02-16 00:11:52","others":"KS"}
+[16-Feb-2019 00:14:40 Asia/Kolkata] PHP Notice:  Undefined variable: subscriber in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/ussdap.php on line 46
+[16-Feb-2019 00:14:40 Asia/Kolkata] set session
+[16-Feb-2019 00:14:40 Asia/Kolkata] {"sessionid":"111231111","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[16-Feb-2019 00:14:47 Asia/Kolkata] PHP Notice:  Undefined variable: subscriber in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/ussdap.php on line 46
+[16-Feb-2019 00:14:47 Asia/Kolkata] aaaaaa{"sessionsid":"111231111","tel":"tel:8801866742387","menu":"main","pg":"","created_at":"2019-02-16 00:14:40","others":"name"}
+[16-Feb-2019 00:14:58 Asia/Kolkata] PHP Notice:  Undefined variable: subscriber in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/ussdap.php on line 46
+[16-Feb-2019 00:14:58 Asia/Kolkata] aaaaaa{"sessionsid":"111231111","tel":"tel:8801866742387","menu":"name","pg":"0","created_at":"2019-02-16 00:14:40","others":"main"}
+[16-Feb-2019 00:14:58 Asia/Kolkata] set user
+[16-Feb-2019 00:14:58 Asia/Kolkata] PHP Notice:  Undefined property: PDOStatement::$id in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/class/operationsClass.php on line 86
+[16-Feb-2019 00:14:58 Asia/Kolkata] null
+[16-Feb-2019 00:19:00 Asia/Kolkata] PHP Notice:  Undefined variable: subscriber in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/ussdap.php on line 46
+[16-Feb-2019 00:19:00 Asia/Kolkata] set session
+[16-Feb-2019 00:19:00 Asia/Kolkata] {"errorInfo":["23000",1062,"Duplicate entry '111231111' for key 'PRIMARY'"]}
+[16-Feb-2019 00:19:00 Asia/Kolkata] {"sessionid":"111231111","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[16-Feb-2019 00:19:05 Asia/Kolkata] PHP Notice:  Undefined variable: subscriber in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/ussdap.php on line 46
+[16-Feb-2019 00:19:05 Asia/Kolkata] aaaaaa{"sessionsid":"111231111","tel":"tel:8801866742387","menu":"age","pg":"0","created_at":"2019-02-16 00:14:40","others":"ksrn"}
+[16-Feb-2019 00:19:42 Asia/Kolkata] PHP Notice:  Undefined variable: subscriber in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/ussdap.php on line 46
+[16-Feb-2019 00:19:42 Asia/Kolkata] set session
+[16-Feb-2019 00:19:43 Asia/Kolkata] {"sessionid":"7111231","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[16-Feb-2019 00:19:52 Asia/Kolkata] PHP Notice:  Undefined variable: subscriber in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/ussdap.php on line 46
+[16-Feb-2019 00:19:52 Asia/Kolkata] aaaaaa{"sessionsid":"7111231","tel":"tel:8801866742387","menu":"main","pg":"","created_at":"2019-02-16 00:19:42","others":"name"}
+[16-Feb-2019 00:19:52 Asia/Kolkata] aa11112121
+[16-Feb-2019 00:20:10 Asia/Kolkata] PHP Notice:  Undefined variable: subscriber in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/ussdap.php on line 46
+[16-Feb-2019 00:20:10 Asia/Kolkata] aaaaaa{"sessionsid":"7111231","tel":"tel:8801866742387","menu":"name","pg":"0","created_at":"2019-02-16 00:19:42","others":"main"}
+[16-Feb-2019 00:20:10 Asia/Kolkata] set user
+[16-Feb-2019 00:20:10 Asia/Kolkata] PHP Notice:  Undefined property: PDOStatement::$id in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/class/operationsClass.php on line 86
+[16-Feb-2019 00:20:10 Asia/Kolkata] null
+[16-Feb-2019 00:20:10 Asia/Kolkata] PHP Notice:  Undefined variable: subscriber in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/ussdap.php on line 46
+[16-Feb-2019 00:20:10 Asia/Kolkata] aaaaaa{"sessionsid":"7111231","tel":"tel:8801866742387","menu":"age","pg":"0","created_at":"2019-02-16 00:19:42","others":"KSRNAR\n"}
+[16-Feb-2019 00:21:14 Asia/Kolkata] PHP Notice:  Undefined variable: subscriber in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/ussdap.php on line 46
+[16-Feb-2019 00:21:14 Asia/Kolkata] set session
+[16-Feb-2019 00:21:14 Asia/Kolkata] {"sessionid":"7231","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[16-Feb-2019 00:21:38 Asia/Kolkata] PHP Notice:  Undefined variable: subscriber in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/ussdap.php on line 46
+[16-Feb-2019 00:21:38 Asia/Kolkata] aaaaaa{"sessionsid":"7231","tel":"tel:8801866742387","menu":"main","pg":"","created_at":"2019-02-16 00:21:14","others":"name"}
+[16-Feb-2019 00:21:38 Asia/Kolkata] aa11112121
+[16-Feb-2019 00:21:49 Asia/Kolkata] PHP Notice:  Undefined variable: subscriber in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/ussdap.php on line 46
+[16-Feb-2019 00:21:49 Asia/Kolkata] aaaaaa{"sessionsid":"7231","tel":"tel:8801866742387","menu":"name","pg":"0","created_at":"2019-02-16 00:21:14","others":"main"}
+[16-Feb-2019 00:21:50 Asia/Kolkata] set user
+[16-Feb-2019 00:22:56 Asia/Kolkata] PHP Notice:  Undefined variable: subscriber in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/ussdap.php on line 46
+[16-Feb-2019 00:22:56 Asia/Kolkata] set session
+[16-Feb-2019 00:22:56 Asia/Kolkata] {"sessionid":"70231","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[16-Feb-2019 00:23:02 Asia/Kolkata] PHP Notice:  Undefined variable: subscriber in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/ussdap.php on line 46
+[16-Feb-2019 00:23:02 Asia/Kolkata] aaaaaa{"sessionsid":"70231","tel":"tel:8801866742387","menu":"main","pg":"","created_at":"2019-02-16 00:22:56","others":"name"}
+[16-Feb-2019 00:23:02 Asia/Kolkata] aa11112121
+[16-Feb-2019 00:23:16 Asia/Kolkata] PHP Notice:  Undefined variable: subscriber in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/ussdap.php on line 46
+[16-Feb-2019 00:23:16 Asia/Kolkata] aaaaaa{"sessionsid":"70231","tel":"tel:8801866742387","menu":"name","pg":"0","created_at":"2019-02-16 00:22:56","others":"main"}
+[16-Feb-2019 00:23:16 Asia/Kolkata] set user
+[16-Feb-2019 00:24:14 Asia/Kolkata] set session
+[16-Feb-2019 00:24:14 Asia/Kolkata] {"sessionid":"77021","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[16-Feb-2019 00:24:23 Asia/Kolkata] aaaaaa{"sessionsid":"77021","tel":"tel:8801866742387","menu":"main","pg":"","created_at":"2019-02-16 00:24:14","others":"name"}
+[16-Feb-2019 00:24:23 Asia/Kolkata] aa11112121
+[16-Feb-2019 00:24:59 Asia/Kolkata] aaaaaa{"sessionsid":"77021","tel":"tel:8801866742387","menu":"name","pg":"0","created_at":"2019-02-16 00:24:14","others":"main"}
+[16-Feb-2019 00:24:59 Asia/Kolkata] set user
+[16-Feb-2019 00:24:59 Asia/Kolkata] aaaaaa{"sessionsid":"77021","tel":"tel:8801866742387","menu":"age","pg":"0","created_at":"2019-02-16 00:24:14","others":"RN"}
+[16-Feb-2019 00:31:55 Asia/Kolkata] set session
+[16-Feb-2019 00:31:55 Asia/Kolkata] {"sessionid":"7721","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[16-Feb-2019 00:32:01 Asia/Kolkata] aaaaaa{"sessionsid":"7721","tel":"tel:8801866742387","menu":"main","pg":"","created_at":"2019-02-16 00:31:55","others":"name"}
+[16-Feb-2019 00:32:13 Asia/Kolkata] aaaaaa{"sessionsid":"7721","tel":"tel:8801866742387","menu":"name","pg":"0","created_at":"2019-02-16 00:31:55","others":"main"}
+[16-Feb-2019 00:32:14 Asia/Kolkata] set user
+[16-Feb-2019 00:32:25 Asia/Kolkata] aaaaaa{"sessionsid":"7721","tel":"tel:8801866742387","menu":"age","pg":"0","created_at":"2019-02-16 00:31:55","others":"KaSa"}
+[16-Feb-2019 00:33:07 Asia/Kolkata] set session
+[16-Feb-2019 00:33:07 Asia/Kolkata] {"errorInfo":["23000",1062,"Duplicate entry '7721' for key 'PRIMARY'"]}
+[16-Feb-2019 00:33:07 Asia/Kolkata] {"sessionid":"7721","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[16-Feb-2019 00:33:21 Asia/Kolkata] aaaaaa{"sessionsid":"7721","tel":"tel:8801866742387","menu":"age","pg":"0","created_at":"2019-02-16 00:31:55","others":"KaSa"}
+[16-Feb-2019 00:33:41 Asia/Kolkata] set session
+[16-Feb-2019 00:33:41 Asia/Kolkata] {"sessionid":"17721","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[16-Feb-2019 00:33:47 Asia/Kolkata] aaaaaa{"sessionsid":"17721","tel":"tel:8801866742387","menu":"main","pg":"","created_at":"2019-02-16 00:33:41","others":"name"}
+[16-Feb-2019 00:33:56 Asia/Kolkata] aaaaaa{"sessionsid":"17721","tel":"tel:8801866742387","menu":"name","pg":"0","created_at":"2019-02-16 00:33:41","others":"main"}
+[16-Feb-2019 00:33:56 Asia/Kolkata] set user
+[16-Feb-2019 00:34:05 Asia/Kolkata] aaaaaa{"sessionsid":"17721","tel":"tel:8801866742387","menu":"age-validate","pg":"0","created_at":"2019-02-16 00:33:41","others":"11"}
+[16-Feb-2019 00:34:05 Asia/Kolkata] aaaaaa{"sessionsid":"17721","tel":"tel:8801866742387","menu":"age-validate","pg":"0","created_at":"2019-02-16 00:33:41","others":"11"}
+[16-Feb-2019 00:34:22 Asia/Kolkata] aaaaaa{"sessionsid":"17721","tel":"tel:8801866742387","menu":"age-validate","pg":"0","created_at":"2019-02-16 00:33:41","others":"11"}
+[16-Feb-2019 00:34:29 Asia/Kolkata] aaaaaa{"sessionsid":"17721","tel":"tel:8801866742387","menu":"age-validate","pg":"0","created_at":"2019-02-16 00:33:41","others":"11"}
+[16-Feb-2019 00:34:37 Asia/Kolkata] aaaaaa{"sessionsid":"17721","tel":"tel:8801866742387","menu":"age-validate","pg":"0","created_at":"2019-02-16 00:33:41","others":"11"}
+[16-Feb-2019 00:34:44 Asia/Kolkata] aaaaaa{"sessionsid":"17721","tel":"tel:8801866742387","menu":"age-validate","pg":"0","created_at":"2019-02-16 00:33:41","others":"11"}
+[16-Feb-2019 00:35:16 Asia/Kolkata] aaaaaa{"sessionsid":"17721","tel":"tel:8801866742387","menu":"age-validate","pg":"0","created_at":"2019-02-16 00:33:41","others":"11"}
+[16-Feb-2019 00:37:59 Asia/Kolkata] aaaaaa{"sessionsid":"17721","tel":"tel:8801866742387","menu":"age-validate","pg":"0","created_at":"2019-02-16 00:33:41","others":"11"}
+[16-Feb-2019 00:37:59 Asia/Kolkata] valid
+[16-Feb-2019 00:40:15 Asia/Kolkata] aaaaaa{"sessionsid":"17721","tel":"tel:8801866742387","menu":"age-validate","pg":"0","created_at":"2019-02-16 00:33:41","others":"11"}
+[16-Feb-2019 00:40:15 Asia/Kolkata] valid
+[16-Feb-2019 00:42:20 Asia/Kolkata] aaaaaa{"sessionsid":"17721","tel":"tel:8801866742387","menu":"age-validate","pg":"0","created_at":"2019-02-16 00:33:41","others":"11"}
+[16-Feb-2019 00:42:20 Asia/Kolkata] valid
+[16-Feb-2019 00:43:50 Asia/Kolkata] aaaaaa{"sessionsid":"17721","tel":"tel:8801866742387","menu":"age-validate","pg":"0","created_at":"2019-02-16 00:33:41","others":"11"}
+[16-Feb-2019 00:43:50 Asia/Kolkata] valid
+[16-Feb-2019 00:45:08 Asia/Kolkata] aaaaaa{"sessionsid":"17721","tel":"tel:8801866742387","menu":"age-validate","pg":"0","created_at":"2019-02-16 00:33:41","others":"11"}
+[16-Feb-2019 00:45:08 Asia/Kolkata] valid
+[16-Feb-2019 00:45:51 Asia/Kolkata] set session
+[16-Feb-2019 00:45:51 Asia/Kolkata] {"sessionid":"001","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[16-Feb-2019 00:46:00 Asia/Kolkata] aaaaaa{"sessionsid":"001","tel":"tel:8801866742387","menu":"main","pg":"","created_at":"2019-02-16 00:45:51","others":"name"}
+[16-Feb-2019 00:46:10 Asia/Kolkata] aaaaaa{"sessionsid":"001","tel":"tel:8801866742387","menu":"name","pg":"0","created_at":"2019-02-16 00:45:51","others":"main"}
+[16-Feb-2019 00:46:10 Asia/Kolkata] set user
+[16-Feb-2019 00:46:24 Asia/Kolkata] aaaaaa{"sessionsid":"001","tel":"tel:8801866742387","menu":"age-validate","pg":"0","created_at":"2019-02-16 00:45:51","others":"Kavinda"}
+[16-Feb-2019 00:46:24 Asia/Kolkata] valid
+[16-Feb-2019 00:46:47 Asia/Kolkata] aaaaaa{"sessionsid":"001","tel":"tel:8801866742387","menu":"age-validate","pg":"0","created_at":"2019-02-16 00:45:51","others":"Kavinda"}
+[16-Feb-2019 00:46:47 Asia/Kolkata] valid
+[16-Feb-2019 00:47:18 Asia/Kolkata] set session
+[16-Feb-2019 00:47:18 Asia/Kolkata] {"sessionid":"002","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[16-Feb-2019 00:47:32 Asia/Kolkata] set session
+[16-Feb-2019 00:47:32 Asia/Kolkata] {"errorInfo":["23000",1062,"Duplicate entry '002' for key 'PRIMARY'"]}
+[16-Feb-2019 00:47:32 Asia/Kolkata] {"sessionid":"002","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[16-Feb-2019 00:47:51 Asia/Kolkata] set session
+[16-Feb-2019 00:47:51 Asia/Kolkata] {"errorInfo":["23000",1062,"Duplicate entry '002' for key 'PRIMARY'"]}
+[16-Feb-2019 00:47:51 Asia/Kolkata] {"sessionid":"002","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[16-Feb-2019 00:47:57 Asia/Kolkata] aaaaaa{"sessionsid":"002","tel":"tel:8801866742387","menu":"main","pg":"","created_at":"2019-02-16 00:47:18","others":"name"}
+[16-Feb-2019 00:48:05 Asia/Kolkata] aaaaaa{"sessionsid":"002","tel":"tel:8801866742387","menu":"name","pg":"0","created_at":"2019-02-16 00:47:18","others":"main"}
+[16-Feb-2019 00:48:05 Asia/Kolkata] set user
+[16-Feb-2019 00:48:14 Asia/Kolkata] aaaaaa{"sessionsid":"002","tel":"tel:8801866742387","menu":"age-validate","pg":"0","created_at":"2019-02-16 00:47:18","others":"Sakuni"}
+[16-Feb-2019 00:48:33 Asia/Kolkata] aaaaaa{"sessionsid":"002","tel":"tel:8801866742387","menu":"age-validate","pg":"0","created_at":"2019-02-16 00:47:18","others":"Sakuni"}
+[16-Feb-2019 00:48:33 Asia/Kolkata] valid
+[16-Feb-2019 00:48:44 Asia/Kolkata] aaaaaa{"sessionsid":"002","tel":"tel:8801866742387","menu":"age-validate","pg":"0","created_at":"2019-02-16 00:47:18","others":"Sakuni"}
+[16-Feb-2019 00:48:44 Asia/Kolkata] valid
