@@ -757,3 +757,885 @@ Stack trace:
 [16-Feb-2019 00:48:33 Asia/Kolkata] valid
 [16-Feb-2019 00:48:44 Asia/Kolkata] aaaaaa{"sessionsid":"002","tel":"tel:8801866742387","menu":"age-validate","pg":"0","created_at":"2019-02-16 00:47:18","others":"Sakuni"}
 [16-Feb-2019 00:48:44 Asia/Kolkata] valid
+[16-Feb-2019 00:51:55 Asia/Kolkata] aaaaaa{"sessionsid":"002","tel":"tel:8801866742387","menu":"age-validate","pg":"0","created_at":"2019-02-16 00:47:18","others":"Sakuni"}
+[16-Feb-2019 00:51:55 Asia/Kolkata] valid
+[16-Feb-2019 00:52:02 Asia/Kolkata] aaaaaa{"sessionsid":"002","tel":"tel:8801866742387","menu":"age-validate","pg":"0","created_at":"2019-02-16 00:47:18","others":"Sakuni"}
+[16-Feb-2019 00:52:09 Asia/Kolkata] set session
+[16-Feb-2019 00:52:09 Asia/Kolkata] {"sessionid":"003","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[16-Feb-2019 00:52:14 Asia/Kolkata] aaaaaa{"sessionsid":"003","tel":"tel:8801866742387","menu":"main","pg":"","created_at":"2019-02-16 00:52:09","others":"name"}
+[16-Feb-2019 00:52:23 Asia/Kolkata] aaaaaa{"sessionsid":"003","tel":"tel:8801866742387","menu":"name","pg":"0","created_at":"2019-02-16 00:52:09","others":"main"}
+[16-Feb-2019 00:52:23 Asia/Kolkata] set user
+[16-Feb-2019 00:52:30 Asia/Kolkata] aaaaaa{"sessionsid":"003","tel":"tel:8801866742387","menu":"age-validate","pg":"0","created_at":"2019-02-16 00:52:09","others":"Rochana"}
+[16-Feb-2019 00:52:30 Asia/Kolkata] valid
+[16-Feb-2019 00:52:41 Asia/Kolkata] aaaaaa{"sessionsid":"003","tel":"tel:8801866742387","menu":"age-validate","pg":"0","created_at":"2019-02-16 00:52:09","others":"Rochana"}
+[16-Feb-2019 00:52:41 Asia/Kolkata] valid
+[16-Feb-2019 00:52:54 Asia/Kolkata] aaaaaa{"sessionsid":"003","tel":"tel:8801866742387","menu":"age-validate","pg":"0","created_at":"2019-02-16 00:52:09","others":"Rochana"}
+[16-Feb-2019 00:52:54 Asia/Kolkata] valid
+[16-Feb-2019 00:53:04 Asia/Kolkata] aaaaaa{"sessionsid":"003","tel":"tel:8801866742387","menu":"age-validate","pg":"0","created_at":"2019-02-16 00:52:09","others":"Rochana"}
+[16-Feb-2019 00:53:04 Asia/Kolkata] valid
+[16-Feb-2019 00:53:04 Asia/Kolkata] aaaaaa{"sessionsid":"003","tel":"tel:8801866742387","menu":"age-validate","pg":"0","created_at":"2019-02-16 00:52:09","others":"Rochana"}
+[16-Feb-2019 00:53:04 Asia/Kolkata] valid
+[16-Feb-2019 00:53:05 Asia/Kolkata] aaaaaa{"sessionsid":"003","tel":"tel:8801866742387","menu":"age-validate","pg":"0","created_at":"2019-02-16 00:52:09","others":"Rochana"}
+[16-Feb-2019 00:53:05 Asia/Kolkata] valid
+[16-Feb-2019 00:53:05 Asia/Kolkata] aaaaaa{"sessionsid":"003","tel":"tel:8801866742387","menu":"age-validate","pg":"0","created_at":"2019-02-16 00:52:09","others":"Rochana"}
+[16-Feb-2019 00:53:05 Asia/Kolkata] valid
+[16-Feb-2019 00:53:05 Asia/Kolkata] aaaaaa{"sessionsid":"003","tel":"tel:8801866742387","menu":"age-validate","pg":"0","created_at":"2019-02-16 00:52:09","others":"Rochana"}
+[16-Feb-2019 00:53:05 Asia/Kolkata] valid
+[16-Feb-2019 00:53:05 Asia/Kolkata] aaaaaa{"sessionsid":"003","tel":"tel:8801866742387","menu":"age-validate","pg":"0","created_at":"2019-02-16 00:52:09","others":"Rochana"}
+[16-Feb-2019 00:53:05 Asia/Kolkata] valid
+[16-Feb-2019 00:53:05 Asia/Kolkata] aaaaaa{"sessionsid":"003","tel":"tel:8801866742387","menu":"age-validate","pg":"0","created_at":"2019-02-16 00:52:09","others":"Rochana"}
+[16-Feb-2019 00:53:05 Asia/Kolkata] valid
+[16-Feb-2019 00:53:05 Asia/Kolkata] aaaaaa{"sessionsid":"003","tel":"tel:8801866742387","menu":"age-validate","pg":"0","created_at":"2019-02-16 00:52:09","others":"Rochana"}
+[16-Feb-2019 00:53:06 Asia/Kolkata] valid
+[16-Feb-2019 00:53:10 Asia/Kolkata] aaaaaa{"sessionsid":"003","tel":"tel:8801866742387","menu":"age-validate","pg":"0","created_at":"2019-02-16 00:52:09","others":"Rochana"}
+[16-Feb-2019 00:53:10 Asia/Kolkata] valid
+[16-Feb-2019 00:53:18 Asia/Kolkata] aaaaaa{"sessionsid":"003","tel":"tel:8801866742387","menu":"age-validate","pg":"0","created_at":"2019-02-16 00:52:09","others":"Rochana"}
+[16-Feb-2019 00:53:18 Asia/Kolkata] valid
+[16-Feb-2019 00:55:24 Asia/Kolkata] aaaaaa{"sessionsid":"003","tel":"tel:8801866742387","menu":"age-validate","pg":"0","created_at":"2019-02-16 00:52:09","others":"Rochana"}
+[16-Feb-2019 00:55:24 Asia/Kolkata] valid
+[16-Feb-2019 00:56:06 Asia/Kolkata] set session
+[16-Feb-2019 00:56:06 Asia/Kolkata] {"sessionid":"004","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[16-Feb-2019 00:56:14 Asia/Kolkata] set session
+[16-Feb-2019 00:56:14 Asia/Kolkata] {"errorInfo":["23000",1062,"Duplicate entry '004' for key 'PRIMARY'"]}
+[16-Feb-2019 00:56:14 Asia/Kolkata] {"sessionid":"004","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[16-Feb-2019 00:56:22 Asia/Kolkata] aaaaaa{"sessionsid":"004","tel":"tel:8801866742387","menu":"main","pg":"","created_at":"2019-02-16 00:56:06","others":"name"}
+[16-Feb-2019 00:56:30 Asia/Kolkata] aaaaaa{"sessionsid":"004","tel":"tel:8801866742387","menu":"name","pg":"0","created_at":"2019-02-16 00:56:06","others":"main"}
+[16-Feb-2019 00:56:30 Asia/Kolkata] set user
+[16-Feb-2019 00:56:38 Asia/Kolkata] aaaaaa{"sessionsid":"004","tel":"tel:8801866742387","menu":"age-validate","pg":"0","created_at":"2019-02-16 00:56:06","others":"1"}
+[16-Feb-2019 00:56:38 Asia/Kolkata] valid
+[16-Feb-2019 00:56:46 Asia/Kolkata] aaaaaa{"sessionsid":"004","tel":"tel:8801866742387","menu":"age-validate","pg":"0","created_at":"2019-02-16 00:56:06","others":"1"}
+[16-Feb-2019 00:56:46 Asia/Kolkata] valid
+[16-Feb-2019 00:59:04 Asia/Kolkata] set session
+[16-Feb-2019 00:59:04 Asia/Kolkata] {"errorInfo":["23000",1062,"Duplicate entry '004' for key 'PRIMARY'"]}
+[16-Feb-2019 00:59:04 Asia/Kolkata] {"sessionid":"004","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[16-Feb-2019 00:59:15 Asia/Kolkata] aaaaaa{"sessionsid":"004","tel":"tel:8801866742387","menu":"age-validate","pg":"0","created_at":"2019-02-16 00:56:06","others":"1"}
+[16-Feb-2019 00:59:15 Asia/Kolkata] menu - age-validate
+[16-Feb-2019 00:59:15 Asia/Kolkata] valid
+[16-Feb-2019 00:59:28 Asia/Kolkata] set session
+[16-Feb-2019 00:59:28 Asia/Kolkata] {"sessionid":"005","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[16-Feb-2019 00:59:40 Asia/Kolkata] aaaaaa{"sessionsid":"005","tel":"tel:8801866742387","menu":"main","pg":"","created_at":"2019-02-16 00:59:28","others":"name"}
+[16-Feb-2019 00:59:40 Asia/Kolkata] menu - main
+[16-Feb-2019 00:59:48 Asia/Kolkata] aaaaaa{"sessionsid":"005","tel":"tel:8801866742387","menu":"name","pg":"0","created_at":"2019-02-16 00:59:28","others":"main"}
+[16-Feb-2019 00:59:48 Asia/Kolkata] menu - name
+[16-Feb-2019 00:59:48 Asia/Kolkata] set user
+[16-Feb-2019 00:59:58 Asia/Kolkata] aaaaaa{"sessionsid":"005","tel":"tel:8801866742387","menu":"age-validate","pg":"0","created_at":"2019-02-16 00:59:28","others":"1"}
+[16-Feb-2019 00:59:58 Asia/Kolkata] menu - age-validate
+[16-Feb-2019 00:59:58 Asia/Kolkata] valid
+[16-Feb-2019 01:00:09 Asia/Kolkata] aaaaaa{"sessionsid":"005","tel":"tel:8801866742387","menu":"age-validate","pg":"0","created_at":"2019-02-16 00:59:28","others":"1"}
+[16-Feb-2019 01:00:09 Asia/Kolkata] menu - age-validate
+[16-Feb-2019 01:00:09 Asia/Kolkata] valid
+[16-Feb-2019 01:01:43 Asia/Kolkata] aaaaaa{"sessionsid":"005","tel":"tel:8801866742387","menu":"age-validate","pg":"0","created_at":"2019-02-16 00:59:28","others":"1"}
+[16-Feb-2019 01:01:43 Asia/Kolkata] menu - age-validate
+[16-Feb-2019 01:01:43 Asia/Kolkata] valid
+[16-Feb-2019 01:01:53 Asia/Kolkata] aaaaaa{"sessionsid":"005","tel":"tel:8801866742387","menu":"age-validate","pg":"0","created_at":"2019-02-16 00:59:28","others":"1"}
+[16-Feb-2019 01:01:53 Asia/Kolkata] menu - age-validate
+[16-Feb-2019 01:01:53 Asia/Kolkata] valid
+[16-Feb-2019 01:04:40 Asia/Kolkata] set session
+[16-Feb-2019 01:04:40 Asia/Kolkata] {"sessionid":"006","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[16-Feb-2019 01:04:50 Asia/Kolkata] aaaaaa{"sessionsid":"006","tel":"tel:8801866742387","menu":"main","pg":"","created_at":"2019-02-16 01:04:40","others":"name"}
+[16-Feb-2019 01:04:50 Asia/Kolkata] menu - main
+[16-Feb-2019 01:05:01 Asia/Kolkata] aaaaaa{"sessionsid":"006","tel":"tel:8801866742387","menu":"name","pg":"0","created_at":"2019-02-16 01:04:40","others":"main"}
+[16-Feb-2019 01:05:01 Asia/Kolkata] menu - name
+[16-Feb-2019 01:05:01 Asia/Kolkata] set user
+[16-Feb-2019 01:05:12 Asia/Kolkata] aaaaaa{"sessionsid":"006","tel":"tel:8801866742387","menu":"age-validate","pg":"0","created_at":"2019-02-16 01:04:40","others":"1111"}
+[16-Feb-2019 01:05:12 Asia/Kolkata] menu - age-validate
+[16-Feb-2019 01:05:12 Asia/Kolkata] valid
+[16-Feb-2019 01:05:26 Asia/Kolkata] aaaaaa{"sessionsid":"006","tel":"tel:8801866742387","menu":"age-validate","pg":"0","created_at":"2019-02-16 01:04:40","others":"1111"}
+[16-Feb-2019 01:05:26 Asia/Kolkata] menu - age-validate
+[16-Feb-2019 01:05:26 Asia/Kolkata] valid
+[16-Feb-2019 01:07:26 Asia/Kolkata] aaaaaa{"sessionsid":"006","tel":"tel:8801866742387","menu":"age-validate","pg":"0","created_at":"2019-02-16 01:04:40","others":"1111"}
+[16-Feb-2019 01:07:26 Asia/Kolkata] menu - age-validate
+[16-Feb-2019 01:07:26 Asia/Kolkata] valid
+[16-Feb-2019 01:07:55 Asia/Kolkata] aaaaaa{"sessionsid":"006","tel":"tel:8801866742387","menu":"age-validate","pg":"0","created_at":"2019-02-16 01:04:40","others":"1111"}
+[16-Feb-2019 01:07:55 Asia/Kolkata] menu - age-validate
+[16-Feb-2019 01:07:55 Asia/Kolkata] valid
+[16-Feb-2019 22:01:04 Asia/Kolkata] PHP Fatal error:  Uncaught Exception: Some of the required parameters are not provided in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/libs/MoUssdReceiver.php:40
+Stack trace:
+#0 /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/ussdap.php(22): UssdReceiver->__construct()
+#1 {main}
+  thrown in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/libs/MoUssdReceiver.php on line 40
+[16-Feb-2019 22:01:11 Asia/Kolkata] set session
+[16-Feb-2019 22:01:11 Asia/Kolkata] {"sessionid":"1231","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[16-Feb-2019 22:01:20 Asia/Kolkata] set session
+[16-Feb-2019 22:01:20 Asia/Kolkata] {"sessionid":"12311","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[16-Feb-2019 22:01:26 Asia/Kolkata] aaaaaa{"sessionsid":"12311","tel":"tel:8801866742387","menu":"main","pg":"","created_at":"2019-02-16 22:01:20","others":"name"}
+[16-Feb-2019 22:01:26 Asia/Kolkata] menu - main
+[16-Feb-2019 22:01:32 Asia/Kolkata] aaaaaa{"sessionsid":"12311","tel":"tel:8801866742387","menu":"name","pg":"0","created_at":"2019-02-16 22:01:20","others":"main"}
+[16-Feb-2019 22:01:32 Asia/Kolkata] menu - name
+[16-Feb-2019 22:01:32 Asia/Kolkata] set user
+[16-Feb-2019 22:03:09 Asia/Kolkata] aaaaaa{"sessionsid":"12311","tel":"tel:8801866742387","menu":"age-validate","pg":"0","created_at":"2019-02-16 22:01:20","others":"1"}
+[16-Feb-2019 22:03:09 Asia/Kolkata] menu - age-validate
+[16-Feb-2019 22:03:09 Asia/Kolkata] valid
+[16-Feb-2019 22:03:15 Asia/Kolkata] aaaaaa{"sessionsid":"12311","tel":"tel:8801866742387","menu":"age-validate","pg":"0","created_at":"2019-02-16 22:01:20","others":"1"}
+[16-Feb-2019 22:03:15 Asia/Kolkata] menu - age-validate
+[16-Feb-2019 22:03:15 Asia/Kolkata] valid
+[16-Feb-2019 22:03:22 Asia/Kolkata] set session
+[16-Feb-2019 22:03:22 Asia/Kolkata] {"errorInfo":["23000",1062,"Duplicate entry '12311' for key 'PRIMARY'"]}
+[16-Feb-2019 22:03:22 Asia/Kolkata] {"sessionid":"12311","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[16-Feb-2019 22:03:26 Asia/Kolkata] set session
+[16-Feb-2019 22:03:26 Asia/Kolkata] {"sessionid":"123111","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[16-Feb-2019 22:03:33 Asia/Kolkata] aaaaaa{"sessionsid":"123111","tel":"tel:8801866742387","menu":"main","pg":"","created_at":"2019-02-16 22:03:26","others":"name"}
+[16-Feb-2019 22:03:33 Asia/Kolkata] menu - main
+[16-Feb-2019 22:03:43 Asia/Kolkata] aaaaaa{"sessionsid":"123111","tel":"tel:8801866742387","menu":"main","pg":"0","created_at":"2019-02-16 22:03:26","others":"main"}
+[16-Feb-2019 22:03:43 Asia/Kolkata] menu - main
+[16-Feb-2019 22:03:52 Asia/Kolkata] aaaaaa{"sessionsid":"123111","tel":"tel:8801866742387","menu":"main","pg":"0","created_at":"2019-02-16 22:03:26","others":"main"}
+[16-Feb-2019 22:03:52 Asia/Kolkata] menu - main
+[16-Feb-2019 22:07:05 Asia/Kolkata] set session
+[16-Feb-2019 22:07:05 Asia/Kolkata] {"sessionid":"1231111","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[16-Feb-2019 22:07:11 Asia/Kolkata] set session
+[16-Feb-2019 22:07:11 Asia/Kolkata] {"errorInfo":["23000",1062,"Duplicate entry '1231111' for key 'PRIMARY'"]}
+[16-Feb-2019 22:07:11 Asia/Kolkata] {"sessionid":"1231111","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[16-Feb-2019 22:07:14 Asia/Kolkata] set session
+[16-Feb-2019 22:07:14 Asia/Kolkata] {"errorInfo":["23000",1062,"Duplicate entry '1231111' for key 'PRIMARY'"]}
+[16-Feb-2019 22:07:14 Asia/Kolkata] {"sessionid":"1231111","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[16-Feb-2019 22:07:18 Asia/Kolkata] set session
+[16-Feb-2019 22:07:18 Asia/Kolkata] {"errorInfo":["23000",1062,"Duplicate entry '1231111' for key 'PRIMARY'"]}
+[16-Feb-2019 22:07:18 Asia/Kolkata] {"sessionid":"1231111","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[16-Feb-2019 22:07:29 Asia/Kolkata] aaaaaa{"sessionsid":"1231111","tel":"tel:8801866742387","menu":"main","pg":"","created_at":"2019-02-16 22:07:05","others":"name"}
+[16-Feb-2019 22:07:29 Asia/Kolkata] menu - main
+[16-Feb-2019 22:07:35 Asia/Kolkata] aaaaaa{"sessionsid":"1231111","tel":"tel:8801866742387","menu":"main","pg":"0","created_at":"2019-02-16 22:07:05","others":"main"}
+[16-Feb-2019 22:07:35 Asia/Kolkata] menu - main
+[16-Feb-2019 22:07:40 Asia/Kolkata] aaaaaa{"sessionsid":"1231111","tel":"tel:8801866742387","menu":"main","pg":"0","created_at":"2019-02-16 22:07:05","others":"main"}
+[16-Feb-2019 22:07:40 Asia/Kolkata] menu - main
+[16-Feb-2019 22:07:49 Asia/Kolkata] aaaaaa{"sessionsid":"1231111","tel":"tel:8801866742387","menu":"name","pg":"0","created_at":"2019-02-16 22:07:05","others":"main"}
+[16-Feb-2019 22:07:49 Asia/Kolkata] menu - name
+[16-Feb-2019 22:07:50 Asia/Kolkata] set user
+[16-Feb-2019 22:07:59 Asia/Kolkata] aaaaaa{"sessionsid":"1231111","tel":"tel:8801866742387","menu":"age-validate","pg":"0","created_at":"2019-02-16 22:07:05","others":"Kavinda"}
+[16-Feb-2019 22:07:59 Asia/Kolkata] menu - age-validate
+[16-Feb-2019 22:10:54 Asia/Kolkata] aaaaaa{"sessionsid":"1231111","tel":"tel:8801866742387","menu":"age-validate","pg":"0","created_at":"2019-02-16 22:07:05","others":"Kavinda"}
+[16-Feb-2019 22:10:54 Asia/Kolkata] menu - age-validate
+[16-Feb-2019 22:10:54 Asia/Kolkata] valid
+[16-Feb-2019 22:11:00 Asia/Kolkata] aaaaaa{"sessionsid":"1231111","tel":"tel:8801866742387","menu":"age-validate","pg":"0","created_at":"2019-02-16 22:07:05","others":"Kavinda"}
+[16-Feb-2019 22:11:00 Asia/Kolkata] menu - age-validate
+[16-Feb-2019 22:11:00 Asia/Kolkata] valid
+[16-Feb-2019 22:11:06 Asia/Kolkata] aaaaaa{"sessionsid":"1231111","tel":"tel:8801866742387","menu":"age-validate","pg":"0","created_at":"2019-02-16 22:07:05","others":"Kavinda"}
+[16-Feb-2019 22:11:06 Asia/Kolkata] menu - age-validate
+[16-Feb-2019 22:11:06 Asia/Kolkata] valid
+[16-Feb-2019 22:26:36 Asia/Kolkata] aaaaaa{"sessionsid":"1231111","tel":"tel:8801866742387","menu":"age-validate","pg":"0","created_at":"2019-02-16 22:07:05","others":"Kavinda"}
+[16-Feb-2019 22:26:36 Asia/Kolkata] menu - age-validate
+[16-Feb-2019 22:26:36 Asia/Kolkata] valid
+[16-Feb-2019 22:28:16 Asia/Kolkata] aaaaaa{"sessionsid":"1231111","tel":"tel:8801866742387","menu":"age-validate","pg":"0","created_at":"2019-02-16 22:07:05","others":"Kavinda"}
+[16-Feb-2019 22:28:16 Asia/Kolkata] menu - age-validate
+[16-Feb-2019 22:28:16 Asia/Kolkata] valid
+[16-Feb-2019 22:30:00 Asia/Kolkata] set session
+[16-Feb-2019 22:30:00 Asia/Kolkata] {"sessionid":"12311111","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[16-Feb-2019 22:30:08 Asia/Kolkata] aaaaaa{"sessionsid":"12311111","tel":"tel:8801866742387","menu":"main","pg":"","created_at":"2019-02-16 22:30:00","others":"name"}
+[16-Feb-2019 22:30:08 Asia/Kolkata] menu - main
+[16-Feb-2019 22:30:13 Asia/Kolkata] aaaaaa{"sessionsid":"12311111","tel":"tel:8801866742387","menu":"name","pg":"0","created_at":"2019-02-16 22:30:00","others":"main"}
+[16-Feb-2019 22:30:13 Asia/Kolkata] menu - name
+[16-Feb-2019 22:30:13 Asia/Kolkata] set user
+[16-Feb-2019 22:30:21 Asia/Kolkata] aaaaaa{"sessionsid":"12311111","tel":"tel:8801866742387","menu":"age-validate","pg":"0","created_at":"2019-02-16 22:30:00","others":"Kavinda"}
+[16-Feb-2019 22:30:21 Asia/Kolkata] menu - age-validate
+[16-Feb-2019 22:30:21 Asia/Kolkata] valid
+[16-Feb-2019 22:30:31 Asia/Kolkata] aaaaaa{"sessionsid":"12311111","tel":"tel:8801866742387","menu":"registered","pg":"0","created_at":"2019-02-16 22:30:00","others":"age-validate"}
+[16-Feb-2019 22:30:31 Asia/Kolkata] menu - registered
+[16-Feb-2019 23:29:32 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Class 'Subscriber' not found in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/ussdap.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/ussdap.php on line 25
+[16-Feb-2019 23:30:53 Asia/Kolkata] addresstel:8801866742387
+[16-Feb-2019 23:30:53 Asia/Kolkata] aaaaaa{"sessionsid":"12311111","tel":"tel:8801866742387","menu":"registered","pg":"0","created_at":"2019-02-16 22:30:00","others":"age-validate"}
+[16-Feb-2019 23:30:53 Asia/Kolkata] menu - registered
+[16-Feb-2019 23:32:19 Asia/Kolkata] set session
+[16-Feb-2019 23:32:19 Asia/Kolkata] {"errorInfo":["23000",1062,"Duplicate entry '12311111' for key 'PRIMARY'"]}
+[16-Feb-2019 23:32:19 Asia/Kolkata] {"sessionid":"12311111","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[16-Feb-2019 23:32:25 Asia/Kolkata] set session
+[16-Feb-2019 23:32:25 Asia/Kolkata] {"sessionid":"101","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[16-Feb-2019 23:32:29 Asia/Kolkata] aaaaaa{"sessionsid":"101","tel":"tel:8801866742387","menu":"main","pg":"","created_at":"2019-02-16 23:32:25","others":"name"}
+[16-Feb-2019 23:32:29 Asia/Kolkata] menu - main
+[16-Feb-2019 23:32:36 Asia/Kolkata] aaaaaa{"sessionsid":"101","tel":"tel:8801866742387","menu":"name","pg":"0","created_at":"2019-02-16 23:32:25","others":"main"}
+[16-Feb-2019 23:32:36 Asia/Kolkata] menu - name
+[16-Feb-2019 23:32:36 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined method Subscriber::setUsser() in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/ussdap.php:101
+Stack trace:
+#0 {main}
+  thrown in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/ussdap.php on line 101
+[16-Feb-2019 23:33:27 Asia/Kolkata] set session
+[16-Feb-2019 23:33:27 Asia/Kolkata] {"sessionid":"102","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[16-Feb-2019 23:33:34 Asia/Kolkata] aaaaaa{"sessionsid":"102","tel":"tel:8801866742387","menu":"main","pg":"","created_at":"2019-02-16 23:33:27","others":"name"}
+[16-Feb-2019 23:33:34 Asia/Kolkata] menu - main
+[16-Feb-2019 23:33:46 Asia/Kolkata] aaaaaa{"sessionsid":"102","tel":"tel:8801866742387","menu":"name","pg":"0","created_at":"2019-02-16 23:33:27","others":"main"}
+[16-Feb-2019 23:33:46 Asia/Kolkata] menu - name
+[16-Feb-2019 23:33:46 Asia/Kolkata] set user
+[16-Feb-2019 23:33:46 Asia/Kolkata] {"errorInfo":["21S01",1136,"Column count doesn't match value count at row 1"]}
+[16-Feb-2019 23:33:47 Asia/Kolkata] aaaaaa{"sessionsid":"102","tel":"tel:8801866742387","menu":"age-validate","pg":"0","created_at":"2019-02-16 23:33:27","others":"Kavinda Rochana"}
+[16-Feb-2019 23:33:47 Asia/Kolkata] menu - age-validate
+[16-Feb-2019 23:35:16 Asia/Kolkata] set session
+[16-Feb-2019 23:35:16 Asia/Kolkata] {"sessionid":"1021","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[16-Feb-2019 23:35:24 Asia/Kolkata] aaaaaa{"sessionsid":"1021","tel":"tel:8801866742387","menu":"main","pg":"","created_at":"2019-02-16 23:35:16","others":"name"}
+[16-Feb-2019 23:35:24 Asia/Kolkata] menu - main
+[16-Feb-2019 23:35:31 Asia/Kolkata] aaaaaa{"sessionsid":"1021","tel":"tel:8801866742387","menu":"name","pg":"0","created_at":"2019-02-16 23:35:16","others":"main"}
+[16-Feb-2019 23:35:31 Asia/Kolkata] menu - name
+[16-Feb-2019 23:35:31 Asia/Kolkata] set user
+[16-Feb-2019 23:35:31 Asia/Kolkata] INSERT INTO `tbl_subscriber` (`name`, `msisdn`) VALUES 
+					('KS, 8801866742387')
+[16-Feb-2019 23:35:31 Asia/Kolkata] {"errorInfo":["21S01",1136,"Column count doesn't match value count at row 1"]}
+[16-Feb-2019 23:36:37 Asia/Kolkata] set session
+[16-Feb-2019 23:36:37 Asia/Kolkata] {"sessionid":"1022","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[16-Feb-2019 23:36:42 Asia/Kolkata] aaaaaa{"sessionsid":"1022","tel":"tel:8801866742387","menu":"main","pg":"","created_at":"2019-02-16 23:36:37","others":"name"}
+[16-Feb-2019 23:36:42 Asia/Kolkata] menu - main
+[16-Feb-2019 23:36:50 Asia/Kolkata] aaaaaa{"sessionsid":"1022","tel":"tel:8801866742387","menu":"name","pg":"0","created_at":"2019-02-16 23:36:37","others":"main"}
+[16-Feb-2019 23:36:50 Asia/Kolkata] menu - name
+[16-Feb-2019 23:36:50 Asia/Kolkata] set user
+[16-Feb-2019 23:36:50 Asia/Kolkata] INSERT INTO `tbl_subscriber` (`name`, `msisdn`) VALUES 
+					('KSRN', '8801866742387')
+[16-Feb-2019 23:36:50 Asia/Kolkata] aaaaaa{"sessionsid":"1022","tel":"tel:8801866742387","menu":"age-validate","pg":"0","created_at":"2019-02-16 23:36:37","others":"KSRN"}
+[16-Feb-2019 23:36:50 Asia/Kolkata] menu - age-validate
+[17-Feb-2019 22:06:25 Asia/Kolkata] PHP Fatal error:  Uncaught Exception: Some of the required parameters are not provided in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/libs/MoUssdReceiver.php:40
+Stack trace:
+#0 /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/ussdap.php(23): UssdReceiver->__construct()
+#1 {main}
+  thrown in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/libs/MoUssdReceiver.php on line 40
+[17-Feb-2019 22:07:01 Asia/Kolkata] set session
+[17-Feb-2019 22:07:01 Asia/Kolkata] {"sessionid":"123","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[17-Feb-2019 22:07:13 Asia/Kolkata] aaaaaa{"sessionsid":"123","tel":"tel:8801866742387","menu":"main","pg":"","created_at":"2019-02-17 22:07:01","others":"name","details":null,"update_ts":"2019-02-17 22:07:01"}
+[17-Feb-2019 22:07:13 Asia/Kolkata] menu - main
+[17-Feb-2019 22:07:13 Asia/Kolkata] PHP Notice:  Array to string conversion in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/class/operationsClass.php on line 64
+[17-Feb-2019 22:07:13 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`details` = 'Array'
+									WHERE `sessionsid` =  '123'' at line 5 in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/class/operationsClass.php:71
+Stack trace:
+#0 /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/class/operationsClass.php(71): PDOStatement->execute()
+#1 /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/ussdap.php(82): Operations->saveSesssion(Object(PDO), Array)
+#2 {main}
+  thrown in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/class/operationsClass.php on line 71
+[17-Feb-2019 22:08:18 Asia/Kolkata] aaaaaa{"sessionsid":"123","tel":"tel:8801866742387","menu":"main","pg":"","created_at":"2019-02-17 22:07:01","others":"name","details":null,"update_ts":"2019-02-17 22:07:01"}
+[17-Feb-2019 22:08:18 Asia/Kolkata] menu - main
+[17-Feb-2019 22:08:25 Asia/Kolkata] aaaaaa{"sessionsid":"123","tel":"tel:8801866742387","menu":"name","pg":"0","created_at":"2019-02-17 22:07:01","others":"main","details":null,"update_ts":"2019-02-17 22:08:18"}
+[17-Feb-2019 22:08:25 Asia/Kolkata] menu - name
+[17-Feb-2019 22:08:25 Asia/Kolkata] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Operations::saveSesssion(), 1 passed in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/ussdap.php on line 100 and exactly 2 expected in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/class/operationsClass.php:58
+Stack trace:
+#0 /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/ussdap.php(100): Operations->saveSesssion(Object(PDO))
+#1 {main}
+  thrown in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/class/operationsClass.php on line 58
+[17-Feb-2019 22:09:35 Asia/Kolkata] set session
+[17-Feb-2019 22:09:35 Asia/Kolkata] {"errorInfo":["23000",1062,"Duplicate entry '123' for key 'PRIMARY'"]}
+[17-Feb-2019 22:09:35 Asia/Kolkata] {"sessionid":"123","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[17-Feb-2019 22:09:39 Asia/Kolkata] aaaaaa{"sessionsid":"123","tel":"tel:8801866742387","menu":"name","pg":"0","created_at":"2019-02-17 22:07:01","others":"main","details":null,"update_ts":"2019-02-17 22:08:18"}
+[17-Feb-2019 22:09:39 Asia/Kolkata] menu - name
+[17-Feb-2019 22:09:39 Asia/Kolkata] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Operations::saveSesssion(), 1 passed in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/ussdap.php on line 100 and exactly 2 expected in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/class/operationsClass.php:58
+Stack trace:
+#0 /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/ussdap.php(100): Operations->saveSesssion(Object(PDO))
+#1 {main}
+  thrown in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/class/operationsClass.php on line 58
+[17-Feb-2019 22:09:46 Asia/Kolkata] aaaaaa{"sessionsid":"123","tel":"tel:8801866742387","menu":"name","pg":"0","created_at":"2019-02-17 22:07:01","others":"main","details":null,"update_ts":"2019-02-17 22:08:18"}
+[17-Feb-2019 22:09:46 Asia/Kolkata] menu - name
+[17-Feb-2019 22:09:46 Asia/Kolkata] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Operations::saveSesssion(), 1 passed in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/ussdap.php on line 100 and exactly 2 expected in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/class/operationsClass.php:58
+Stack trace:
+#0 /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/ussdap.php(100): Operations->saveSesssion(Object(PDO))
+#1 {main}
+  thrown in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/class/operationsClass.php on line 58
+[17-Feb-2019 22:12:13 Asia/Kolkata] set session
+[17-Feb-2019 22:12:13 Asia/Kolkata] {"errorInfo":["23000",1062,"Duplicate entry '123' for key 'PRIMARY'"]}
+[17-Feb-2019 22:12:13 Asia/Kolkata] {"sessionid":"123","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[17-Feb-2019 22:12:18 Asia/Kolkata] aaaaaa{"sessionsid":"123","tel":"tel:8801866742387","menu":"name","pg":"0","created_at":"2019-02-17 22:07:01","others":"main","details":null,"update_ts":"2019-02-17 22:08:18"}
+[17-Feb-2019 22:12:18 Asia/Kolkata] menu - name
+[17-Feb-2019 22:12:18 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  'age-validate',
+									`pg` =  '0',
+									`others` =  '1'
+									`details` = '{"msisdn":"8801866742387","name":"1"}'
+									WHERE `sessionsid` =  '123'
+[17-Feb-2019 22:12:18 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`details` = '{"msisdn":"8801866742387","name":"1"}'
+									WHERE `sessionsid` ' at line 5 in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/class/operationsClass.php:71
+Stack trace:
+#0 /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/class/operationsClass.php(71): PDOStatement->execute()
+#1 /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/ussdap.php(101): Operations->saveSesssion(Object(PDO), '{"msisdn":"8801...')
+#2 {main}
+  thrown in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/class/operationsClass.php on line 71
+[17-Feb-2019 22:13:23 Asia/Kolkata] aaaaaa{"sessionsid":"123","tel":"tel:8801866742387","menu":"name","pg":"0","created_at":"2019-02-17 22:07:01","others":"main","details":null,"update_ts":"2019-02-17 22:08:18"}
+[17-Feb-2019 22:13:23 Asia/Kolkata] menu - name
+[17-Feb-2019 22:13:23 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  'age-validate',
+									`pg` =  '0',
+									`others` =  'Kavinda'
+									`details` = ' . {"msisdn":"8801866742387","name":"Kavinda"} . '
+									WHERE `sessionsid` =  '123'
+[17-Feb-2019 22:13:23 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`details` = ' . {"msisdn":"8801866742387","name":"Kavinda"} . '
+									WHERE `' at line 5 in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/class/operationsClass.php:71
+Stack trace:
+#0 /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/class/operationsClass.php(71): PDOStatement->execute()
+#1 /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/ussdap.php(101): Operations->saveSesssion(Object(PDO), '{"msisdn":"8801...')
+#2 {main}
+  thrown in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/class/operationsClass.php on line 71
+[17-Feb-2019 22:15:57 Asia/Kolkata] aaaaaa{"sessionsid":"123","tel":"tel:8801866742387","menu":"name","pg":"0","created_at":"2019-02-17 22:07:01","others":"main","name":null,"msisdn":null,"age":null,"sex":null,"update_ts":"2019-02-17 22:08:18"}
+[17-Feb-2019 22:15:57 Asia/Kolkata] menu - name
+[17-Feb-2019 22:15:57 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  'age-validate',
+									`pg` =  '0',
+									`others` =  '1'
+									WHERE `sessionsid` =  '123'
+[17-Feb-2019 22:15:57 Asia/Kolkata] set user
+[17-Feb-2019 22:15:57 Asia/Kolkata] INSERT INTO `tbl_subscriber` (`name`, `msisdn`) VALUES 
+					('1', '8801866742387')
+[17-Feb-2019 22:20:20 Asia/Kolkata] set session
+[17-Feb-2019 22:20:20 Asia/Kolkata] {"errorInfo":["23000",1062,"Duplicate entry '123' for key 'PRIMARY'"]}
+[17-Feb-2019 22:20:20 Asia/Kolkata] {"sessionid":"123","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[17-Feb-2019 22:20:27 Asia/Kolkata] aaaaaa{"sessionsid":"123","tel":"tel:8801866742387","menu":"age-validate","pg":"0","created_at":"2019-02-17 22:07:01","others":"1","name":null,"msisdn":null,"age":null,"sex":null,"update_ts":"2019-02-17 22:15:57"}
+[17-Feb-2019 22:20:27 Asia/Kolkata] menu - age-validate
+[17-Feb-2019 22:20:27 Asia/Kolkata] valid
+[17-Feb-2019 22:20:27 Asia/Kolkata] PHP Notice:  Undefined variable: a in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/ussdap.php on line 113
+[17-Feb-2019 22:20:27 Asia/Kolkata] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Subscriber::setAge(), 1 passed in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/ussdap.php on line 113 and exactly 4 expected in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/class/Subscriber.php:25
+Stack trace:
+#0 /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/ussdap.php(113): Subscriber->setAge(NULL)
+#1 {main}
+  thrown in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/class/Subscriber.php on line 25
+[17-Feb-2019 22:20:51 Asia/Kolkata] aaaaaa{"sessionsid":"123","tel":"tel:8801866742387","menu":"age-validate","pg":"0","created_at":"2019-02-17 22:07:01","others":"1","name":null,"msisdn":null,"age":null,"sex":null,"update_ts":"2019-02-17 22:15:57"}
+[17-Feb-2019 22:20:51 Asia/Kolkata] menu - age-validate
+[17-Feb-2019 22:20:51 Asia/Kolkata] valid
+[17-Feb-2019 22:20:51 Asia/Kolkata] PHP Notice:  Undefined variable: a in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/ussdap.php on line 113
+[17-Feb-2019 22:20:51 Asia/Kolkata] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Subscriber::setAge(), 1 passed in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/ussdap.php on line 113 and exactly 4 expected in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/class/Subscriber.php:25
+Stack trace:
+#0 /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/ussdap.php(113): Subscriber->setAge(NULL)
+#1 {main}
+  thrown in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/class/Subscriber.php on line 25
+[17-Feb-2019 22:21:05 Asia/Kolkata] aaaaaa{"sessionsid":"123","tel":"tel:8801866742387","menu":"age-validate","pg":"0","created_at":"2019-02-17 22:07:01","others":"1","name":null,"msisdn":null,"age":null,"sex":null,"update_ts":"2019-02-17 22:15:57"}
+[17-Feb-2019 22:21:05 Asia/Kolkata] menu - age-validate
+[17-Feb-2019 22:21:05 Asia/Kolkata] valid
+[17-Feb-2019 22:21:05 Asia/Kolkata] PHP Notice:  Undefined variable: a in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/ussdap.php on line 113
+[17-Feb-2019 22:21:05 Asia/Kolkata] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Subscriber::setAge(), 1 passed in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/ussdap.php on line 113 and exactly 4 expected in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/class/Subscriber.php:25
+Stack trace:
+#0 /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/ussdap.php(113): Subscriber->setAge(NULL)
+#1 {main}
+  thrown in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/class/Subscriber.php on line 25
+[17-Feb-2019 22:21:42 Asia/Kolkata] set session
+[17-Feb-2019 22:21:42 Asia/Kolkata] {"sessionid":"1231","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[17-Feb-2019 22:21:48 Asia/Kolkata] aaaaaa{"sessionsid":"1231","tel":"tel:8801866742387","menu":"main","pg":"","created_at":"2019-02-17 22:21:42","others":"name","name":null,"msisdn":null,"age":null,"sex":null,"update_ts":"2019-02-17 22:21:42"}
+[17-Feb-2019 22:21:48 Asia/Kolkata] menu - main
+[17-Feb-2019 22:21:48 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  'name',
+									`pg` =  '0',
+									`others` =  'main'
+									WHERE `sessionsid` =  '1231'
+[17-Feb-2019 22:22:05 Asia/Kolkata] aaaaaa{"sessionsid":"1231","tel":"tel:8801866742387","menu":"name","pg":"0","created_at":"2019-02-17 22:21:42","others":"main","name":null,"msisdn":null,"age":null,"sex":null,"update_ts":"2019-02-17 22:21:48"}
+[17-Feb-2019 22:22:05 Asia/Kolkata] menu - name
+[17-Feb-2019 22:22:05 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  'age-validate',
+									`pg` =  '0',
+									`name` =  '1',
+									`others` =  '1'
+									WHERE `sessionsid` =  '1231'
+[17-Feb-2019 22:22:05 Asia/Kolkata] set user
+[17-Feb-2019 22:22:05 Asia/Kolkata] INSERT INTO `tbl_subscriber` (`name`, `msisdn`) VALUES 
+					('1', '8801866742387')
+[17-Feb-2019 22:22:18 Asia/Kolkata] set session
+[17-Feb-2019 22:22:18 Asia/Kolkata] {"sessionid":"12311","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[17-Feb-2019 22:22:29 Asia/Kolkata] aaaaaa{"sessionsid":"12311","tel":"tel:8801866742387","menu":"main","pg":"","created_at":"2019-02-17 22:22:18","others":"name","name":null,"msisdn":null,"age":null,"sex":null,"update_ts":"2019-02-17 22:22:18"}
+[17-Feb-2019 22:22:29 Asia/Kolkata] menu - main
+[17-Feb-2019 22:22:29 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  'name',
+									`pg` =  '0',
+									`others` =  'main'
+									WHERE `sessionsid` =  '12311'
+[17-Feb-2019 22:22:40 Asia/Kolkata] aaaaaa{"sessionsid":"12311","tel":"tel:8801866742387","menu":"name","pg":"0","created_at":"2019-02-17 22:22:18","others":"main","name":null,"msisdn":null,"age":null,"sex":null,"update_ts":"2019-02-17 22:22:29"}
+[17-Feb-2019 22:22:40 Asia/Kolkata] menu - name
+[17-Feb-2019 22:22:40 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  'age-validate',
+									`pg` =  '0',
+									`name` =  'KSRNAR',
+									`others` =  'KSRNAR'
+									WHERE `sessionsid` =  '12311'
+[17-Feb-2019 22:22:40 Asia/Kolkata] set user
+[17-Feb-2019 22:22:40 Asia/Kolkata] INSERT INTO `tbl_subscriber` (`name`, `msisdn`) VALUES 
+					('KSRNAR', '8801866742387')
+[17-Feb-2019 22:24:41 Asia/Kolkata] set session
+[17-Feb-2019 22:24:41 Asia/Kolkata] {"sessionid":"0001","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[17-Feb-2019 22:24:46 Asia/Kolkata] aaaaaa{"sessionsid":"0001","tel":"tel:8801866742387","menu":"main","pg":"","created_at":"2019-02-17 22:24:41","others":"name","name":null,"msisdn":null,"age":null,"sex":null,"update_ts":"2019-02-17 22:24:41"}
+[17-Feb-2019 22:24:46 Asia/Kolkata] menu - main
+[17-Feb-2019 22:24:46 Asia/Kolkata] PHP Notice:  Undefined variable: sql_session in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/class/operationsClass.php on line 82
+[17-Feb-2019 22:24:46 Asia/Kolkata] update---
+[17-Feb-2019 22:24:46 Asia/Kolkata] PHP Notice:  Undefined variable: sql_session in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/class/operationsClass.php on line 83
+[17-Feb-2019 22:24:46 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/class/operationsClass.php:86
+Stack trace:
+#0 /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/class/operationsClass.php(86): PDOStatement->execute()
+#1 /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/ussdap.php(82): Operations->saveSesssion(Object(PDO), '8801866742387')
+#2 {main}
+  thrown in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/class/operationsClass.php on line 86
+[17-Feb-2019 22:25:02 Asia/Kolkata] aaaaaa{"sessionsid":"0001","tel":"tel:8801866742387","menu":"main","pg":"","created_at":"2019-02-17 22:24:41","others":"name","name":null,"msisdn":null,"age":null,"sex":null,"update_ts":"2019-02-17 22:24:41"}
+[17-Feb-2019 22:25:02 Asia/Kolkata] menu - main
+[17-Feb-2019 22:25:02 Asia/Kolkata] PHP Notice:  Undefined variable: sql_session in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/class/operationsClass.php on line 82
+[17-Feb-2019 22:25:02 Asia/Kolkata] update---
+[17-Feb-2019 22:25:02 Asia/Kolkata] PHP Notice:  Undefined variable: sql_session in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/class/operationsClass.php on line 83
+[17-Feb-2019 22:25:02 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/class/operationsClass.php:86
+Stack trace:
+#0 /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/class/operationsClass.php(86): PDOStatement->execute()
+#1 /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/ussdap.php(82): Operations->saveSesssion(Object(PDO), '8801866742387')
+#2 {main}
+  thrown in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/class/operationsClass.php on line 86
+[17-Feb-2019 22:25:19 Asia/Kolkata] set session
+[17-Feb-2019 22:25:19 Asia/Kolkata] {"sessionid":"0002","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[17-Feb-2019 22:25:30 Asia/Kolkata] aaaaaa{"sessionsid":"0002","tel":"tel:8801866742387","menu":"main","pg":"","created_at":"2019-02-17 22:25:19","others":"name","name":null,"msisdn":null,"age":null,"sex":null,"update_ts":"2019-02-17 22:25:19"}
+[17-Feb-2019 22:25:30 Asia/Kolkata] menu - main
+[17-Feb-2019 22:25:30 Asia/Kolkata] PHP Notice:  Undefined variable: sql_session in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/class/operationsClass.php on line 82
+[17-Feb-2019 22:25:30 Asia/Kolkata] update---
+[17-Feb-2019 22:25:30 Asia/Kolkata] PHP Notice:  Undefined variable: sql_session in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/class/operationsClass.php on line 83
+[17-Feb-2019 22:25:30 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/class/operationsClass.php:86
+Stack trace:
+#0 /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/class/operationsClass.php(86): PDOStatement->execute()
+#1 /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/ussdap.php(82): Operations->saveSesssion(Object(PDO), '8801866742387')
+#2 {main}
+  thrown in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/class/operationsClass.php on line 86
+[17-Feb-2019 22:26:37 Asia/Kolkata] set session
+[17-Feb-2019 22:26:37 Asia/Kolkata] {"sessionid":"0003","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[17-Feb-2019 22:26:49 Asia/Kolkata] aaaaaa{"sessionsid":"0003","tel":"tel:8801866742387","menu":"main","pg":"","created_at":"2019-02-17 22:26:37","others":"name","name":null,"msisdn":null,"age":null,"sex":null,"update_ts":"2019-02-17 22:26:37"}
+[17-Feb-2019 22:26:49 Asia/Kolkata] menu - main
+[17-Feb-2019 22:26:49 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  'name',
+									`pg` =  '0',
+									`others` =  'main'
+									`msisdn` =  '8801866742387'
+									WHERE `sessionsid` =  '0003'
+[17-Feb-2019 22:26:49 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`msisdn` =  '8801866742387'
+									WHERE `sessionsid` =  '0003'' at line 5 in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/class/operationsClass.php:86
+Stack trace:
+#0 /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/class/operationsClass.php(86): PDOStatement->execute()
+#1 /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/ussdap.php(82): Operations->saveSesssion(Object(PDO), NULL, '8801866742387')
+#2 {main}
+  thrown in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/class/operationsClass.php on line 86
+[17-Feb-2019 22:28:36 Asia/Kolkata] set session
+[17-Feb-2019 22:28:36 Asia/Kolkata] {"sessionid":"0004","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[17-Feb-2019 22:28:45 Asia/Kolkata] aaaaaa{"sessionsid":"0004","tel":"tel:8801866742387","menu":"main","pg":"","created_at":"2019-02-17 22:28:36","others":"name","name":null,"msisdn":null,"age":null,"sex":null,"update_ts":"2019-02-17 22:28:36"}
+[17-Feb-2019 22:28:45 Asia/Kolkata] menu - main
+[17-Feb-2019 22:28:45 Asia/Kolkata] type---
+[17-Feb-2019 22:28:45 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  'name',
+									`pg` =  '0',
+									`others` =  'main'
+									`msisdn` =  '8801866742387'
+									WHERE `sessionsid` =  '0004'
+[17-Feb-2019 22:28:45 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`msisdn` =  '8801866742387'
+									WHERE `sessionsid` =  '0004'' at line 5 in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/class/operationsClass.php:87
+Stack trace:
+#0 /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/class/operationsClass.php(87): PDOStatement->execute()
+#1 /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/ussdap.php(82): Operations->saveSesssion(Object(PDO), NULL, '8801866742387')
+#2 {main}
+  thrown in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/class/operationsClass.php on line 87
+[17-Feb-2019 22:29:41 Asia/Kolkata] set session
+[17-Feb-2019 22:29:41 Asia/Kolkata] {"sessionid":"10004","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[17-Feb-2019 22:29:46 Asia/Kolkata] aaaaaa{"sessionsid":"10004","tel":"tel:8801866742387","menu":"main","pg":"","created_at":"2019-02-17 22:29:41","others":"name","name":null,"msisdn":null,"age":null,"sex":null,"update_ts":"2019-02-17 22:29:41"}
+[17-Feb-2019 22:29:46 Asia/Kolkata] menu - main
+[17-Feb-2019 22:29:46 Asia/Kolkata] type---
+[17-Feb-2019 22:29:46 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  'name',
+									`pg` =  '0',
+									`others` =  'main'
+									`msisdn` =  '8801866742387'
+									WHERE `sessionsid` =  '10004'
+[17-Feb-2019 22:29:46 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`msisdn` =  '8801866742387'
+									WHERE `sessionsid` =  '10004'' at line 5 in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/class/operationsClass.php:87
+Stack trace:
+#0 /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/class/operationsClass.php(87): PDOStatement->execute()
+#1 /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/ussdap.php(82): Operations->saveSesssion(Object(PDO), NULL, '8801866742387')
+#2 {main}
+  thrown in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/class/operationsClass.php on line 87
+[17-Feb-2019 22:32:09 Asia/Kolkata] set session
+[17-Feb-2019 22:32:09 Asia/Kolkata] {"sessionid":"10005","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[17-Feb-2019 22:32:16 Asia/Kolkata] aaaaaa{"sessionsid":"10005","tel":"tel:8801866742387","menu":"main","pg":"","created_at":"2019-02-17 22:32:09","others":"name","name":null,"msisdn":null,"age":null,"sex":null,"update_ts":"2019-02-17 22:32:09"}
+[17-Feb-2019 22:32:16 Asia/Kolkata] menu - main
+[17-Feb-2019 22:32:16 Asia/Kolkata] type---
+[17-Feb-2019 22:32:16 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  'name',
+									`pg` =  '0',
+									`others` =  'main',
+									`msisdn` =  '8801866742387'
+									WHERE `sessionsid` =  '10005'
+[17-Feb-2019 22:32:30 Asia/Kolkata] aaaaaa{"sessionsid":"10005","tel":"tel:8801866742387","menu":"name","pg":"0","created_at":"2019-02-17 22:32:09","others":"main","name":null,"msisdn":"8801866742387","age":null,"sex":null,"update_ts":"2019-02-17 22:32:16"}
+[17-Feb-2019 22:32:30 Asia/Kolkata] menu - name
+[17-Feb-2019 22:32:30 Asia/Kolkata] type---name
+[17-Feb-2019 22:32:30 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  'age-validate',
+									`pg` =  '0',
+									`name` =  'Kavinda Rochana',
+									`others` =  'Kavinda Rochana'
+									WHERE `sessionsid` =  '10005'
+[17-Feb-2019 22:32:30 Asia/Kolkata] set user
+[17-Feb-2019 22:32:30 Asia/Kolkata] INSERT INTO `tbl_subscriber` (`name`, `msisdn`) VALUES 
+					('Kavinda Rochana', '8801866742387')
+[17-Feb-2019 22:34:53 Asia/Kolkata] aaaaaa{"sessionsid":"10005","tel":"tel:8801866742387","menu":"age-validate","pg":"0","created_at":"2019-02-17 22:32:09","others":"Kavinda Rochana","name":"Kavinda Rochana","msisdn":"8801866742387","age":null,"sex":null,"update_ts":"2019-02-17 22:32:30"}
+[17-Feb-2019 22:34:53 Asia/Kolkata] menu - age-validate
+[17-Feb-2019 22:34:53 Asia/Kolkata] valid
+[17-Feb-2019 22:34:53 Asia/Kolkata] PHP Notice:  Undefined variable: a in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/ussdap.php on line 113
+[17-Feb-2019 22:34:53 Asia/Kolkata] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Subscriber::setAge(), 1 passed in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/ussdap.php on line 113 and exactly 4 expected in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/class/Subscriber.php:25
+Stack trace:
+#0 /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/ussdap.php(113): Subscriber->setAge(NULL)
+#1 {main}
+  thrown in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/class/Subscriber.php on line 25
+[17-Feb-2019 22:35:38 Asia/Kolkata] aaaaaa{"sessionsid":"10005","tel":"tel:8801866742387","menu":"age-validate","pg":"0","created_at":"2019-02-17 22:32:09","others":"Kavinda Rochana","name":"Kavinda Rochana","msisdn":"8801866742387","age":null,"sex":null,"update_ts":"2019-02-17 22:32:30"}
+[17-Feb-2019 22:35:38 Asia/Kolkata] menu - age-validate
+[17-Feb-2019 22:35:38 Asia/Kolkata] valid
+[17-Feb-2019 22:35:38 Asia/Kolkata] type---age
+[17-Feb-2019 22:35:38 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  'registered',
+									`pg` =  '0',
+									`age` =  '25',
+									`others` =  'age-validate'
+									WHERE `sessionsid` =  '10005'
+[17-Feb-2019 22:35:48 Asia/Kolkata] aaaaaa{"sessionsid":"10005","tel":"tel:8801866742387","menu":"registered","pg":"0","created_at":"2019-02-17 22:32:09","others":"age-validate","name":"Kavinda Rochana","msisdn":"8801866742387","age":"25","sex":null,"update_ts":"2019-02-17 22:35:38"}
+[17-Feb-2019 22:35:48 Asia/Kolkata] menu - registered
+[17-Feb-2019 22:35:48 Asia/Kolkata] type---sex
+[17-Feb-2019 22:35:48 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  '',
+									`pg` =  '0',
+									`sex` =  '1',
+									`others` =  'registered'
+									WHERE `sessionsid` =  '10005'
+[17-Feb-2019 23:00:39 Asia/Kolkata] set session
+[17-Feb-2019 23:00:39 Asia/Kolkata] {"sessionid":"10006","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[17-Feb-2019 23:00:47 Asia/Kolkata] aaaaaa{"sessionsid":"10006","tel":"tel:8801866742387","menu":"main","pg":"","created_at":"2019-02-17 23:00:39","others":"name","name":null,"msisdn":null,"age":null,"sex":null,"update_ts":"2019-02-17 23:00:39"}
+[17-Feb-2019 23:00:47 Asia/Kolkata] menu - main
+[17-Feb-2019 23:00:47 Asia/Kolkata] type---
+[17-Feb-2019 23:00:47 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  'name',
+									`pg` =  '0',
+									`others` =  'main',
+									`msisdn` =  '8801866742387'
+									WHERE `sessionsid` =  '10006'
+[17-Feb-2019 23:01:10 Asia/Kolkata] aaaaaa{"sessionsid":"10006","tel":"tel:8801866742387","menu":"name","pg":"0","created_at":"2019-02-17 23:00:39","others":"main","name":null,"msisdn":"8801866742387","age":null,"sex":null,"update_ts":"2019-02-17 23:00:47"}
+[17-Feb-2019 23:01:10 Asia/Kolkata] menu - name
+[17-Feb-2019 23:01:10 Asia/Kolkata] type---name
+[17-Feb-2019 23:01:10 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  'age-validate',
+									`pg` =  '0',
+									`name` =  'Sakuni',
+									`others` =  'Sakuni'
+									WHERE `sessionsid` =  '10006'
+[17-Feb-2019 23:01:10 Asia/Kolkata] set user
+[17-Feb-2019 23:01:10 Asia/Kolkata] INSERT INTO `tbl_subscriber` (`name`, `msisdn`) VALUES 
+					('Sakuni', '8801866742387')
+[17-Feb-2019 23:01:16 Asia/Kolkata] aaaaaa{"sessionsid":"10006","tel":"tel:8801866742387","menu":"age-validate","pg":"0","created_at":"2019-02-17 23:00:39","others":"Sakuni","name":"Sakuni","msisdn":"8801866742387","age":null,"sex":null,"update_ts":"2019-02-17 23:01:10"}
+[17-Feb-2019 23:01:16 Asia/Kolkata] menu - age-validate
+[17-Feb-2019 23:01:16 Asia/Kolkata] valid
+[17-Feb-2019 23:01:16 Asia/Kolkata] type---age
+[17-Feb-2019 23:01:16 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  'registered',
+									`pg` =  '0',
+									`age` =  '20',
+									`others` =  'age-validate'
+									WHERE `sessionsid` =  '10006'
+[17-Feb-2019 23:01:23 Asia/Kolkata] aaaaaa{"sessionsid":"10006","tel":"tel:8801866742387","menu":"registered","pg":"0","created_at":"2019-02-17 23:00:39","others":"age-validate","name":"Sakuni","msisdn":"8801866742387","age":"20","sex":null,"update_ts":"2019-02-17 23:01:16"}
+[17-Feb-2019 23:01:23 Asia/Kolkata] menu - registered
+[17-Feb-2019 23:01:23 Asia/Kolkata] type---sex
+[17-Feb-2019 23:01:23 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECT `name`, `sex`, `age`, `msisdn`  FROM `session` WHERE `sessionsid` = "1000' at line 2 in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/class/operationsClass.php:100
+Stack trace:
+#0 /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/class/operationsClass.php(100): PDOStatement->execute()
+#1 /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/ussdap.php(131): Operations->saveSesssion(Object(PDO), 'sex', '2')
+#2 {main}
+  thrown in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/class/operationsClass.php on line 100
+[17-Feb-2019 23:07:54 Asia/Kolkata] aaaaaa{"sessionsid":"10006","tel":"tel:8801866742387","menu":"registered","pg":"0","created_at":"2019-02-17 23:00:39","others":"age-validate","name":"Sakuni","msisdn":"8801866742387","age":"20","sex":null,"update_ts":"2019-02-17 23:01:16"}
+[17-Feb-2019 23:07:54 Asia/Kolkata] menu - registered
+[17-Feb-2019 23:07:54 Asia/Kolkata] type---sex
+[17-Feb-2019 23:07:54 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  '',
+									`pg` =  '0',
+									`sex` =  '2',
+									`others` =  'registered'
+									WHERE `sessionsid` =  '10006'
+[17-Feb-2019 23:07:54 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'connectIt.session' doesn't exist in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/class/operationsClass.php:111
+Stack trace:
+#0 /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/class/operationsClass.php(111): PDOStatement->execute()
+#1 /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/ussdap.php(131): Operations->saveSesssion(Object(PDO), 'sex', '2')
+#2 {main}
+  thrown in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/class/operationsClass.php on line 111
+[17-Feb-2019 23:08:13 Asia/Kolkata] aaaaaa{"sessionsid":"10006","tel":"tel:8801866742387","menu":"","pg":"0","created_at":"2019-02-17 23:00:39","others":"registered","name":"Sakuni","msisdn":"8801866742387","age":"20","sex":"2","update_ts":"2019-02-17 23:07:54"}
+[17-Feb-2019 23:08:13 Asia/Kolkata] menu - 
+[17-Feb-2019 23:08:13 Asia/Kolkata] type---
+[17-Feb-2019 23:08:13 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  'main',
+									`pg` =  '0',
+									`others` =  '',
+									`msisdn` =  ''
+									WHERE `sessionsid` =  '10006'
+[17-Feb-2019 23:08:23 Asia/Kolkata] set session
+[17-Feb-2019 23:08:23 Asia/Kolkata] {"errorInfo":["23000",1062,"Duplicate entry '10006' for key 'PRIMARY'"]}
+[17-Feb-2019 23:08:23 Asia/Kolkata] {"sessionid":"10006","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[17-Feb-2019 23:08:26 Asia/Kolkata] set session
+[17-Feb-2019 23:08:26 Asia/Kolkata] {"errorInfo":["23000",1062,"Duplicate entry '10006' for key 'PRIMARY'"]}
+[17-Feb-2019 23:08:26 Asia/Kolkata] {"sessionid":"10006","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[17-Feb-2019 23:08:35 Asia/Kolkata] aaaaaa{"sessionsid":"10006","tel":"tel:8801866742387","menu":"main","pg":"0","created_at":"2019-02-17 23:00:39","others":"","name":"Sakuni","msisdn":"","age":"20","sex":"2","update_ts":"2019-02-17 23:08:13"}
+[17-Feb-2019 23:08:35 Asia/Kolkata] menu - main
+[17-Feb-2019 23:08:35 Asia/Kolkata] type---
+[17-Feb-2019 23:08:35 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  'name',
+									`pg` =  '0',
+									`others` =  'main',
+									`msisdn` =  '8801866742387'
+									WHERE `sessionsid` =  '10006'
+[17-Feb-2019 23:08:50 Asia/Kolkata] aaaaaa{"sessionsid":"10006","tel":"tel:8801866742387","menu":"name","pg":"0","created_at":"2019-02-17 23:00:39","others":"main","name":"Sakuni","msisdn":"8801866742387","age":"20","sex":"2","update_ts":"2019-02-17 23:08:35"}
+[17-Feb-2019 23:08:50 Asia/Kolkata] menu - name
+[17-Feb-2019 23:08:50 Asia/Kolkata] type---name
+[17-Feb-2019 23:08:50 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  'age-validate',
+									`pg` =  '0',
+									`name` =  'KS',
+									`others` =  'KS'
+									WHERE `sessionsid` =  '10006'
+[17-Feb-2019 23:08:51 Asia/Kolkata] set user
+[17-Feb-2019 23:08:51 Asia/Kolkata] INSERT INTO `tbl_subscriber` (`name`, `msisdn`) VALUES 
+					('KS', '8801866742387')
+[17-Feb-2019 23:08:57 Asia/Kolkata] aaaaaa{"sessionsid":"10006","tel":"tel:8801866742387","menu":"age-validate","pg":"0","created_at":"2019-02-17 23:00:39","others":"KS","name":"KS","msisdn":"8801866742387","age":"20","sex":"2","update_ts":"2019-02-17 23:08:50"}
+[17-Feb-2019 23:08:57 Asia/Kolkata] menu - age-validate
+[17-Feb-2019 23:08:57 Asia/Kolkata] valid
+[17-Feb-2019 23:08:57 Asia/Kolkata] type---age
+[17-Feb-2019 23:08:57 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  'registered',
+									`pg` =  '0',
+									`age` =  '24',
+									`others` =  'age-validate'
+									WHERE `sessionsid` =  '10006'
+[17-Feb-2019 23:09:02 Asia/Kolkata] aaaaaa{"sessionsid":"10006","tel":"tel:8801866742387","menu":"registered","pg":"0","created_at":"2019-02-17 23:00:39","others":"age-validate","name":"KS","msisdn":"8801866742387","age":"24","sex":"2","update_ts":"2019-02-17 23:08:57"}
+[17-Feb-2019 23:09:02 Asia/Kolkata] menu - registered
+[17-Feb-2019 23:09:02 Asia/Kolkata] type---sex
+[17-Feb-2019 23:09:02 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  '',
+									`pg` =  '0',
+									`sex` =  '1',
+									`others` =  'registered'
+									WHERE `sessionsid` =  '10006'
+[17-Feb-2019 23:09:02 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'connectIt.session' doesn't exist in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/class/operationsClass.php:111
+Stack trace:
+#0 /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/class/operationsClass.php(111): PDOStatement->execute()
+#1 /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/ussdap.php(131): Operations->saveSesssion(Object(PDO), 'sex', '1')
+#2 {main}
+  thrown in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/class/operationsClass.php on line 111
+[17-Feb-2019 23:10:55 Asia/Kolkata] set session
+[17-Feb-2019 23:10:55 Asia/Kolkata] {"errorInfo":["23000",1062,"Duplicate entry '10006' for key 'PRIMARY'"]}
+[17-Feb-2019 23:10:55 Asia/Kolkata] {"sessionid":"10006","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[17-Feb-2019 23:11:01 Asia/Kolkata] aaaaaafalse
+[17-Feb-2019 23:11:01 Asia/Kolkata] menu - 
+[17-Feb-2019 23:11:01 Asia/Kolkata] type---
+[17-Feb-2019 23:11:01 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  'main',
+									`pg` =  '0',
+									`others` =  '',
+									`msisdn` =  ''
+									WHERE `sessionsid` =  ''
+[17-Feb-2019 23:11:10 Asia/Kolkata] set session
+[17-Feb-2019 23:11:10 Asia/Kolkata] {"sessionid":"1","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[17-Feb-2019 23:11:20 Asia/Kolkata] aaaaaa{"sessionsid":"1","tel":"tel:8801866742387","menu":"main","pg":"","created_at":"2019-02-17 23:11:10","others":"name","name":null,"msisdn":null,"age":null,"sex":null,"update_ts":"2019-02-17 23:11:10"}
+[17-Feb-2019 23:11:20 Asia/Kolkata] menu - main
+[17-Feb-2019 23:11:20 Asia/Kolkata] type---
+[17-Feb-2019 23:11:20 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  'name',
+									`pg` =  '0',
+									`others` =  'main',
+									`msisdn` =  '8801866742387'
+									WHERE `sessionsid` =  '1'
+[17-Feb-2019 23:11:28 Asia/Kolkata] aaaaaa{"sessionsid":"1","tel":"tel:8801866742387","menu":"name","pg":"0","created_at":"2019-02-17 23:11:10","others":"main","name":null,"msisdn":"8801866742387","age":null,"sex":null,"update_ts":"2019-02-17 23:11:20"}
+[17-Feb-2019 23:11:28 Asia/Kolkata] menu - name
+[17-Feb-2019 23:11:28 Asia/Kolkata] type---name
+[17-Feb-2019 23:11:28 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  'age-validate',
+									`pg` =  '0',
+									`name` =  'Test',
+									`others` =  'Test'
+									WHERE `sessionsid` =  '1'
+[17-Feb-2019 23:11:28 Asia/Kolkata] set user
+[17-Feb-2019 23:11:28 Asia/Kolkata] INSERT INTO `tbl_subscriber` (`name`, `msisdn`) VALUES 
+					('Test', '8801866742387')
+[17-Feb-2019 23:11:37 Asia/Kolkata] aaaaaa{"sessionsid":"1","tel":"tel:8801866742387","menu":"age-validate","pg":"0","created_at":"2019-02-17 23:11:10","others":"Test","name":"Test","msisdn":"8801866742387","age":null,"sex":null,"update_ts":"2019-02-17 23:11:28"}
+[17-Feb-2019 23:11:37 Asia/Kolkata] menu - age-validate
+[17-Feb-2019 23:11:37 Asia/Kolkata] valid
+[17-Feb-2019 23:11:37 Asia/Kolkata] type---age
+[17-Feb-2019 23:11:37 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  'registered',
+									`pg` =  '0',
+									`age` =  '12',
+									`others` =  'age-validate'
+									WHERE `sessionsid` =  '1'
+[17-Feb-2019 23:11:48 Asia/Kolkata] aaaaaa{"sessionsid":"1","tel":"tel:8801866742387","menu":"registered","pg":"0","created_at":"2019-02-17 23:11:10","others":"age-validate","name":"Test","msisdn":"8801866742387","age":"12","sex":null,"update_ts":"2019-02-17 23:11:37"}
+[17-Feb-2019 23:11:48 Asia/Kolkata] menu - registered
+[17-Feb-2019 23:11:48 Asia/Kolkata] type---sex
+[17-Feb-2019 23:11:48 Asia/Kolkata] INSERT INTO `tbl_subscriber` (`name`, `sex`, `age`, `msisdn`)
+				(SELECT `name`, `sex`, `age`, `msisdn`  FROM `session` WHERE `sessionsid` = "1")
+[17-Feb-2019 23:11:48 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  '',
+									`pg` =  '0',
+									`sex` =  '1',
+									`others` =  'registered'
+									WHERE `sessionsid` =  '1'
+[17-Feb-2019 23:11:48 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'connectIt.session' doesn't exist in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/class/operationsClass.php:112
+Stack trace:
+#0 /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/class/operationsClass.php(112): PDOStatement->execute()
+#1 /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/ussdap.php(131): Operations->saveSesssion(Object(PDO), 'sex', '1')
+#2 {main}
+  thrown in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/class/operationsClass.php on line 112
+[17-Feb-2019 23:13:39 Asia/Kolkata] aaaaaa{"sessionsid":"1","tel":"tel:8801866742387","menu":"","pg":"0","created_at":"2019-02-17 23:11:10","others":"registered","name":"Test","msisdn":"8801866742387","age":"12","sex":"1","update_ts":"2019-02-17 23:11:48"}
+[17-Feb-2019 23:13:39 Asia/Kolkata] menu - 
+[17-Feb-2019 23:13:39 Asia/Kolkata] type---
+[17-Feb-2019 23:13:39 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  'main',
+									`pg` =  '0',
+									`others` =  '',
+									`msisdn` =  ''
+									WHERE `sessionsid` =  '1'
+[17-Feb-2019 23:13:50 Asia/Kolkata] set session
+[17-Feb-2019 23:13:50 Asia/Kolkata] {"errorInfo":["23000",1062,"Duplicate entry '1' for key 'PRIMARY'"]}
+[17-Feb-2019 23:13:50 Asia/Kolkata] {"sessionid":"1","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[17-Feb-2019 23:13:59 Asia/Kolkata] set session
+[17-Feb-2019 23:13:59 Asia/Kolkata] {"errorInfo":["23000",1062,"Duplicate entry '1' for key 'PRIMARY'"]}
+[17-Feb-2019 23:13:59 Asia/Kolkata] {"sessionid":"1","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[17-Feb-2019 23:14:17 Asia/Kolkata] aaaaaa{"sessionsid":"1","tel":"tel:8801866742387","menu":"main","pg":"0","created_at":"2019-02-17 23:11:10","others":"","name":"Test","msisdn":"","age":"12","sex":"1","update_ts":"2019-02-17 23:13:39"}
+[17-Feb-2019 23:14:17 Asia/Kolkata] menu - main
+[17-Feb-2019 23:14:17 Asia/Kolkata] type---
+[17-Feb-2019 23:14:17 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  'main',
+									`pg` =  '0',
+									`others` =  'main',
+									`msisdn` =  ''
+									WHERE `sessionsid` =  '1'
+[17-Feb-2019 23:14:38 Asia/Kolkata] set session
+[17-Feb-2019 23:14:38 Asia/Kolkata] {"errorInfo":["23000",1062,"Duplicate entry '1' for key 'PRIMARY'"]}
+[17-Feb-2019 23:14:38 Asia/Kolkata] {"sessionid":"1","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[17-Feb-2019 23:14:42 Asia/Kolkata] set session
+[17-Feb-2019 23:14:42 Asia/Kolkata] {"errorInfo":["23000",1062,"Duplicate entry '1' for key 'PRIMARY'"]}
+[17-Feb-2019 23:14:42 Asia/Kolkata] {"sessionid":"1","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[17-Feb-2019 23:14:55 Asia/Kolkata] set session
+[17-Feb-2019 23:14:55 Asia/Kolkata] {"errorInfo":["23000",1062,"Duplicate entry '1' for key 'PRIMARY'"]}
+[17-Feb-2019 23:14:55 Asia/Kolkata] {"sessionid":"1","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[17-Feb-2019 23:15:08 Asia/Kolkata] set session
+[17-Feb-2019 23:15:08 Asia/Kolkata] {"sessionid":"11","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[17-Feb-2019 23:15:13 Asia/Kolkata] aaaaaa{"sessionsid":"11","tel":"tel:8801866742387","menu":"main","pg":"","created_at":"2019-02-17 23:15:08","others":"name","name":null,"msisdn":null,"age":null,"sex":null,"update_ts":"2019-02-17 23:15:08"}
+[17-Feb-2019 23:15:13 Asia/Kolkata] menu - main
+[17-Feb-2019 23:15:13 Asia/Kolkata] type---
+[17-Feb-2019 23:15:13 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  'name',
+									`pg` =  '0',
+									`others` =  'main',
+									`msisdn` =  '8801866742387'
+									WHERE `sessionsid` =  '11'
+[17-Feb-2019 23:15:17 Asia/Kolkata] aaaaaa{"sessionsid":"11","tel":"tel:8801866742387","menu":"name","pg":"0","created_at":"2019-02-17 23:15:08","others":"main","name":null,"msisdn":"8801866742387","age":null,"sex":null,"update_ts":"2019-02-17 23:15:13"}
+[17-Feb-2019 23:15:17 Asia/Kolkata] menu - name
+[17-Feb-2019 23:15:17 Asia/Kolkata] type---name
+[17-Feb-2019 23:15:17 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  'age-validate',
+									`pg` =  '0',
+									`name` =  'Kavinda Sakuni',
+									`others` =  'Kavinda Sakuni'
+									WHERE `sessionsid` =  '11'
+[17-Feb-2019 23:15:17 Asia/Kolkata] set user
+[17-Feb-2019 23:15:17 Asia/Kolkata] INSERT INTO `tbl_subscriber` (`name`, `msisdn`) VALUES 
+					('Kavinda Sakuni', '8801866742387')
+[17-Feb-2019 23:15:28 Asia/Kolkata] aaaaaa{"sessionsid":"11","tel":"tel:8801866742387","menu":"age-validate","pg":"0","created_at":"2019-02-17 23:15:08","others":"Kavinda Sakuni","name":"Kavinda Sakuni","msisdn":"8801866742387","age":null,"sex":null,"update_ts":"2019-02-17 23:15:17"}
+[17-Feb-2019 23:15:28 Asia/Kolkata] menu - age-validate
+[17-Feb-2019 23:15:28 Asia/Kolkata] valid
+[17-Feb-2019 23:15:28 Asia/Kolkata] type---age
+[17-Feb-2019 23:15:28 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  'registered',
+									`pg` =  '0',
+									`age` =  '25',
+									`others` =  'age-validate'
+									WHERE `sessionsid` =  '11'
+[17-Feb-2019 23:15:37 Asia/Kolkata] aaaaaa{"sessionsid":"11","tel":"tel:8801866742387","menu":"registered","pg":"0","created_at":"2019-02-17 23:15:08","others":"age-validate","name":"Kavinda Sakuni","msisdn":"8801866742387","age":"25","sex":null,"update_ts":"2019-02-17 23:15:28"}
+[17-Feb-2019 23:15:37 Asia/Kolkata] menu - registered
+[17-Feb-2019 23:15:37 Asia/Kolkata] type---sex
+[17-Feb-2019 23:15:37 Asia/Kolkata] INSERT INTO `tbl_subscriber` (`name`, `sex`, `age`, `msisdn`)
+				SELECT `name`, `sex`, `age`, `msisdn`  FROM `session` WHERE `sessionsid` = "11"
+[17-Feb-2019 23:15:37 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  '',
+									`pg` =  '0',
+									`sex` =  '1',
+									`others` =  'registered'
+									WHERE `sessionsid` =  '11'
+[17-Feb-2019 23:15:37 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'connectIt.session' doesn't exist in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/class/operationsClass.php:112
+Stack trace:
+#0 /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/class/operationsClass.php(112): PDOStatement->execute()
+#1 /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/ussdap.php(131): Operations->saveSesssion(Object(PDO), 'sex', '1')
+#2 {main}
+  thrown in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/class/operationsClass.php on line 112
+[17-Feb-2019 23:20:30 Asia/Kolkata] set session
+[17-Feb-2019 23:20:30 Asia/Kolkata] {"sessionid":"111","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[17-Feb-2019 23:20:33 Asia/Kolkata] aaaaaa{"sessionsid":"111","tel":"tel:8801866742387","menu":"main","pg":"","created_at":"2019-02-17 23:20:30","others":"name","name":null,"msisdn":null,"age":null,"sex":null,"update_ts":"2019-02-17 23:20:30"}
+[17-Feb-2019 23:20:33 Asia/Kolkata] menu - main
+[17-Feb-2019 23:20:33 Asia/Kolkata] type---
+[17-Feb-2019 23:20:33 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  'name',
+									`pg` =  '0',
+									`others` =  'main',
+									`msisdn` =  '8801866742387'
+									WHERE `sessionsid` =  '111'
+[17-Feb-2019 23:20:39 Asia/Kolkata] aaaaaa{"sessionsid":"111","tel":"tel:8801866742387","menu":"name","pg":"0","created_at":"2019-02-17 23:20:30","others":"main","name":null,"msisdn":"8801866742387","age":null,"sex":null,"update_ts":"2019-02-17 23:20:33"}
+[17-Feb-2019 23:20:39 Asia/Kolkata] menu - name
+[17-Feb-2019 23:20:39 Asia/Kolkata] type---name
+[17-Feb-2019 23:20:39 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  'age-validate',
+									`pg` =  '0',
+									`name` =  'Saku',
+									`others` =  'Saku'
+									WHERE `sessionsid` =  '111'
+[17-Feb-2019 23:20:39 Asia/Kolkata] set user
+[17-Feb-2019 23:20:39 Asia/Kolkata] INSERT INTO `tbl_subscriber` (`name`, `msisdn`) VALUES 
+					('Saku', '8801866742387')
+[17-Feb-2019 23:20:49 Asia/Kolkata] aaaaaa{"sessionsid":"111","tel":"tel:8801866742387","menu":"age-validate","pg":"0","created_at":"2019-02-17 23:20:30","others":"Saku","name":"Saku","msisdn":"8801866742387","age":null,"sex":null,"update_ts":"2019-02-17 23:20:39"}
+[17-Feb-2019 23:20:49 Asia/Kolkata] menu - age-validate
+[17-Feb-2019 23:20:49 Asia/Kolkata] valid
+[17-Feb-2019 23:20:49 Asia/Kolkata] type---age
+[17-Feb-2019 23:20:49 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  'registered',
+									`pg` =  '0',
+									`age` =  '20',
+									`others` =  'age-validate'
+									WHERE `sessionsid` =  '111'
+[17-Feb-2019 23:21:04 Asia/Kolkata] aaaaaa{"sessionsid":"111","tel":"tel:8801866742387","menu":"registered","pg":"0","created_at":"2019-02-17 23:20:30","others":"age-validate","name":"Saku","msisdn":"8801866742387","age":"20","sex":null,"update_ts":"2019-02-17 23:20:49"}
+[17-Feb-2019 23:21:04 Asia/Kolkata] menu - registered
+[17-Feb-2019 23:21:04 Asia/Kolkata] type---sex
+[17-Feb-2019 23:21:04 Asia/Kolkata] INSERT INTO `tbl_subscriber` (`name`, `sex`, `age`, `msisdn`)
+				SELECT `name`, `sex`, `age`, `msisdn`  FROM `session` WHERE `sessionsid` = "111"
+[17-Feb-2019 23:21:04 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  '',
+									`pg` =  '0',
+									`sex` =  '2',
+									`others` =  'registered'
+									WHERE `sessionsid` =  '111'
+[17-Feb-2019 23:21:04 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'connectIt.session' doesn't exist in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/class/operationsClass.php:113
+Stack trace:
+#0 /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/class/operationsClass.php(113): PDOStatement->execute()
+#1 /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/ussdap.php(131): Operations->saveSesssion(Object(PDO), 'sex', '2')
+#2 {main}
+  thrown in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/class/operationsClass.php on line 113
+[17-Feb-2019 23:22:55 Asia/Kolkata] set session
+[17-Feb-2019 23:22:55 Asia/Kolkata] {"sessionid":"1111","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[17-Feb-2019 23:23:06 Asia/Kolkata] set session
+[17-Feb-2019 23:23:06 Asia/Kolkata] {"errorInfo":["23000",1062,"Duplicate entry '1111' for key 'PRIMARY'"]}
+[17-Feb-2019 23:23:06 Asia/Kolkata] {"sessionid":"1111","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[17-Feb-2019 23:23:17 Asia/Kolkata] set session
+[17-Feb-2019 23:23:17 Asia/Kolkata] {"sessionid":"11111","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[17-Feb-2019 23:23:21 Asia/Kolkata] aaaaaa{"sessionsid":"11111","tel":"tel:8801866742387","menu":"main","pg":"","created_at":"2019-02-17 23:23:17","others":"name","name":null,"msisdn":null,"age":null,"sex":null,"update_ts":"2019-02-17 23:23:17"}
+[17-Feb-2019 23:23:21 Asia/Kolkata] menu - main
+[17-Feb-2019 23:23:21 Asia/Kolkata] type---
+[17-Feb-2019 23:23:21 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  'name',
+									`pg` =  '0',
+									`others` =  'main',
+									`msisdn` =  '8801866742387'
+									WHERE `sessionsid` =  '11111'
+[17-Feb-2019 23:23:31 Asia/Kolkata] aaaaaa{"sessionsid":"11111","tel":"tel:8801866742387","menu":"name","pg":"0","created_at":"2019-02-17 23:23:17","others":"main","name":null,"msisdn":"8801866742387","age":null,"sex":null,"update_ts":"2019-02-17 23:23:21"}
+[17-Feb-2019 23:23:31 Asia/Kolkata] menu - name
+[17-Feb-2019 23:23:31 Asia/Kolkata] type---name
+[17-Feb-2019 23:23:31 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  'age-validate',
+									`pg` =  '0',
+									`name` =  'Kash',
+									`others` =  'Kash'
+									WHERE `sessionsid` =  '11111'
+[17-Feb-2019 23:23:32 Asia/Kolkata] set user
+[17-Feb-2019 23:23:32 Asia/Kolkata] INSERT INTO `tbl_subscriber` (`name`, `msisdn`) VALUES 
+					('Kash', '8801866742387')
+[17-Feb-2019 23:23:40 Asia/Kolkata] aaaaaa{"sessionsid":"11111","tel":"tel:8801866742387","menu":"age-validate","pg":"0","created_at":"2019-02-17 23:23:17","others":"Kash","name":"Kash","msisdn":"8801866742387","age":null,"sex":null,"update_ts":"2019-02-17 23:23:31"}
+[17-Feb-2019 23:23:40 Asia/Kolkata] menu - age-validate
+[17-Feb-2019 23:23:40 Asia/Kolkata] valid
+[17-Feb-2019 23:23:40 Asia/Kolkata] type---age
+[17-Feb-2019 23:23:40 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  'registered',
+									`pg` =  '0',
+									`age` =  '25',
+									`others` =  'age-validate'
+									WHERE `sessionsid` =  '11111'
+[17-Feb-2019 23:23:49 Asia/Kolkata] aaaaaa{"sessionsid":"11111","tel":"tel:8801866742387","menu":"registered","pg":"0","created_at":"2019-02-17 23:23:17","others":"age-validate","name":"Kash","msisdn":"8801866742387","age":"25","sex":null,"update_ts":"2019-02-17 23:23:40"}
+[17-Feb-2019 23:23:49 Asia/Kolkata] menu - registered
+[17-Feb-2019 23:23:49 Asia/Kolkata] type---sex
+[17-Feb-2019 23:23:49 Asia/Kolkata] INSERT INTO `tbl_subscriber` (`name`, `sex`, `age`, `msisdn`)
+				SELECT `name`, `sex`, `age`, `msisdn`  FROM `sessions` WHERE `sessionsid` = "11111"
+[17-Feb-2019 23:23:49 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  '',
+									`pg` =  '0',
+									`sex` =  '1',
+									`others` =  'registered'
+									WHERE `sessionsid` =  '11111'

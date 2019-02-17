@@ -55,41 +55,63 @@ class Operations
 	}
 
 
-	public function saveSesssion($conn)
+	public function saveSesssion($conn, $type = null, $data = null)
 	{
-		$sql_session = "UPDATE  `sessions` SET 
+		error_log('type---' . $type);
+		switch ($type) {
+
+			case (null):
+				$sql_session = "UPDATE  `sessions` SET 
 									`menu` =  '" . $this->session_menu . "',
 									`pg` =  '" . $this->session_pg . "',
+									`others` =  '" . $this->session_others . "',
+									`msisdn` =  '" . $data . "'
+									WHERE `sessionsid` =  '" . $this->session_id . "'";
+				break;
+
+			case ('name'):
+				$sql_session = "UPDATE  `sessions` SET 
+									`menu` =  '" . $this->session_menu . "',
+									`pg` =  '" . $this->session_pg . "',
+									`name` =  '" . $data . "',
 									`others` =  '" . $this->session_others . "'
 									WHERE `sessionsid` =  '" . $this->session_id . "'";
-		// $quy_sessions=mysql_query($sql_session);
+				break;
 
+			case ('age'):
+				$sql_session = "UPDATE  `sessions` SET 
+									`menu` =  '" . $this->session_menu . "',
+									`pg` =  '" . $this->session_pg . "',
+									`age` =  '" . $data . "',
+									`others` =  '" . $this->session_others . "'
+									WHERE `sessionsid` =  '" . $this->session_id . "'";
+				break;
+
+			case ('sex'):
+				$sql_session = "UPDATE  `sessions` SET 
+									`menu` =  '" . $this->session_menu . "',
+									`pg` =  '" . $this->session_pg . "',
+									`sex` =  '" . $data . "',
+									`others` =  '" . $this->session_others . "'
+									WHERE `sessionsid` =  '" . $this->session_id . "'";
+
+				$sql = 'INSERT INTO `tbl_subscriber` (`name`, `sex`, `age`, `msisdn`)
+				SELECT `name`, `sex`, `age`, `msisdn`  FROM `sessions` WHERE `sessionsid` = "' . $this->session_id . '"';
+				error_log($sql);
+				break;
+
+		}
+
+		error_log('update---' . $sql_session);
 		$quy_sessions = $conn->prepare($sql_session);
 
 		// execute the query
 		$quy_sessions->execute();
-	}
 
-
-	//add user
-	public function setName($name, $conn)
-	{
-		error_log('set user');
-
-		try {
-			$sql_sessions = "INSERT INTO `tbl_subscriber` (`name`) VALUES 
-					('" . $name . "')";
-
-
-			$stmt = $conn->prepare($sql_sessions);
-			$stmt->execute();
-		} catch (Exception $e) {
-			error_log(json_encode($e));
+		if (@$sql) {
+			$conn->prepare($sql)->execute();
 		}
-		
-				//$quy_sessions=mysql_query($sql_sessions);
 	}
-
 
 
 }

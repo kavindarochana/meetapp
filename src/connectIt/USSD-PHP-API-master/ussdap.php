@@ -5,6 +5,7 @@ ini_set('error_log', 'ussd-app-error.log');
 require 'libs/MoUssdReceiver.php';
 require 'libs/MtUssdSender.php';
 require 'class/operationsClass.php';
+require 'class/Subscriber.php';
 //require 'log.php';
 require 'db.php';
 
@@ -22,6 +23,7 @@ if ($production == false) {
 $receiver = new UssdReceiver();
 $sender = new UssdSender($ussdserverurl, 'APP_000001', 'password');
 $operations = new Operations();
+$subs = new Subscriber();
 
 $receiverSessionId = $receiver->getSessionId();
 $content = $receiver->getMessage(); // get the message content
@@ -33,16 +35,6 @@ $version = $receiver->getVersion(); // get the version
 $sessionId = $receiver->getSessionId(); // get the session ID;
 $ussdOperation = $receiver->getUssdOperation(); // get the ussd operation
 
-
-// $responseMsg = array(
-// 		 "main" =>  
-//     "T-Shirts
-// 1. Small
-// 2. Medium
-// 3. Large
-
-// 99. Exit"
-// );
 
 if (!$subscriber) {
 
@@ -79,26 +71,20 @@ if (!$subscriber) {
 		$operations->session_id = $sessiondetails['sessionsid'];
 
 		error_log('aaaaaa' . json_encode($sessiondetails));
-
+		error_log('menu - ' . $cuch_menu);
 		switch ($cuch_menu) {
 
 			case "main": 	// Following is the main menu
 				switch ($receiver->getMessage()) {
 					case "1":
+
 						$operations->session_menu = "name";
-						$operations->saveSesssion($conn);
+						$operations->saveSesssion($conn, null, trim($address, 'tel:'));
 						$sender->ussd($sessionId, 'Enter Your Name', $address);
 						break;
-					// case "2":
-					// 	$operations->session_menu = "medium";
-					// 	$operations->saveSesssion($conn);
-					// 	$sender->ussd($sessionId, 'Enter Your ID', $address);
-					// 	break;
 					case "99":
-						$operations->session_menu = "large";
 						$operations->saveSesssion($conn);
 						$sender->ussd($sessionId, 'You have successfully exit from FZone', $address, 'mt-fin');
-						break;
 						break;
 					default:
 						$operations->session_menu = "main";
@@ -111,37 +97,39 @@ if (!$subscriber) {
 			case "name":
 				$operations->session_menu = "age-validate";
 				$operations->session_others = $receiver->getMessage();
-				$operations->saveSesssion($conn);
+				$operations->saveSesssion($conn, 'name', $receiver->getMessage());
 				$sender->ussd($sessionId, 'Hi ' . $receiver->getMessage() . ' Please enter your Age ', $address, 'mt-fin');
-				$operations->setName($receiver->getMessage(), $conn);
+				$subs->setUser($receiver->getMessage(), trim($address, 'tel:'), $conn);
 				break;
 
 			case 'age-validate':
 				if (!ctype_digit($receiver->getMessage())) {
-					$operations->session_menu = "age-validate";
+
 					$sender->ussd($sessionId, 'Hi Please enter Valid Age ', $address, 'mt-fin');
+					$operations->session_menu = "age-validate";
 
 				} else {
 					error_log('valid');
+					//$subs->setAge($a);
+				
 				//	$sender->ussd($sessionId, 'Please select your sex', $address, 'mt-fin');
 					$responseMsg = array(
-		"main" =>
-			"Please select your sex
+						"main" =>
+							"Please select your sex
 1. Male
 2. Female
 	
 99. Exit"
 					);
 					$sender->ussd($sessionId, $responseMsg["main"], $address);
+					$operations->session_menu = "registered";
+					$operations->saveSesssion($conn, 'age', $receiver->getMessage());
 				}
+
 				break;
-
-
-
-
-
-			case "large":
-				$sender->ussd($sessionId, 'You Purchased a large T-Shirt Your ID ' . $receiver->getMessage(), $address, 'mt-fin');
+			case "registered":
+				$operations->saveSesssion($conn, 'sex', $receiver->getMessage());
+				$sender->ussd($sessionId, 'You have succefully registerd with FZone, We will update your details via SMS and please redial after few movement ', $address, 'mt-fin');
 				break;
 
 			default:
@@ -151,5 +139,7 @@ if (!$subscriber) {
 				break;
 		}
 	}
+
+} else {
 
 }
