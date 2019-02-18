@@ -57,6 +57,7 @@ class Operations
 
 	public function saveSesssion($conn, $type = null, $data = null)
 	{
+		$sqlU = null;
 		error_log('type---' . $type);
 		switch ($type) {
 
@@ -95,11 +96,21 @@ class Operations
 									`others` =  '" . $this->session_others . "'
 									WHERE `sessionsid` =  '" . $this->session_id . "'";
 
-				$sql = 'INSERT INTO `tbl_subscriber` (`name`, `sex`, `age`, `msisdn`)
+				$sqlU = 'INSERT INTO `tbl_subscriber` (`name`, `sex`, `age`, `msisdn`)
 				SELECT `name`, `sex`, `age`, `msisdn`  FROM `sessions` WHERE `sessionsid` = "' . $this->session_id . '"';
-				error_log($sql);
+
 				break;
 
+			case ('menu'):
+				$sql_session = "UPDATE  `sessions` SET 
+									`menu` =  '" . $data . "' 
+									WHERE `sessionsid` =  '" . $this->session_id . "'";
+				break;
+			case ('gender'):
+				$sql_session = "UPDATE  `sessions` SET 
+									`sex` =  '" . $data . "' 
+									WHERE `sessionsid` =  '" . $this->session_id . "'";
+				break;
 		}
 
 		error_log('update---' . $sql_session);
@@ -108,8 +119,10 @@ class Operations
 		// execute the query
 		$quy_sessions->execute();
 
-		if (@$sql) {
-			$conn->prepare($sql)->execute();
+		if ($sqlU) {
+			$conn->prepare($sqlU)->execute();
+			error_log('sql U ----' . $sqlU);
+			//TODO::Subscription API
 		}
 	}
 
