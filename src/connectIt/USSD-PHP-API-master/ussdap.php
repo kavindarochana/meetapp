@@ -171,11 +171,13 @@ if (!@$subInfo['msisdn']) {
 		error_log('subscriber - mo init');
 		try {
 
-			$sessionArraryNew = array("sessionid" => $sessionId, "tel" => $address, "menu" => "gender-init", "pg" => "", "others" => "name");
+			error_log('enter--------' . $receiver->getMessage());
+			$sessionArraryNew = array("sessionid" => $sessionId, "tel" => $address, "menu" => "main", "pg" => "", "others" => "name");
 
 			$operations->setSessions($sessionArraryNew, $conn);
 			error_log(json_encode($sessionArraryNew));
 
+			//Response to user
 			$sender->ussd($sessionId, $responseMsg["subscriber-init"], $address);
 
 		} catch (Exception $e) {
@@ -184,8 +186,7 @@ if (!@$subInfo['msisdn']) {
 
 	} else {
 
-		$flag = 0;
-
+		error_log('------------sub continue----------------');
 		$sessiondetails = $operations->getSession($sessionId, $conn);
 		$cuch_menu = $sessiondetails['menu'];
 		$operations->session_id = $sessiondetails['sessionsid'];
@@ -198,24 +199,33 @@ if (!@$subInfo['msisdn']) {
 				switch ($receiver->getMessage()) {
 					case "1":
 
-						$operations->session_menu = "name";
-						$operations->saveSesssion($conn, null, $msisdn);
-						$sender->ussd($sessionId, 'Enter Your Name', $address);
+						$operations->session_menu = "gender-init";
+						$sender->ussd($sessionId, $responseMsg['gender-init'], $address);
+						$operations->saveSesssion($conn, 'menu', 'gender-init');
+						break;
+
+					case "2":
+
+						$operations->session_menu = "gender-init";;
+						$sender->ussd($sessionId, $responseMsg['gender-init'], $address);
+						break;
+
+					case "3":
+
+						$operations->session_menu = "gender-init";;
+						$sender->ussd($sessionId, $responseMsg['gender-init'], $address);
 						break;
 					case "99":
+
 						$operations->saveSesssion($conn);
 						$sender->ussd($sessionId, 'You have successfully exit from FZone', $address, 'mt-fin');
 						break;
-					default:
-						$operations->session_menu = "main";
-						$operations->saveSesssion($conn);
-						$sender->ussd($sessionId, $responseMsg["main"], $address);
-						break;
+
 				}
 				break;
 
 			case "gender-init":
-
+				error_log('---------gender--------------check');
 				$operations->session_others = $receiver->getMessage();
 
 				$sender->ussd($sessionId, $responseMsg['gender-init'], $address, 'mt-fin');
@@ -224,26 +234,56 @@ if (!@$subInfo['msisdn']) {
 				if ($receiver->getMessage() == 1) {
 					error_log('---------male--------------');
 					//$sender->ussd($sessionId, $responseMsg["gender-male"], $address);
-					$operations->saveSesssion($conn, 'menu', 'gender-male');
+					$operations->saveSesssion($conn, 'menu', 'age-init');
 					$operations->saveSesssion($conn, 'gender', 1);
-					$operations->session_menu = "gender-male";
+					$operations->session_menu = "age-init";
 				} else {
+					error_log('---------female--------------');
 					//$sender->ussd($sessionId, $responseMsg["gender-female"], $address);
-					$operations->saveSesssion($conn, 'menu', 'gender-female');
+					$operations->saveSesssion($conn, 'menu', 'age-init');
 					$operations->saveSesssion($conn, 'gender', 2);
-					$operations->session_menu = "gender-female";
+					$operations->session_menu = "age-init";
 				}
 				break;
 
-			case "gender-male":
+			// case "gender-male":
+			// 	$sender->ussd($sessionId, 'male', $address, 'mt-fin');
+			// 	//$operations->saveSesssion($conn, 'age', $receiver->getMessage());
+			// 	break;
+
+			// case "gender-female":
+			// 	//$operations->saveSesssion($conn, 'age', $receiver->getMessage());
+			// 	$sender->ussd($sessionId, 'female', $address, 'mt-fin');
+			// 	break;
+
+			case "age-init":
+				//$operations->saveSesssion($conn, 'age', $receiver->getMessage());
 				$sender->ussd($sessionId, $responseMsg['age-limit'], $address, 'mt-fin');
+				// $operations->saveSesssion($conn, 'menu', 'friend-list-1');
 				$operations->saveSesssion($conn, 'age', $receiver->getMessage());
+				$operations->session_menu = "age-init";
 				break;
 
-			case "gender-female":
-				$operations->saveSesssion($conn, 'age', $receiver->getMessage());
-				$sender->ussd($sessionId, $responseMsg['age-limit'], $address, 'mt-fin');
-				break;
+			case "friend-list-1":
+			//$operations->saveSesssion($conn, 'age', $receiver->getMessage());
+			$sender->ussd($sessionId, "flist 1", $address, 'mt-fin');
+			// $operations->saveSesssion($conn, 'menu', 'friend-list-1');
+			// $operations->saveSesssion($conn, 'age', $receiver->getMessage());
+			// $operations->session_menu = "age-init";
+			break;	
+
+			case "friend-list-2":
+			//$operations->saveSesssion($conn, 'age', $receiver->getMessage());
+			$sender->ussd($sessionId, "flist 1", $address, 'mt-fin');
+			// $operations->saveSesssion($conn, 'menu', 'friend-list-1');
+			// $operations->saveSesssion($conn, 'age', $receiver->getMessage());
+			// $operations->session_menu = "age-init";
+			break;
+
+			// case "qqq":
+			// 	$operations->saveSesssion($conn, 'age', $receiver->getMessage());
+			// 	$sender->ussd($sessionId, 'aaaaaa', $address);
+			// 	break;
 
 			default:
 				$operations->session_menu = "main";
