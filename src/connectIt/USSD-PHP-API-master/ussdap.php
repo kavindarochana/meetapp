@@ -144,7 +144,7 @@ if (!@$subInfo['msisdn']) {
 
 } else {
 	error_log('already registered');
-
+	$gender = $subInfo['sex'] == '1' ? 'Male':'Female';
 	$responseMsg = [
 		"subscriber-init" =>
 			'Hi ' . $subInfo['name'] . ' Welcome again to FZone
@@ -164,7 +164,24 @@ if (!@$subInfo['msisdn']) {
 1. 18-30
 2. 30-40
 3. Above 40
-4. Any Age'
+4. Any Age',
+
+'user-info' => 'Name : '.$subInfo['name'].',
+UID : '.$subInfo['id'].'
+Age : '.$subInfo['age'].',
+Gender : '.$gender.'
+
+93. Back',		
+
+"friend-list-1" => ' Select age range for looking for
+	
+1. KS
+2. KSKS
+3. SK
+4. SKSK
+5. KSSK
+
+92.Next'
 	];
 
 	if ($ussdOperation == "mo-init") {
@@ -187,9 +204,33 @@ if (!@$subInfo['msisdn']) {
 	} else {
 
 		error_log('------------sub continue----------------');
+		error_log('------------pressed---------------'.$receiver->getMessage());
+
 		$sessiondetails = $operations->getSession($sessionId, $conn);
 		$cuch_menu = $sessiondetails['menu'];
 		$operations->session_id = $sessiondetails['sessionsid'];
+
+		error_log("rcvr -".$receiver->getMessage().'***** cuch===='.$sessiondetails['menu']);
+		if ($receiver->getMessage() == 93 &&  $sessiondetails['menu'] == "main") {
+			$sessionArraryNew = array("sessionid" => $sessionId, "tel" => $address, "menu" => "main", "pg" => "", "others" => "name");
+
+			$operations->setSessions($sessionArraryNew, $conn);
+			error_log(json_encode($sessionArraryNew));
+
+			//Response to user
+			$sender->ussd($sessionId, $responseMsg["subscriber-init"], $address);
+		}
+
+		if ($receiver->getMessage() == 92 &&  $sessiondetails['menu'] == "friend-list-1") {
+			$cuch_menu = 'friend-list-2';
+			error_log('-------------------92 flist 1');
+		} 
+
+		if ($receiver->getMessage() == 93 &&  $sessiondetails['menu'] == "friend-list-2") {
+			$cuch_menu = 'friend-list-1';
+		}
+		
+		
 
 		error_log('session' . json_encode($sessiondetails));
 		error_log('subscriber menu - ' . $cuch_menu);
@@ -212,8 +253,8 @@ if (!@$subInfo['msisdn']) {
 
 					case "3":
 
-						$operations->session_menu = "gender-init";;
-						$sender->ussd($sessionId, $responseMsg['gender-init'], $address);
+						$operations->session_menu = "user-info";
+						$sender->ussd($sessionId, $responseMsg['user-info'], $address);
 						break;
 					case "99":
 
@@ -228,7 +269,7 @@ if (!@$subInfo['msisdn']) {
 				error_log('---------gender--------------check');
 				$operations->session_others = $receiver->getMessage();
 
-				$sender->ussd($sessionId, $responseMsg['gender-init'], $address, 'mt-fin');
+				$sender->ussd($sessionId, $responseMsg['age-limit'], $address, 'mt-fin');
 				//$subs->setUser($receiver->getMessage(), $msisdn, $conn);
 
 				if ($receiver->getMessage() == 1) {
@@ -237,6 +278,7 @@ if (!@$subInfo['msisdn']) {
 					$operations->saveSesssion($conn, 'menu', 'age-init');
 					$operations->saveSesssion($conn, 'gender', 1);
 					$operations->session_menu = "age-init";
+
 				} else {
 					error_log('---------female--------------');
 					//$sender->ussd($sessionId, $responseMsg["gender-female"], $address);
@@ -261,20 +303,33 @@ if (!@$subInfo['msisdn']) {
 				$sender->ussd($sessionId, $responseMsg['age-limit'], $address, 'mt-fin');
 				// $operations->saveSesssion($conn, 'menu', 'friend-list-1');
 				$operations->saveSesssion($conn, 'age', $receiver->getMessage());
-				$operations->session_menu = "age-init";
+				// $operations->session_menu = "age-init";
+				if($receiver->getMessage() == '1' ) {error_log('aa---$'.$receiver->getMessage());
+					$operations->saveSesssion($conn, 'menu', 'friend-list-1');
+					//$operations->session_menu = "friend-list-1";
+					$sender->ussd($sessionId, $responseMsg['friend-list-1'], $address, 'mt-fin');
+				}else if($receiver->getMessage() == '2'){
+					$operations->saveSesssion($conn, 'menu', 'friend-list-2');
+					//$operations->session_menu = "friend-list-1";
+					$sender->ussd($sessionId, 'friend 2', $address);
+				} else {
+					$operations->saveSesssion($conn, 'menu', 'friend-list-3');
+					//$operations->session_menu = "friend-list-1";
+					$sender->ussd($sessionId, 'friend 3', $address);
+				}
 				break;
 
 			case "friend-list-1":
 			//$operations->saveSesssion($conn, 'age', $receiver->getMessage());
-			$sender->ussd($sessionId, "flist 1", $address, 'mt-fin');
-			// $operations->saveSesssion($conn, 'menu', 'friend-list-1');
+			$sender->ussd($sessionId, $responseMsg['friend-list-1'], $address, 'mt-fin');
+			$operations->saveSesssion($conn, 'menu', 'friend-list-1');
 			// $operations->saveSesssion($conn, 'age', $receiver->getMessage());
 			// $operations->session_menu = "age-init";
 			break;	
 
 			case "friend-list-2":
 			//$operations->saveSesssion($conn, 'age', $receiver->getMessage());
-			$sender->ussd($sessionId, "flist 1", $address, 'mt-fin');
+			$sender->ussd($sessionId, "flist 2", $address);
 			// $operations->saveSesssion($conn, 'menu', 'friend-list-1');
 			// $operations->saveSesssion($conn, 'age', $receiver->getMessage());
 			// $operations->session_menu = "age-init";

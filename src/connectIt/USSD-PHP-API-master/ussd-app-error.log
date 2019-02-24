@@ -4007,3 +4007,1697 @@ Stack trace:
 #1 /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/ussdap.php(263): Operations->saveSesssion(Object(PDO), 'age', 'friend-list-1')
 #2 {main}
   thrown in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/class/operationsClass.php on line 120
+[19-Feb-2019 22:37:00 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[19-Feb-2019 22:37:00 Asia/Kolkata] already registered
+[19-Feb-2019 22:37:00 Asia/Kolkata] ------------sub continue----------------
+[19-Feb-2019 22:37:00 Asia/Kolkata] session{"sessionsid":"0111232111","tel":"tel:8801866742387","menu":"age-init","pg":"","created_at":"2019-02-19 21:39:37","others":"name","name":null,"msisdn":null,"age":null,"sex":"1","update_ts":"2019-02-19 21:39:47"}
+[19-Feb-2019 22:37:00 Asia/Kolkata] subscriber menu - age-init
+[19-Feb-2019 22:37:00 Asia/Kolkata] type---age
+[19-Feb-2019 22:37:00 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  '',
+									`pg` =  '0',
+									`age` =  '1',
+									`others` =  'age-init'
+									WHERE `sessionsid` =  '0111232111'
+[20-Feb-2019 07:29:09 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[20-Feb-2019 07:29:09 Asia/Kolkata] already registered
+[20-Feb-2019 07:29:09 Asia/Kolkata] subscriber - mo init
+[20-Feb-2019 07:29:09 Asia/Kolkata] enter--------*213*99#
+[20-Feb-2019 07:29:09 Asia/Kolkata] set session
+[20-Feb-2019 07:29:09 Asia/Kolkata] {"sessionid":"123","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[20-Feb-2019 07:29:18 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[20-Feb-2019 07:29:18 Asia/Kolkata] already registered
+[20-Feb-2019 07:29:18 Asia/Kolkata] ------------sub continue----------------
+[20-Feb-2019 07:29:18 Asia/Kolkata] session{"sessionsid":"123","tel":"tel:8801866742387","menu":"main","pg":"","created_at":"2019-02-20 07:29:09","others":"name","name":null,"msisdn":null,"age":null,"sex":null,"update_ts":"2019-02-20 07:29:09"}
+[20-Feb-2019 07:29:18 Asia/Kolkata] subscriber menu - main
+[20-Feb-2019 07:29:18 Asia/Kolkata] type---menu
+[20-Feb-2019 07:29:18 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  'gender-init' 
+									WHERE `sessionsid` =  '123'
+[20-Feb-2019 07:29:21 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[20-Feb-2019 07:29:21 Asia/Kolkata] already registered
+[20-Feb-2019 07:29:21 Asia/Kolkata] ------------sub continue----------------
+[20-Feb-2019 07:29:21 Asia/Kolkata] session{"sessionsid":"123","tel":"tel:8801866742387","menu":"gender-init","pg":"","created_at":"2019-02-20 07:29:09","others":"name","name":null,"msisdn":null,"age":null,"sex":null,"update_ts":"2019-02-20 07:29:18"}
+[20-Feb-2019 07:29:21 Asia/Kolkata] subscriber menu - gender-init
+[20-Feb-2019 07:29:21 Asia/Kolkata] ---------gender--------------check
+[20-Feb-2019 07:29:21 Asia/Kolkata] ---------male--------------
+[20-Feb-2019 07:29:21 Asia/Kolkata] type---menu
+[20-Feb-2019 07:29:21 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  'age-init' 
+									WHERE `sessionsid` =  '123'
+[20-Feb-2019 07:29:21 Asia/Kolkata] type---gender
+[20-Feb-2019 07:29:21 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`sex` =  '1' 
+									WHERE `sessionsid` =  '123'
+[20-Feb-2019 07:29:39 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[20-Feb-2019 07:29:39 Asia/Kolkata] already registered
+[20-Feb-2019 07:29:39 Asia/Kolkata] subscriber - mo init
+[20-Feb-2019 07:29:39 Asia/Kolkata] enter--------1
+[20-Feb-2019 07:29:39 Asia/Kolkata] set session
+[20-Feb-2019 07:29:39 Asia/Kolkata] {"sessionid":"1231","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[20-Feb-2019 07:29:42 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[20-Feb-2019 07:29:42 Asia/Kolkata] already registered
+[20-Feb-2019 07:29:42 Asia/Kolkata] ------------sub continue----------------
+[20-Feb-2019 07:29:42 Asia/Kolkata] session{"sessionsid":"1231","tel":"tel:8801866742387","menu":"main","pg":"","created_at":"2019-02-20 07:29:39","others":"name","name":null,"msisdn":null,"age":null,"sex":null,"update_ts":"2019-02-20 07:29:39"}
+[20-Feb-2019 07:29:42 Asia/Kolkata] subscriber menu - main
+[20-Feb-2019 07:29:42 Asia/Kolkata] type---menu
+[20-Feb-2019 07:29:42 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  'gender-init' 
+									WHERE `sessionsid` =  '1231'
+[20-Feb-2019 07:29:45 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[20-Feb-2019 07:29:45 Asia/Kolkata] already registered
+[20-Feb-2019 07:29:45 Asia/Kolkata] ------------sub continue----------------
+[20-Feb-2019 07:29:45 Asia/Kolkata] session{"sessionsid":"1231","tel":"tel:8801866742387","menu":"gender-init","pg":"","created_at":"2019-02-20 07:29:39","others":"name","name":null,"msisdn":null,"age":null,"sex":null,"update_ts":"2019-02-20 07:29:42"}
+[20-Feb-2019 07:29:45 Asia/Kolkata] subscriber menu - gender-init
+[20-Feb-2019 07:29:45 Asia/Kolkata] ---------gender--------------check
+[20-Feb-2019 07:29:45 Asia/Kolkata] ---------male--------------
+[20-Feb-2019 07:29:45 Asia/Kolkata] type---menu
+[20-Feb-2019 07:29:45 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  'age-init' 
+									WHERE `sessionsid` =  '1231'
+[20-Feb-2019 07:29:45 Asia/Kolkata] type---gender
+[20-Feb-2019 07:29:45 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`sex` =  '1' 
+									WHERE `sessionsid` =  '1231'
+[21-Feb-2019 21:43:46 Asia/Kolkata] PHP Fatal error:  Uncaught Exception: Some of the required parameters are not provided in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/libs/MoUssdReceiver.php:40
+Stack trace:
+#0 /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/ussdap.php(23): UssdReceiver->__construct()
+#1 {main}
+  thrown in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/libs/MoUssdReceiver.php on line 40
+[21-Feb-2019 21:43:58 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[21-Feb-2019 21:43:58 Asia/Kolkata] already registered
+[21-Feb-2019 21:43:58 Asia/Kolkata] subscriber - mo init
+[21-Feb-2019 21:43:58 Asia/Kolkata] enter--------*213*99#
+[21-Feb-2019 21:43:58 Asia/Kolkata] set session
+[21-Feb-2019 21:43:58 Asia/Kolkata] {"errorInfo":["23000",1062,"Duplicate entry '123' for key 'PRIMARY'"]}
+[21-Feb-2019 21:43:58 Asia/Kolkata] {"sessionid":"123","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[21-Feb-2019 21:44:06 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[21-Feb-2019 21:44:06 Asia/Kolkata] already registered
+[21-Feb-2019 21:44:06 Asia/Kolkata] ------------sub continue----------------
+[21-Feb-2019 21:44:06 Asia/Kolkata] session{"sessionsid":"123","tel":"tel:8801866742387","menu":"age-init","pg":"","created_at":"2019-02-20 07:29:09","others":"name","name":null,"msisdn":null,"age":null,"sex":"1","update_ts":"2019-02-20 07:29:21"}
+[21-Feb-2019 21:44:06 Asia/Kolkata] subscriber menu - age-init
+[21-Feb-2019 21:44:06 Asia/Kolkata] type---age
+[21-Feb-2019 21:44:06 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  '',
+									`pg` =  '0',
+									`age` =  '1',
+									`others` =  'age-init'
+									WHERE `sessionsid` =  '123'
+[21-Feb-2019 21:44:16 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[21-Feb-2019 21:44:16 Asia/Kolkata] already registered
+[21-Feb-2019 21:44:16 Asia/Kolkata] ------------sub continue----------------
+[21-Feb-2019 21:44:16 Asia/Kolkata] session{"sessionsid":"123","tel":"tel:8801866742387","menu":"","pg":"0","created_at":"2019-02-20 07:29:09","others":"age-init","name":null,"msisdn":null,"age":"1","sex":"1","update_ts":"2019-02-21 21:44:06"}
+[21-Feb-2019 21:44:16 Asia/Kolkata] subscriber menu - 
+[21-Feb-2019 21:44:16 Asia/Kolkata] type---
+[21-Feb-2019 21:44:16 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  'main',
+									`pg` =  '0',
+									`others` =  '',
+									`msisdn` =  ''
+									WHERE `sessionsid` =  '123'
+[21-Feb-2019 22:50:11 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[21-Feb-2019 22:50:11 Asia/Kolkata] already registered
+[21-Feb-2019 22:50:11 Asia/Kolkata] ------------sub continue----------------
+[21-Feb-2019 22:50:11 Asia/Kolkata] session{"sessionsid":"1231","tel":"tel:8801866742387","menu":"age-init","pg":"","created_at":"2019-02-20 07:29:39","others":"name","name":null,"msisdn":null,"age":null,"sex":"1","update_ts":"2019-02-20 07:29:45"}
+[21-Feb-2019 22:50:11 Asia/Kolkata] subscriber menu - age-init
+[21-Feb-2019 22:50:11 Asia/Kolkata] type---age
+[21-Feb-2019 22:50:11 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  '',
+									`pg` =  '0',
+									`age` =  '1',
+									`others` =  'age-init'
+									WHERE `sessionsid` =  '1231'
+[21-Feb-2019 22:50:16 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[21-Feb-2019 22:50:16 Asia/Kolkata] already registered
+[21-Feb-2019 22:50:16 Asia/Kolkata] subscriber - mo init
+[21-Feb-2019 22:50:16 Asia/Kolkata] enter--------1
+[21-Feb-2019 22:50:16 Asia/Kolkata] set session
+[21-Feb-2019 22:50:16 Asia/Kolkata] {"errorInfo":["23000",1062,"Duplicate entry '1231' for key 'PRIMARY'"]}
+[21-Feb-2019 22:50:16 Asia/Kolkata] {"sessionid":"1231","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[21-Feb-2019 22:50:21 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[21-Feb-2019 22:50:21 Asia/Kolkata] already registered
+[21-Feb-2019 22:50:21 Asia/Kolkata] ------------sub continue----------------
+[21-Feb-2019 22:50:21 Asia/Kolkata] session{"sessionsid":"1231","tel":"tel:8801866742387","menu":"","pg":"0","created_at":"2019-02-20 07:29:39","others":"age-init","name":null,"msisdn":null,"age":"1","sex":"1","update_ts":"2019-02-21 22:50:11"}
+[21-Feb-2019 22:50:21 Asia/Kolkata] subscriber menu - 
+[21-Feb-2019 22:50:21 Asia/Kolkata] type---
+[21-Feb-2019 22:50:21 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  'main',
+									`pg` =  '0',
+									`others` =  '',
+									`msisdn` =  ''
+									WHERE `sessionsid` =  '1231'
+[21-Feb-2019 22:50:34 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[21-Feb-2019 22:50:34 Asia/Kolkata] already registered
+[21-Feb-2019 22:50:34 Asia/Kolkata] subscriber - mo init
+[21-Feb-2019 22:50:34 Asia/Kolkata] enter--------1
+[21-Feb-2019 22:50:34 Asia/Kolkata] set session
+[21-Feb-2019 22:50:34 Asia/Kolkata] {"sessionid":"12311","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[21-Feb-2019 22:50:40 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[21-Feb-2019 22:50:40 Asia/Kolkata] already registered
+[21-Feb-2019 22:50:40 Asia/Kolkata] ------------sub continue----------------
+[21-Feb-2019 22:50:40 Asia/Kolkata] session{"sessionsid":"12311","tel":"tel:8801866742387","menu":"main","pg":"","created_at":"2019-02-21 22:50:34","others":"name","name":null,"msisdn":null,"age":null,"sex":null,"update_ts":"2019-02-21 22:50:34"}
+[21-Feb-2019 22:50:40 Asia/Kolkata] subscriber menu - main
+[21-Feb-2019 22:50:40 Asia/Kolkata] type---menu
+[21-Feb-2019 22:50:40 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  'gender-init' 
+									WHERE `sessionsid` =  '12311'
+[21-Feb-2019 22:50:43 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[21-Feb-2019 22:50:43 Asia/Kolkata] already registered
+[21-Feb-2019 22:50:43 Asia/Kolkata] ------------sub continue----------------
+[21-Feb-2019 22:50:43 Asia/Kolkata] session{"sessionsid":"12311","tel":"tel:8801866742387","menu":"gender-init","pg":"","created_at":"2019-02-21 22:50:34","others":"name","name":null,"msisdn":null,"age":null,"sex":null,"update_ts":"2019-02-21 22:50:40"}
+[21-Feb-2019 22:50:43 Asia/Kolkata] subscriber menu - gender-init
+[21-Feb-2019 22:50:43 Asia/Kolkata] ---------gender--------------check
+[21-Feb-2019 22:50:43 Asia/Kolkata] ---------male--------------
+[21-Feb-2019 22:50:43 Asia/Kolkata] type---menu
+[21-Feb-2019 22:50:43 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  'age-init' 
+									WHERE `sessionsid` =  '12311'
+[21-Feb-2019 22:50:43 Asia/Kolkata] type---gender
+[21-Feb-2019 22:50:43 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`sex` =  '1' 
+									WHERE `sessionsid` =  '12311'
+[21-Feb-2019 22:51:17 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[21-Feb-2019 22:51:17 Asia/Kolkata] already registered
+[21-Feb-2019 22:51:17 Asia/Kolkata] ------------sub continue----------------
+[21-Feb-2019 22:51:17 Asia/Kolkata] session{"sessionsid":"12311","tel":"tel:8801866742387","menu":"age-init","pg":"","created_at":"2019-02-21 22:50:34","others":"name","name":null,"msisdn":null,"age":null,"sex":"1","update_ts":"2019-02-21 22:50:43"}
+[21-Feb-2019 22:51:17 Asia/Kolkata] subscriber menu - age-init
+[21-Feb-2019 22:51:17 Asia/Kolkata] type---age
+[21-Feb-2019 22:51:17 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  '',
+									`pg` =  '0',
+									`age` =  '1',
+									`others` =  'age-init'
+									WHERE `sessionsid` =  '12311'
+[21-Feb-2019 22:51:27 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[21-Feb-2019 22:51:27 Asia/Kolkata] already registered
+[21-Feb-2019 22:51:27 Asia/Kolkata] ------------sub continue----------------
+[21-Feb-2019 22:51:27 Asia/Kolkata] session{"sessionsid":"12311","tel":"tel:8801866742387","menu":"","pg":"0","created_at":"2019-02-21 22:50:34","others":"age-init","name":null,"msisdn":null,"age":"1","sex":"1","update_ts":"2019-02-21 22:51:17"}
+[21-Feb-2019 22:51:27 Asia/Kolkata] subscriber menu - 
+[21-Feb-2019 22:51:27 Asia/Kolkata] type---
+[21-Feb-2019 22:51:27 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  'main',
+									`pg` =  '0',
+									`others` =  '',
+									`msisdn` =  ''
+									WHERE `sessionsid` =  '12311'
+[21-Feb-2019 22:52:09 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[21-Feb-2019 22:52:09 Asia/Kolkata] already registered
+[21-Feb-2019 22:52:09 Asia/Kolkata] subscriber - mo init
+[21-Feb-2019 22:52:09 Asia/Kolkata] enter--------1
+[21-Feb-2019 22:52:09 Asia/Kolkata] set session
+[21-Feb-2019 22:52:09 Asia/Kolkata] {"sessionid":"123119","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[21-Feb-2019 22:52:15 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[21-Feb-2019 22:52:15 Asia/Kolkata] already registered
+[21-Feb-2019 22:52:15 Asia/Kolkata] ------------sub continue----------------
+[21-Feb-2019 22:52:15 Asia/Kolkata] session{"sessionsid":"123119","tel":"tel:8801866742387","menu":"main","pg":"","created_at":"2019-02-21 22:52:09","others":"name","name":null,"msisdn":null,"age":null,"sex":null,"update_ts":"2019-02-21 22:52:09"}
+[21-Feb-2019 22:52:15 Asia/Kolkata] subscriber menu - main
+[21-Feb-2019 22:52:15 Asia/Kolkata] type---menu
+[21-Feb-2019 22:52:15 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  'gender-init' 
+									WHERE `sessionsid` =  '123119'
+[21-Feb-2019 22:52:19 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[21-Feb-2019 22:52:19 Asia/Kolkata] already registered
+[21-Feb-2019 22:52:19 Asia/Kolkata] ------------sub continue----------------
+[21-Feb-2019 22:52:19 Asia/Kolkata] session{"sessionsid":"123119","tel":"tel:8801866742387","menu":"gender-init","pg":"","created_at":"2019-02-21 22:52:09","others":"name","name":null,"msisdn":null,"age":null,"sex":null,"update_ts":"2019-02-21 22:52:15"}
+[21-Feb-2019 22:52:19 Asia/Kolkata] subscriber menu - gender-init
+[21-Feb-2019 22:52:19 Asia/Kolkata] ---------gender--------------check
+[21-Feb-2019 22:52:19 Asia/Kolkata] ---------male--------------
+[21-Feb-2019 22:52:19 Asia/Kolkata] type---menu
+[21-Feb-2019 22:52:19 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  'age-init' 
+									WHERE `sessionsid` =  '123119'
+[21-Feb-2019 22:52:19 Asia/Kolkata] type---gender
+[21-Feb-2019 22:52:19 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`sex` =  '1' 
+									WHERE `sessionsid` =  '123119'
+[21-Feb-2019 22:52:30 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[21-Feb-2019 22:52:30 Asia/Kolkata] already registered
+[21-Feb-2019 22:52:30 Asia/Kolkata] ------------sub continue----------------
+[21-Feb-2019 22:52:30 Asia/Kolkata] session{"sessionsid":"123119","tel":"tel:8801866742387","menu":"age-init","pg":"","created_at":"2019-02-21 22:52:09","others":"name","name":null,"msisdn":null,"age":null,"sex":"1","update_ts":"2019-02-21 22:52:19"}
+[21-Feb-2019 22:52:30 Asia/Kolkata] subscriber menu - age-init
+[21-Feb-2019 22:52:31 Asia/Kolkata] type---age
+[21-Feb-2019 22:52:31 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  '',
+									`pg` =  '0',
+									`age` =  '1',
+									`others` =  'age-init'
+									WHERE `sessionsid` =  '123119'
+[21-Feb-2019 22:52:42 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[21-Feb-2019 22:52:42 Asia/Kolkata] already registered
+[21-Feb-2019 22:52:42 Asia/Kolkata] ------------sub continue----------------
+[21-Feb-2019 22:52:42 Asia/Kolkata] session{"sessionsid":"123119","tel":"tel:8801866742387","menu":"","pg":"0","created_at":"2019-02-21 22:52:09","others":"age-init","name":null,"msisdn":null,"age":"1","sex":"1","update_ts":"2019-02-21 22:52:31"}
+[21-Feb-2019 22:52:42 Asia/Kolkata] subscriber menu - 
+[21-Feb-2019 22:52:42 Asia/Kolkata] type---
+[21-Feb-2019 22:52:42 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  'main',
+									`pg` =  '0',
+									`others` =  '',
+									`msisdn` =  ''
+									WHERE `sessionsid` =  '123119'
+[21-Feb-2019 22:54:45 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[21-Feb-2019 22:54:45 Asia/Kolkata] already registered
+[21-Feb-2019 22:54:45 Asia/Kolkata] subscriber - mo init
+[21-Feb-2019 22:54:45 Asia/Kolkata] enter--------1
+[21-Feb-2019 22:54:45 Asia/Kolkata] set session
+[21-Feb-2019 22:54:45 Asia/Kolkata] {"sessionid":"1231191","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[21-Feb-2019 22:54:49 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[21-Feb-2019 22:54:49 Asia/Kolkata] already registered
+[21-Feb-2019 22:54:49 Asia/Kolkata] ------------sub continue----------------
+[21-Feb-2019 22:54:49 Asia/Kolkata] session{"sessionsid":"1231191","tel":"tel:8801866742387","menu":"main","pg":"","created_at":"2019-02-21 22:54:45","others":"name","name":null,"msisdn":null,"age":null,"sex":null,"update_ts":"2019-02-21 22:54:45"}
+[21-Feb-2019 22:54:49 Asia/Kolkata] subscriber menu - main
+[21-Feb-2019 22:54:49 Asia/Kolkata] type---menu
+[21-Feb-2019 22:54:49 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  'gender-init' 
+									WHERE `sessionsid` =  '1231191'
+[21-Feb-2019 22:54:51 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[21-Feb-2019 22:54:51 Asia/Kolkata] already registered
+[21-Feb-2019 22:54:51 Asia/Kolkata] ------------sub continue----------------
+[21-Feb-2019 22:54:51 Asia/Kolkata] session{"sessionsid":"1231191","tel":"tel:8801866742387","menu":"gender-init","pg":"","created_at":"2019-02-21 22:54:45","others":"name","name":null,"msisdn":null,"age":null,"sex":null,"update_ts":"2019-02-21 22:54:49"}
+[21-Feb-2019 22:54:51 Asia/Kolkata] subscriber menu - gender-init
+[21-Feb-2019 22:54:51 Asia/Kolkata] ---------gender--------------check
+[21-Feb-2019 22:54:51 Asia/Kolkata] ---------male--------------
+[21-Feb-2019 22:54:51 Asia/Kolkata] type---menu
+[21-Feb-2019 22:54:51 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  'age-init' 
+									WHERE `sessionsid` =  '1231191'
+[21-Feb-2019 22:54:51 Asia/Kolkata] type---gender
+[21-Feb-2019 22:54:51 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`sex` =  '1' 
+									WHERE `sessionsid` =  '1231191'
+[21-Feb-2019 22:55:01 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[21-Feb-2019 22:55:01 Asia/Kolkata] already registered
+[21-Feb-2019 22:55:01 Asia/Kolkata] ------------sub continue----------------
+[21-Feb-2019 22:55:01 Asia/Kolkata] session{"sessionsid":"1231191","tel":"tel:8801866742387","menu":"age-init","pg":"","created_at":"2019-02-21 22:54:45","others":"name","name":null,"msisdn":null,"age":null,"sex":"1","update_ts":"2019-02-21 22:54:51"}
+[21-Feb-2019 22:55:01 Asia/Kolkata] subscriber menu - age-init
+[21-Feb-2019 22:55:01 Asia/Kolkata] type---age
+[21-Feb-2019 22:55:01 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  '',
+									`pg` =  '0',
+									`age` =  '1',
+									`others` =  'age-init'
+									WHERE `sessionsid` =  '1231191'
+[21-Feb-2019 22:55:21 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[21-Feb-2019 22:55:21 Asia/Kolkata] already registered
+[21-Feb-2019 22:55:21 Asia/Kolkata] subscriber - mo init
+[21-Feb-2019 22:55:21 Asia/Kolkata] enter--------1
+[21-Feb-2019 22:55:21 Asia/Kolkata] set session
+[21-Feb-2019 22:55:21 Asia/Kolkata] {"sessionid":"1231191","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[21-Feb-2019 22:55:26 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[21-Feb-2019 22:55:26 Asia/Kolkata] already registered
+[21-Feb-2019 22:55:26 Asia/Kolkata] ------------sub continue----------------
+[21-Feb-2019 22:55:26 Asia/Kolkata] session{"sessionsid":"1231191","tel":"tel:8801866742387","menu":"main","pg":"","created_at":"2019-02-21 22:55:21","others":"name","name":null,"msisdn":null,"age":null,"sex":null,"update_ts":"2019-02-21 22:55:21"}
+[21-Feb-2019 22:55:26 Asia/Kolkata] subscriber menu - main
+[21-Feb-2019 22:55:26 Asia/Kolkata] type---menu
+[21-Feb-2019 22:55:26 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  'gender-init' 
+									WHERE `sessionsid` =  '1231191'
+[21-Feb-2019 22:55:31 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[21-Feb-2019 22:55:31 Asia/Kolkata] already registered
+[21-Feb-2019 22:55:31 Asia/Kolkata] ------------sub continue----------------
+[21-Feb-2019 22:55:31 Asia/Kolkata] session{"sessionsid":"1231191","tel":"tel:8801866742387","menu":"gender-init","pg":"","created_at":"2019-02-21 22:55:21","others":"name","name":null,"msisdn":null,"age":null,"sex":null,"update_ts":"2019-02-21 22:55:26"}
+[21-Feb-2019 22:55:31 Asia/Kolkata] subscriber menu - gender-init
+[21-Feb-2019 22:55:31 Asia/Kolkata] ---------gender--------------check
+[21-Feb-2019 22:55:31 Asia/Kolkata] ---------male--------------
+[21-Feb-2019 22:55:31 Asia/Kolkata] type---menu
+[21-Feb-2019 22:55:31 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  'age-init' 
+									WHERE `sessionsid` =  '1231191'
+[21-Feb-2019 22:55:31 Asia/Kolkata] type---gender
+[21-Feb-2019 22:55:31 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`sex` =  '1' 
+									WHERE `sessionsid` =  '1231191'
+[21-Feb-2019 22:55:40 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[21-Feb-2019 22:55:40 Asia/Kolkata] already registered
+[21-Feb-2019 22:55:40 Asia/Kolkata] ------------sub continue----------------
+[21-Feb-2019 22:55:40 Asia/Kolkata] session{"sessionsid":"1231191","tel":"tel:8801866742387","menu":"age-init","pg":"","created_at":"2019-02-21 22:55:21","others":"name","name":null,"msisdn":null,"age":null,"sex":"1","update_ts":"2019-02-21 22:55:31"}
+[21-Feb-2019 22:55:40 Asia/Kolkata] subscriber menu - age-init
+[21-Feb-2019 22:55:40 Asia/Kolkata] type---age
+[21-Feb-2019 22:55:40 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  '',
+									`pg` =  '0',
+									`age` =  '1',
+									`others` =  'age-init'
+									WHERE `sessionsid` =  '1231191'
+[21-Feb-2019 22:55:46 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[21-Feb-2019 22:55:46 Asia/Kolkata] already registered
+[21-Feb-2019 22:55:46 Asia/Kolkata] ------------sub continue----------------
+[21-Feb-2019 22:55:46 Asia/Kolkata] session{"sessionsid":"1231191","tel":"tel:8801866742387","menu":"","pg":"0","created_at":"2019-02-21 22:55:21","others":"age-init","name":null,"msisdn":null,"age":"1","sex":"1","update_ts":"2019-02-21 22:55:40"}
+[21-Feb-2019 22:55:46 Asia/Kolkata] subscriber menu - 
+[21-Feb-2019 22:55:46 Asia/Kolkata] type---
+[21-Feb-2019 22:55:46 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  'main',
+									`pg` =  '0',
+									`others` =  '',
+									`msisdn` =  ''
+									WHERE `sessionsid` =  '1231191'
+[21-Feb-2019 23:00:57 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[21-Feb-2019 23:00:57 Asia/Kolkata] already registered
+[21-Feb-2019 23:00:57 Asia/Kolkata] subscriber - mo init
+[21-Feb-2019 23:00:57 Asia/Kolkata] enter--------1
+[21-Feb-2019 23:00:57 Asia/Kolkata] set session
+[21-Feb-2019 23:00:57 Asia/Kolkata] {"errorInfo":["23000",1062,"Duplicate entry '1231191' for key 'PRIMARY'"]}
+[21-Feb-2019 23:00:57 Asia/Kolkata] {"sessionid":"1231191","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[21-Feb-2019 23:01:02 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[21-Feb-2019 23:01:02 Asia/Kolkata] already registered
+[21-Feb-2019 23:01:02 Asia/Kolkata] subscriber - mo init
+[21-Feb-2019 23:01:02 Asia/Kolkata] enter--------1
+[21-Feb-2019 23:01:02 Asia/Kolkata] set session
+[21-Feb-2019 23:01:02 Asia/Kolkata] {"sessionid":"12311910","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[21-Feb-2019 23:01:09 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[21-Feb-2019 23:01:09 Asia/Kolkata] already registered
+[21-Feb-2019 23:01:09 Asia/Kolkata] ------------sub continue----------------
+[21-Feb-2019 23:01:09 Asia/Kolkata] session{"sessionsid":"12311910","tel":"tel:8801866742387","menu":"main","pg":"","created_at":"2019-02-21 23:01:02","others":"name","name":null,"msisdn":null,"age":null,"sex":null,"update_ts":"2019-02-21 23:01:02"}
+[21-Feb-2019 23:01:09 Asia/Kolkata] subscriber menu - main
+[21-Feb-2019 23:01:09 Asia/Kolkata] type---menu
+[21-Feb-2019 23:01:09 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  'gender-init' 
+									WHERE `sessionsid` =  '12311910'
+[21-Feb-2019 23:01:12 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[21-Feb-2019 23:01:12 Asia/Kolkata] already registered
+[21-Feb-2019 23:01:12 Asia/Kolkata] ------------sub continue----------------
+[21-Feb-2019 23:01:12 Asia/Kolkata] session{"sessionsid":"12311910","tel":"tel:8801866742387","menu":"gender-init","pg":"","created_at":"2019-02-21 23:01:02","others":"name","name":null,"msisdn":null,"age":null,"sex":null,"update_ts":"2019-02-21 23:01:09"}
+[21-Feb-2019 23:01:12 Asia/Kolkata] subscriber menu - gender-init
+[21-Feb-2019 23:01:12 Asia/Kolkata] ---------gender--------------check
+[21-Feb-2019 23:01:12 Asia/Kolkata] ---------male--------------
+[21-Feb-2019 23:01:12 Asia/Kolkata] type---menu
+[21-Feb-2019 23:01:12 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  'age-init' 
+									WHERE `sessionsid` =  '12311910'
+[21-Feb-2019 23:01:18 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[21-Feb-2019 23:01:18 Asia/Kolkata] already registered
+[21-Feb-2019 23:01:18 Asia/Kolkata] ------------sub continue----------------
+[21-Feb-2019 23:01:18 Asia/Kolkata] session{"sessionsid":"12311910","tel":"tel:8801866742387","menu":"age-init","pg":"","created_at":"2019-02-21 23:01:02","others":"name","name":null,"msisdn":null,"age":null,"sex":null,"update_ts":"2019-02-21 23:01:12"}
+[21-Feb-2019 23:01:18 Asia/Kolkata] subscriber menu - age-init
+[21-Feb-2019 23:01:18 Asia/Kolkata] type---age
+[21-Feb-2019 23:01:18 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  '',
+									`pg` =  '0',
+									`age` =  '1',
+									`others` =  'age-init'
+									WHERE `sessionsid` =  '12311910'
+[21-Feb-2019 23:02:34 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[21-Feb-2019 23:02:34 Asia/Kolkata] already registered
+[21-Feb-2019 23:02:34 Asia/Kolkata] subscriber - mo init
+[21-Feb-2019 23:02:34 Asia/Kolkata] enter--------1
+[21-Feb-2019 23:02:34 Asia/Kolkata] set session
+[21-Feb-2019 23:02:34 Asia/Kolkata] {"sessionid":"123119101","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[21-Feb-2019 23:02:38 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[21-Feb-2019 23:02:38 Asia/Kolkata] already registered
+[21-Feb-2019 23:02:38 Asia/Kolkata] ------------sub continue----------------
+[21-Feb-2019 23:02:38 Asia/Kolkata] session{"sessionsid":"123119101","tel":"tel:8801866742387","menu":"main","pg":"","created_at":"2019-02-21 23:02:34","others":"name","name":null,"msisdn":null,"age":null,"sex":null,"update_ts":"2019-02-21 23:02:34"}
+[21-Feb-2019 23:02:38 Asia/Kolkata] subscriber menu - main
+[21-Feb-2019 23:02:38 Asia/Kolkata] type---menu
+[21-Feb-2019 23:02:38 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  'gender-init' 
+									WHERE `sessionsid` =  '123119101'
+[21-Feb-2019 23:02:43 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[21-Feb-2019 23:02:43 Asia/Kolkata] already registered
+[21-Feb-2019 23:02:43 Asia/Kolkata] ------------sub continue----------------
+[21-Feb-2019 23:02:43 Asia/Kolkata] session{"sessionsid":"123119101","tel":"tel:8801866742387","menu":"gender-init","pg":"","created_at":"2019-02-21 23:02:34","others":"name","name":null,"msisdn":null,"age":null,"sex":null,"update_ts":"2019-02-21 23:02:38"}
+[21-Feb-2019 23:02:43 Asia/Kolkata] subscriber menu - gender-init
+[21-Feb-2019 23:02:43 Asia/Kolkata] ---------gender--------------check
+[21-Feb-2019 23:02:43 Asia/Kolkata] ---------male--------------
+[21-Feb-2019 23:02:43 Asia/Kolkata] type---menu
+[21-Feb-2019 23:02:43 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  'age-init' 
+									WHERE `sessionsid` =  '123119101'
+[21-Feb-2019 23:02:47 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[21-Feb-2019 23:02:47 Asia/Kolkata] already registered
+[21-Feb-2019 23:02:47 Asia/Kolkata] ------------sub continue----------------
+[21-Feb-2019 23:02:47 Asia/Kolkata] session{"sessionsid":"123119101","tel":"tel:8801866742387","menu":"age-init","pg":"","created_at":"2019-02-21 23:02:34","others":"name","name":null,"msisdn":null,"age":null,"sex":null,"update_ts":"2019-02-21 23:02:43"}
+[21-Feb-2019 23:02:47 Asia/Kolkata] subscriber menu - age-init
+[21-Feb-2019 23:02:47 Asia/Kolkata] type---age
+[21-Feb-2019 23:02:47 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  '',
+									`pg` =  '0',
+									`age` =  '1',
+									`others` =  'age-init'
+									WHERE `sessionsid` =  '123119101'
+[21-Feb-2019 23:04:35 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[21-Feb-2019 23:04:35 Asia/Kolkata] already registered
+[21-Feb-2019 23:04:35 Asia/Kolkata] subscriber - mo init
+[21-Feb-2019 23:04:35 Asia/Kolkata] enter--------1
+[21-Feb-2019 23:04:35 Asia/Kolkata] set session
+[21-Feb-2019 23:04:35 Asia/Kolkata] {"sessionid":"1123119101","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[21-Feb-2019 23:04:41 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[21-Feb-2019 23:04:41 Asia/Kolkata] already registered
+[21-Feb-2019 23:04:41 Asia/Kolkata] subscriber - mo init
+[21-Feb-2019 23:04:41 Asia/Kolkata] enter--------1
+[21-Feb-2019 23:04:41 Asia/Kolkata] set session
+[21-Feb-2019 23:04:41 Asia/Kolkata] {"errorInfo":["23000",1062,"Duplicate entry '1123119101' for key 'PRIMARY'"]}
+[21-Feb-2019 23:04:41 Asia/Kolkata] {"sessionid":"1123119101","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[21-Feb-2019 23:05:13 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[21-Feb-2019 23:05:13 Asia/Kolkata] already registered
+[21-Feb-2019 23:05:13 Asia/Kolkata] subscriber - mo init
+[21-Feb-2019 23:05:13 Asia/Kolkata] enter--------1
+[21-Feb-2019 23:05:13 Asia/Kolkata] set session
+[21-Feb-2019 23:05:13 Asia/Kolkata] {"sessionid":"9","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[21-Feb-2019 23:05:18 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[21-Feb-2019 23:05:18 Asia/Kolkata] already registered
+[21-Feb-2019 23:05:18 Asia/Kolkata] ------------sub continue----------------
+[21-Feb-2019 23:05:18 Asia/Kolkata] session{"sessionsid":"9","tel":"tel:8801866742387","menu":"main","pg":"","created_at":"2019-02-21 23:05:13","others":"name","name":null,"msisdn":null,"age":null,"sex":null,"update_ts":"2019-02-21 23:05:13"}
+[21-Feb-2019 23:05:18 Asia/Kolkata] subscriber menu - main
+[21-Feb-2019 23:05:18 Asia/Kolkata] type---menu
+[21-Feb-2019 23:05:18 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  'gender-init' 
+									WHERE `sessionsid` =  '9'
+[21-Feb-2019 23:05:24 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[21-Feb-2019 23:05:24 Asia/Kolkata] already registered
+[21-Feb-2019 23:05:24 Asia/Kolkata] ------------sub continue----------------
+[21-Feb-2019 23:05:24 Asia/Kolkata] session{"sessionsid":"9","tel":"tel:8801866742387","menu":"gender-init","pg":"","created_at":"2019-02-21 23:05:13","others":"name","name":null,"msisdn":null,"age":null,"sex":null,"update_ts":"2019-02-21 23:05:18"}
+[21-Feb-2019 23:05:24 Asia/Kolkata] subscriber menu - gender-init
+[21-Feb-2019 23:05:24 Asia/Kolkata] ---------gender--------------check
+[21-Feb-2019 23:05:24 Asia/Kolkata] ---------male--------------
+[21-Feb-2019 23:05:24 Asia/Kolkata] type---menu
+[21-Feb-2019 23:05:24 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  'age-init' 
+									WHERE `sessionsid` =  '9'
+[21-Feb-2019 23:05:36 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[21-Feb-2019 23:05:36 Asia/Kolkata] already registered
+[21-Feb-2019 23:05:36 Asia/Kolkata] ------------sub continue----------------
+[21-Feb-2019 23:05:36 Asia/Kolkata] session{"sessionsid":"9","tel":"tel:8801866742387","menu":"age-init","pg":"","created_at":"2019-02-21 23:05:13","others":"name","name":null,"msisdn":null,"age":null,"sex":null,"update_ts":"2019-02-21 23:05:24"}
+[21-Feb-2019 23:05:36 Asia/Kolkata] subscriber menu - age-init
+[21-Feb-2019 23:05:36 Asia/Kolkata] type---age
+[21-Feb-2019 23:05:36 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  '',
+									`pg` =  '0',
+									`age` =  '1',
+									`others` =  'age-init'
+									WHERE `sessionsid` =  '9'
+[21-Feb-2019 23:05:36 Asia/Kolkata] type---menu
+[21-Feb-2019 23:05:36 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  'friend-list-1' 
+									WHERE `sessionsid` =  '9'
+[21-Feb-2019 23:08:08 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[21-Feb-2019 23:08:08 Asia/Kolkata] already registered
+[21-Feb-2019 23:08:08 Asia/Kolkata] subscriber - mo init
+[21-Feb-2019 23:08:08 Asia/Kolkata] enter--------1
+[21-Feb-2019 23:08:08 Asia/Kolkata] set session
+[21-Feb-2019 23:08:08 Asia/Kolkata] {"sessionid":"90","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[21-Feb-2019 23:08:14 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[21-Feb-2019 23:08:14 Asia/Kolkata] already registered
+[21-Feb-2019 23:08:14 Asia/Kolkata] ------------sub continue----------------
+[21-Feb-2019 23:08:14 Asia/Kolkata] session{"sessionsid":"90","tel":"tel:8801866742387","menu":"main","pg":"","created_at":"2019-02-21 23:08:08","others":"name","name":null,"msisdn":null,"age":null,"sex":null,"update_ts":"2019-02-21 23:08:08"}
+[21-Feb-2019 23:08:14 Asia/Kolkata] subscriber menu - main
+[21-Feb-2019 23:08:14 Asia/Kolkata] type---menu
+[21-Feb-2019 23:08:14 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  'gender-init' 
+									WHERE `sessionsid` =  '90'
+[21-Feb-2019 23:08:19 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[21-Feb-2019 23:08:19 Asia/Kolkata] already registered
+[21-Feb-2019 23:08:19 Asia/Kolkata] ------------sub continue----------------
+[21-Feb-2019 23:08:19 Asia/Kolkata] session{"sessionsid":"90","tel":"tel:8801866742387","menu":"gender-init","pg":"","created_at":"2019-02-21 23:08:08","others":"name","name":null,"msisdn":null,"age":null,"sex":null,"update_ts":"2019-02-21 23:08:14"}
+[21-Feb-2019 23:08:19 Asia/Kolkata] subscriber menu - gender-init
+[21-Feb-2019 23:08:19 Asia/Kolkata] ---------gender--------------check
+[21-Feb-2019 23:08:19 Asia/Kolkata] ---------male--------------
+[21-Feb-2019 23:08:19 Asia/Kolkata] type---menu
+[21-Feb-2019 23:08:19 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  'age-init' 
+									WHERE `sessionsid` =  '90'
+[21-Feb-2019 23:08:24 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[21-Feb-2019 23:08:24 Asia/Kolkata] already registered
+[21-Feb-2019 23:08:24 Asia/Kolkata] ------------sub continue----------------
+[21-Feb-2019 23:08:24 Asia/Kolkata] session{"sessionsid":"90","tel":"tel:8801866742387","menu":"age-init","pg":"","created_at":"2019-02-21 23:08:08","others":"name","name":null,"msisdn":null,"age":null,"sex":null,"update_ts":"2019-02-21 23:08:19"}
+[21-Feb-2019 23:08:24 Asia/Kolkata] subscriber menu - age-init
+[21-Feb-2019 23:08:24 Asia/Kolkata] type---age
+[21-Feb-2019 23:08:24 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  '',
+									`pg` =  '0',
+									`age` =  '1',
+									`others` =  'age-init'
+									WHERE `sessionsid` =  '90'
+[21-Feb-2019 23:08:24 Asia/Kolkata] aa---$1
+[21-Feb-2019 23:08:24 Asia/Kolkata] type---menu
+[21-Feb-2019 23:08:24 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  'friend-list-1' 
+									WHERE `sessionsid` =  '90'
+[21-Feb-2019 23:08:43 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[21-Feb-2019 23:08:43 Asia/Kolkata] already registered
+[21-Feb-2019 23:08:43 Asia/Kolkata] ------------sub continue----------------
+[21-Feb-2019 23:08:43 Asia/Kolkata] session{"sessionsid":"90","tel":"tel:8801866742387","menu":"friend-list-1","pg":"0","created_at":"2019-02-21 23:08:08","others":"age-init","name":null,"msisdn":null,"age":"1","sex":null,"update_ts":"2019-02-21 23:08:24"}
+[21-Feb-2019 23:08:43 Asia/Kolkata] subscriber menu - friend-list-1
+[21-Feb-2019 23:10:43 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[21-Feb-2019 23:10:43 Asia/Kolkata] already registered
+[21-Feb-2019 23:10:43 Asia/Kolkata] subscriber - mo init
+[21-Feb-2019 23:10:43 Asia/Kolkata] enter--------1
+[21-Feb-2019 23:10:43 Asia/Kolkata] set session
+[21-Feb-2019 23:10:43 Asia/Kolkata] {"sessionid":"901","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[21-Feb-2019 23:10:48 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[21-Feb-2019 23:10:48 Asia/Kolkata] already registered
+[21-Feb-2019 23:10:48 Asia/Kolkata] ------------sub continue----------------
+[21-Feb-2019 23:10:48 Asia/Kolkata] session{"sessionsid":"901","tel":"tel:8801866742387","menu":"main","pg":"","created_at":"2019-02-21 23:10:43","others":"name","name":null,"msisdn":null,"age":null,"sex":null,"update_ts":"2019-02-21 23:10:43"}
+[21-Feb-2019 23:10:48 Asia/Kolkata] subscriber menu - main
+[21-Feb-2019 23:10:48 Asia/Kolkata] type---menu
+[21-Feb-2019 23:10:48 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  'gender-init' 
+									WHERE `sessionsid` =  '901'
+[21-Feb-2019 23:10:50 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[21-Feb-2019 23:10:50 Asia/Kolkata] already registered
+[21-Feb-2019 23:10:50 Asia/Kolkata] ------------sub continue----------------
+[21-Feb-2019 23:10:51 Asia/Kolkata] session{"sessionsid":"901","tel":"tel:8801866742387","menu":"gender-init","pg":"","created_at":"2019-02-21 23:10:43","others":"name","name":null,"msisdn":null,"age":null,"sex":null,"update_ts":"2019-02-21 23:10:48"}
+[21-Feb-2019 23:10:51 Asia/Kolkata] subscriber menu - gender-init
+[21-Feb-2019 23:10:51 Asia/Kolkata] ---------gender--------------check
+[21-Feb-2019 23:10:51 Asia/Kolkata] ---------male--------------
+[21-Feb-2019 23:10:51 Asia/Kolkata] type---menu
+[21-Feb-2019 23:10:51 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  'age-init' 
+									WHERE `sessionsid` =  '901'
+[21-Feb-2019 23:10:55 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[21-Feb-2019 23:10:55 Asia/Kolkata] already registered
+[21-Feb-2019 23:10:55 Asia/Kolkata] ------------sub continue----------------
+[21-Feb-2019 23:10:55 Asia/Kolkata] session{"sessionsid":"901","tel":"tel:8801866742387","menu":"age-init","pg":"","created_at":"2019-02-21 23:10:43","others":"name","name":null,"msisdn":null,"age":null,"sex":null,"update_ts":"2019-02-21 23:10:51"}
+[21-Feb-2019 23:10:55 Asia/Kolkata] subscriber menu - age-init
+[21-Feb-2019 23:10:55 Asia/Kolkata] type---age
+[21-Feb-2019 23:10:55 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  '',
+									`pg` =  '0',
+									`age` =  '1',
+									`others` =  'age-init'
+									WHERE `sessionsid` =  '901'
+[21-Feb-2019 23:10:55 Asia/Kolkata] aa---$1
+[21-Feb-2019 23:10:55 Asia/Kolkata] type---menu
+[21-Feb-2019 23:10:55 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  'friend-list-1' 
+									WHERE `sessionsid` =  '901'
+[21-Feb-2019 23:11:03 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[21-Feb-2019 23:11:03 Asia/Kolkata] already registered
+[21-Feb-2019 23:11:03 Asia/Kolkata] ------------sub continue----------------
+[21-Feb-2019 23:11:03 Asia/Kolkata] session{"sessionsid":"901","tel":"tel:8801866742387","menu":"friend-list-1","pg":"0","created_at":"2019-02-21 23:10:43","others":"age-init","name":null,"msisdn":null,"age":"1","sex":null,"update_ts":"2019-02-21 23:10:55"}
+[21-Feb-2019 23:11:03 Asia/Kolkata] subscriber menu - friend-list-1
+[21-Feb-2019 23:14:03 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[21-Feb-2019 23:14:03 Asia/Kolkata] already registered
+[21-Feb-2019 23:14:03 Asia/Kolkata] subscriber - mo init
+[21-Feb-2019 23:14:03 Asia/Kolkata] enter--------1
+[21-Feb-2019 23:14:03 Asia/Kolkata] set session
+[21-Feb-2019 23:14:03 Asia/Kolkata] {"sessionid":"902","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[21-Feb-2019 23:14:07 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[21-Feb-2019 23:14:07 Asia/Kolkata] already registered
+[21-Feb-2019 23:14:07 Asia/Kolkata] ------------sub continue----------------
+[21-Feb-2019 23:14:07 Asia/Kolkata] session{"sessionsid":"902","tel":"tel:8801866742387","menu":"main","pg":"","created_at":"2019-02-21 23:14:03","others":"name","name":null,"msisdn":null,"age":null,"sex":null,"update_ts":"2019-02-21 23:14:03"}
+[21-Feb-2019 23:14:07 Asia/Kolkata] subscriber menu - main
+[21-Feb-2019 23:14:07 Asia/Kolkata] type---menu
+[21-Feb-2019 23:14:07 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  'gender-init' 
+									WHERE `sessionsid` =  '902'
+[21-Feb-2019 23:14:10 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[21-Feb-2019 23:14:10 Asia/Kolkata] already registered
+[21-Feb-2019 23:14:10 Asia/Kolkata] ------------sub continue----------------
+[21-Feb-2019 23:14:10 Asia/Kolkata] session{"sessionsid":"902","tel":"tel:8801866742387","menu":"gender-init","pg":"","created_at":"2019-02-21 23:14:03","others":"name","name":null,"msisdn":null,"age":null,"sex":null,"update_ts":"2019-02-21 23:14:07"}
+[21-Feb-2019 23:14:10 Asia/Kolkata] subscriber menu - gender-init
+[21-Feb-2019 23:14:10 Asia/Kolkata] ---------gender--------------check
+[21-Feb-2019 23:14:10 Asia/Kolkata] ---------male--------------
+[21-Feb-2019 23:14:10 Asia/Kolkata] type---menu
+[21-Feb-2019 23:14:10 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  'age-init' 
+									WHERE `sessionsid` =  '902'
+[21-Feb-2019 23:14:20 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[21-Feb-2019 23:14:20 Asia/Kolkata] already registered
+[21-Feb-2019 23:14:20 Asia/Kolkata] ------------sub continue----------------
+[21-Feb-2019 23:14:20 Asia/Kolkata] session{"sessionsid":"902","tel":"tel:8801866742387","menu":"age-init","pg":"","created_at":"2019-02-21 23:14:03","others":"name","name":null,"msisdn":null,"age":null,"sex":null,"update_ts":"2019-02-21 23:14:10"}
+[21-Feb-2019 23:14:20 Asia/Kolkata] subscriber menu - age-init
+[21-Feb-2019 23:14:20 Asia/Kolkata] type---age
+[21-Feb-2019 23:14:20 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  '',
+									`pg` =  '0',
+									`age` =  '2',
+									`others` =  'age-init'
+									WHERE `sessionsid` =  '902'
+[21-Feb-2019 23:14:20 Asia/Kolkata] type---menu
+[21-Feb-2019 23:14:20 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  'friend-list-2' 
+									WHERE `sessionsid` =  '902'
+[21-Feb-2019 23:14:39 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[21-Feb-2019 23:14:39 Asia/Kolkata] already registered
+[21-Feb-2019 23:14:39 Asia/Kolkata] ------------sub continue----------------
+[21-Feb-2019 23:14:39 Asia/Kolkata] session{"sessionsid":"902","tel":"tel:8801866742387","menu":"friend-list-2","pg":"0","created_at":"2019-02-21 23:14:03","others":"age-init","name":null,"msisdn":null,"age":"2","sex":null,"update_ts":"2019-02-21 23:14:20"}
+[21-Feb-2019 23:14:39 Asia/Kolkata] subscriber menu - friend-list-2
+[21-Feb-2019 23:18:09 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[21-Feb-2019 23:18:09 Asia/Kolkata] already registered
+[21-Feb-2019 23:18:09 Asia/Kolkata] subscriber - mo init
+[21-Feb-2019 23:18:09 Asia/Kolkata] enter--------2
+[21-Feb-2019 23:18:09 Asia/Kolkata] set session
+[21-Feb-2019 23:18:09 Asia/Kolkata] {"errorInfo":["23000",1062,"Duplicate entry '902' for key 'PRIMARY'"]}
+[21-Feb-2019 23:18:09 Asia/Kolkata] {"sessionid":"902","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[21-Feb-2019 23:18:21 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[21-Feb-2019 23:18:21 Asia/Kolkata] already registered
+[21-Feb-2019 23:18:21 Asia/Kolkata] ------------sub continue----------------
+[21-Feb-2019 23:18:21 Asia/Kolkata] session{"sessionsid":"902","tel":"tel:8801866742387","menu":"friend-list-2","pg":"0","created_at":"2019-02-21 23:14:03","others":"age-init","name":null,"msisdn":null,"age":"2","sex":null,"update_ts":"2019-02-21 23:14:20"}
+[21-Feb-2019 23:18:21 Asia/Kolkata] subscriber menu - friend-list-2
+[21-Feb-2019 23:18:34 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[21-Feb-2019 23:18:34 Asia/Kolkata] already registered
+[21-Feb-2019 23:18:34 Asia/Kolkata] ------------sub continue----------------
+[21-Feb-2019 23:18:34 Asia/Kolkata] sessionfalse
+[21-Feb-2019 23:18:34 Asia/Kolkata] subscriber menu - 
+[21-Feb-2019 23:18:34 Asia/Kolkata] type---
+[21-Feb-2019 23:18:34 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  'main',
+									`pg` =  '0',
+									`others` =  '',
+									`msisdn` =  ''
+									WHERE `sessionsid` =  ''
+[21-Feb-2019 23:18:43 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[21-Feb-2019 23:18:43 Asia/Kolkata] already registered
+[21-Feb-2019 23:18:43 Asia/Kolkata] subscriber - mo init
+[21-Feb-2019 23:18:43 Asia/Kolkata] enter--------1
+[21-Feb-2019 23:18:43 Asia/Kolkata] set session
+[21-Feb-2019 23:18:43 Asia/Kolkata] {"sessionid":"903","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[21-Feb-2019 23:18:47 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[21-Feb-2019 23:18:47 Asia/Kolkata] already registered
+[21-Feb-2019 23:18:47 Asia/Kolkata] ------------sub continue----------------
+[21-Feb-2019 23:18:47 Asia/Kolkata] session{"sessionsid":"903","tel":"tel:8801866742387","menu":"main","pg":"","created_at":"2019-02-21 23:18:43","others":"name","name":null,"msisdn":null,"age":null,"sex":null,"update_ts":"2019-02-21 23:18:43"}
+[21-Feb-2019 23:18:47 Asia/Kolkata] subscriber menu - main
+[21-Feb-2019 23:18:47 Asia/Kolkata] type---menu
+[21-Feb-2019 23:18:47 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  'gender-init' 
+									WHERE `sessionsid` =  '903'
+[21-Feb-2019 23:18:51 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[21-Feb-2019 23:18:51 Asia/Kolkata] already registered
+[21-Feb-2019 23:18:51 Asia/Kolkata] ------------sub continue----------------
+[21-Feb-2019 23:18:51 Asia/Kolkata] session{"sessionsid":"903","tel":"tel:8801866742387","menu":"gender-init","pg":"","created_at":"2019-02-21 23:18:43","others":"name","name":null,"msisdn":null,"age":null,"sex":null,"update_ts":"2019-02-21 23:18:47"}
+[21-Feb-2019 23:18:51 Asia/Kolkata] subscriber menu - gender-init
+[21-Feb-2019 23:18:51 Asia/Kolkata] ---------gender--------------check
+[21-Feb-2019 23:18:51 Asia/Kolkata] ---------male--------------
+[21-Feb-2019 23:18:51 Asia/Kolkata] type---menu
+[21-Feb-2019 23:18:51 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  'age-init' 
+									WHERE `sessionsid` =  '903'
+[21-Feb-2019 23:18:51 Asia/Kolkata] type---gender
+[21-Feb-2019 23:18:51 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`sex` =  '1' 
+									WHERE `sessionsid` =  '903'
+[21-Feb-2019 23:18:55 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[21-Feb-2019 23:18:55 Asia/Kolkata] already registered
+[21-Feb-2019 23:18:55 Asia/Kolkata] ------------sub continue----------------
+[21-Feb-2019 23:18:55 Asia/Kolkata] session{"sessionsid":"903","tel":"tel:8801866742387","menu":"age-init","pg":"","created_at":"2019-02-21 23:18:43","others":"name","name":null,"msisdn":null,"age":null,"sex":"1","update_ts":"2019-02-21 23:18:51"}
+[21-Feb-2019 23:18:55 Asia/Kolkata] subscriber menu - age-init
+[21-Feb-2019 23:18:55 Asia/Kolkata] type---age
+[21-Feb-2019 23:18:55 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  '',
+									`pg` =  '0',
+									`age` =  '1',
+									`others` =  'age-init'
+									WHERE `sessionsid` =  '903'
+[21-Feb-2019 23:18:55 Asia/Kolkata] aa---$1
+[21-Feb-2019 23:18:55 Asia/Kolkata] type---menu
+[21-Feb-2019 23:18:55 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  'friend-list-1' 
+									WHERE `sessionsid` =  '903'
+[21-Feb-2019 23:21:45 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[21-Feb-2019 23:21:45 Asia/Kolkata] already registered
+[21-Feb-2019 23:21:45 Asia/Kolkata] subscriber - mo init
+[21-Feb-2019 23:21:45 Asia/Kolkata] enter--------1
+[21-Feb-2019 23:21:45 Asia/Kolkata] set session
+[21-Feb-2019 23:21:45 Asia/Kolkata] {"sessionid":"904","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[21-Feb-2019 23:21:51 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[21-Feb-2019 23:21:51 Asia/Kolkata] already registered
+[21-Feb-2019 23:21:51 Asia/Kolkata] ------------sub continue----------------
+[21-Feb-2019 23:21:51 Asia/Kolkata] session{"sessionsid":"904","tel":"tel:8801866742387","menu":"main","pg":"","created_at":"2019-02-21 23:21:45","others":"name","name":null,"msisdn":null,"age":null,"sex":null,"update_ts":"2019-02-21 23:21:45"}
+[21-Feb-2019 23:21:51 Asia/Kolkata] subscriber menu - main
+[21-Feb-2019 23:21:51 Asia/Kolkata] type---menu
+[21-Feb-2019 23:21:51 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  'gender-init' 
+									WHERE `sessionsid` =  '904'
+[21-Feb-2019 23:21:55 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[21-Feb-2019 23:21:55 Asia/Kolkata] already registered
+[21-Feb-2019 23:21:55 Asia/Kolkata] ------------sub continue----------------
+[21-Feb-2019 23:21:55 Asia/Kolkata] session{"sessionsid":"904","tel":"tel:8801866742387","menu":"gender-init","pg":"","created_at":"2019-02-21 23:21:45","others":"name","name":null,"msisdn":null,"age":null,"sex":null,"update_ts":"2019-02-21 23:21:51"}
+[21-Feb-2019 23:21:55 Asia/Kolkata] subscriber menu - gender-init
+[21-Feb-2019 23:21:55 Asia/Kolkata] ---------gender--------------check
+[21-Feb-2019 23:21:55 Asia/Kolkata] ---------male--------------
+[21-Feb-2019 23:21:55 Asia/Kolkata] type---menu
+[21-Feb-2019 23:21:55 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  'age-init' 
+									WHERE `sessionsid` =  '904'
+[21-Feb-2019 23:21:55 Asia/Kolkata] type---gender
+[21-Feb-2019 23:21:55 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`sex` =  '1' 
+									WHERE `sessionsid` =  '904'
+[21-Feb-2019 23:21:59 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[21-Feb-2019 23:21:59 Asia/Kolkata] already registered
+[21-Feb-2019 23:21:59 Asia/Kolkata] ------------sub continue----------------
+[21-Feb-2019 23:21:59 Asia/Kolkata] session{"sessionsid":"904","tel":"tel:8801866742387","menu":"age-init","pg":"","created_at":"2019-02-21 23:21:45","others":"name","name":null,"msisdn":null,"age":null,"sex":"1","update_ts":"2019-02-21 23:21:55"}
+[21-Feb-2019 23:21:59 Asia/Kolkata] subscriber menu - age-init
+[21-Feb-2019 23:21:59 Asia/Kolkata] type---age
+[21-Feb-2019 23:21:59 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  '',
+									`pg` =  '0',
+									`age` =  '1',
+									`others` =  'age-init'
+									WHERE `sessionsid` =  '904'
+[21-Feb-2019 23:21:59 Asia/Kolkata] aa---$1
+[21-Feb-2019 23:21:59 Asia/Kolkata] type---menu
+[21-Feb-2019 23:21:59 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  'friend-list-1' 
+									WHERE `sessionsid` =  '904'
+[21-Feb-2019 23:25:46 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[21-Feb-2019 23:25:46 Asia/Kolkata] already registered
+[21-Feb-2019 23:25:46 Asia/Kolkata] subscriber - mo init
+[21-Feb-2019 23:25:46 Asia/Kolkata] enter--------1
+[21-Feb-2019 23:25:46 Asia/Kolkata] set session
+[21-Feb-2019 23:25:46 Asia/Kolkata] {"sessionid":"905","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[21-Feb-2019 23:25:51 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[21-Feb-2019 23:25:51 Asia/Kolkata] already registered
+[21-Feb-2019 23:25:51 Asia/Kolkata] ------------sub continue----------------
+[21-Feb-2019 23:25:51 Asia/Kolkata] session{"sessionsid":"905","tel":"tel:8801866742387","menu":"main","pg":"","created_at":"2019-02-21 23:25:46","others":"name","name":null,"msisdn":null,"age":null,"sex":null,"update_ts":"2019-02-21 23:25:46"}
+[21-Feb-2019 23:25:51 Asia/Kolkata] subscriber menu - main
+[21-Feb-2019 23:25:51 Asia/Kolkata] type---menu
+[21-Feb-2019 23:25:51 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  'gender-init' 
+									WHERE `sessionsid` =  '905'
+[21-Feb-2019 23:25:54 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[21-Feb-2019 23:25:54 Asia/Kolkata] already registered
+[21-Feb-2019 23:25:54 Asia/Kolkata] ------------sub continue----------------
+[21-Feb-2019 23:25:54 Asia/Kolkata] session{"sessionsid":"905","tel":"tel:8801866742387","menu":"gender-init","pg":"","created_at":"2019-02-21 23:25:46","others":"name","name":null,"msisdn":null,"age":null,"sex":null,"update_ts":"2019-02-21 23:25:51"}
+[21-Feb-2019 23:25:54 Asia/Kolkata] subscriber menu - gender-init
+[21-Feb-2019 23:25:54 Asia/Kolkata] ---------gender--------------check
+[21-Feb-2019 23:25:54 Asia/Kolkata] ---------male--------------
+[21-Feb-2019 23:25:54 Asia/Kolkata] type---menu
+[21-Feb-2019 23:25:54 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  'age-init' 
+									WHERE `sessionsid` =  '905'
+[21-Feb-2019 23:25:54 Asia/Kolkata] type---gender
+[21-Feb-2019 23:25:54 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`sex` =  '1' 
+									WHERE `sessionsid` =  '905'
+[21-Feb-2019 23:25:58 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[21-Feb-2019 23:25:58 Asia/Kolkata] already registered
+[21-Feb-2019 23:25:58 Asia/Kolkata] ------------sub continue----------------
+[21-Feb-2019 23:25:58 Asia/Kolkata] session{"sessionsid":"905","tel":"tel:8801866742387","menu":"age-init","pg":"","created_at":"2019-02-21 23:25:46","others":"name","name":null,"msisdn":null,"age":null,"sex":"1","update_ts":"2019-02-21 23:25:54"}
+[21-Feb-2019 23:25:58 Asia/Kolkata] subscriber menu - age-init
+[21-Feb-2019 23:25:58 Asia/Kolkata] type---age
+[21-Feb-2019 23:25:58 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  '',
+									`pg` =  '0',
+									`age` =  '1',
+									`others` =  'age-init'
+									WHERE `sessionsid` =  '905'
+[21-Feb-2019 23:25:58 Asia/Kolkata] aa---$1
+[21-Feb-2019 23:25:58 Asia/Kolkata] type---menu
+[21-Feb-2019 23:25:58 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  'friend-list-1' 
+									WHERE `sessionsid` =  '905'
+[21-Feb-2019 23:26:04 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[21-Feb-2019 23:26:04 Asia/Kolkata] already registered
+[21-Feb-2019 23:26:04 Asia/Kolkata] ------------sub continue----------------
+[21-Feb-2019 23:26:04 Asia/Kolkata] session{"sessionsid":"905","tel":"tel:8801866742387","menu":"friend-list-1","pg":"0","created_at":"2019-02-21 23:25:46","others":"age-init","name":null,"msisdn":null,"age":"1","sex":"1","update_ts":"2019-02-21 23:25:58"}
+[21-Feb-2019 23:26:04 Asia/Kolkata] subscriber menu - friend-list-1
+[21-Feb-2019 23:26:18 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[21-Feb-2019 23:26:18 Asia/Kolkata] already registered
+[21-Feb-2019 23:26:18 Asia/Kolkata] ------------sub continue----------------
+[21-Feb-2019 23:26:18 Asia/Kolkata] session{"sessionsid":"905","tel":"tel:8801866742387","menu":"friend-list-1","pg":"0","created_at":"2019-02-21 23:25:46","others":"age-init","name":null,"msisdn":null,"age":"1","sex":"1","update_ts":"2019-02-21 23:25:58"}
+[21-Feb-2019 23:26:18 Asia/Kolkata] subscriber menu - friend-list-1
+[21-Feb-2019 23:33:32 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[21-Feb-2019 23:33:32 Asia/Kolkata] already registered
+[21-Feb-2019 23:33:32 Asia/Kolkata] subscriber - mo init
+[21-Feb-2019 23:33:32 Asia/Kolkata] enter--------1
+[21-Feb-2019 23:33:32 Asia/Kolkata] set session
+[21-Feb-2019 23:33:32 Asia/Kolkata] {"sessionid":"906","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[21-Feb-2019 23:37:30 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[21-Feb-2019 23:37:30 Asia/Kolkata] already registered
+[21-Feb-2019 23:37:30 Asia/Kolkata] ------------sub continue----------------
+[21-Feb-2019 23:37:30 Asia/Kolkata] session{"sessionsid":"906","tel":"tel:8801866742387","menu":"main","pg":"","created_at":"2019-02-21 23:33:32","others":"name","name":null,"msisdn":null,"age":null,"sex":null,"update_ts":"2019-02-21 23:33:32"}
+[21-Feb-2019 23:37:30 Asia/Kolkata] subscriber menu - main
+[21-Feb-2019 23:37:30 Asia/Kolkata] type---menu
+[21-Feb-2019 23:37:30 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  'gender-init' 
+									WHERE `sessionsid` =  '906'
+[21-Feb-2019 23:37:35 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[21-Feb-2019 23:37:35 Asia/Kolkata] already registered
+[21-Feb-2019 23:37:35 Asia/Kolkata] ------------sub continue----------------
+[21-Feb-2019 23:37:35 Asia/Kolkata] session{"sessionsid":"906","tel":"tel:8801866742387","menu":"gender-init","pg":"","created_at":"2019-02-21 23:33:32","others":"name","name":null,"msisdn":null,"age":null,"sex":null,"update_ts":"2019-02-21 23:37:30"}
+[21-Feb-2019 23:37:35 Asia/Kolkata] subscriber menu - gender-init
+[21-Feb-2019 23:37:35 Asia/Kolkata] ---------gender--------------check
+[21-Feb-2019 23:37:35 Asia/Kolkata] ---------male--------------
+[21-Feb-2019 23:37:35 Asia/Kolkata] type---menu
+[21-Feb-2019 23:37:35 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  'age-init' 
+									WHERE `sessionsid` =  '906'
+[21-Feb-2019 23:37:35 Asia/Kolkata] type---gender
+[21-Feb-2019 23:37:35 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`sex` =  '1' 
+									WHERE `sessionsid` =  '906'
+[21-Feb-2019 23:37:40 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[21-Feb-2019 23:37:40 Asia/Kolkata] already registered
+[21-Feb-2019 23:37:40 Asia/Kolkata] ------------sub continue----------------
+[21-Feb-2019 23:37:40 Asia/Kolkata] session{"sessionsid":"906","tel":"tel:8801866742387","menu":"age-init","pg":"","created_at":"2019-02-21 23:33:32","others":"name","name":null,"msisdn":null,"age":null,"sex":"1","update_ts":"2019-02-21 23:37:35"}
+[21-Feb-2019 23:37:40 Asia/Kolkata] subscriber menu - age-init
+[21-Feb-2019 23:37:40 Asia/Kolkata] type---age
+[21-Feb-2019 23:37:40 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  '',
+									`pg` =  '0',
+									`age` =  '1',
+									`others` =  'age-init'
+									WHERE `sessionsid` =  '906'
+[21-Feb-2019 23:37:40 Asia/Kolkata] aa---$1
+[21-Feb-2019 23:37:40 Asia/Kolkata] type---menu
+[21-Feb-2019 23:37:40 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  'friend-list-1' 
+									WHERE `sessionsid` =  '906'
+[21-Feb-2019 23:37:50 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[21-Feb-2019 23:37:50 Asia/Kolkata] already registered
+[21-Feb-2019 23:37:50 Asia/Kolkata] ------------sub continue----------------
+[21-Feb-2019 23:37:50 Asia/Kolkata] session{"sessionsid":"906","tel":"tel:8801866742387","menu":"friend-list-1","pg":"0","created_at":"2019-02-21 23:33:32","others":"age-init","name":null,"msisdn":null,"age":"1","sex":"1","update_ts":"2019-02-21 23:37:40"}
+[21-Feb-2019 23:37:50 Asia/Kolkata] subscriber menu - friend-list-1
+[21-Feb-2019 23:38:01 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[21-Feb-2019 23:38:01 Asia/Kolkata] already registered
+[21-Feb-2019 23:38:01 Asia/Kolkata] ------------sub continue----------------
+[21-Feb-2019 23:38:01 Asia/Kolkata] session{"sessionsid":"906","tel":"tel:8801866742387","menu":"friend-list-1","pg":"0","created_at":"2019-02-21 23:33:32","others":"age-init","name":null,"msisdn":null,"age":"1","sex":"1","update_ts":"2019-02-21 23:37:40"}
+[21-Feb-2019 23:38:01 Asia/Kolkata] subscriber menu - friend-list-1
+[21-Feb-2019 23:39:18 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[21-Feb-2019 23:39:18 Asia/Kolkata] already registered
+[21-Feb-2019 23:39:18 Asia/Kolkata] subscriber - mo init
+[21-Feb-2019 23:39:18 Asia/Kolkata] enter--------3
+[21-Feb-2019 23:39:18 Asia/Kolkata] set session
+[21-Feb-2019 23:39:18 Asia/Kolkata] {"sessionid":"907","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[21-Feb-2019 23:39:25 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[21-Feb-2019 23:39:25 Asia/Kolkata] already registered
+[21-Feb-2019 23:39:25 Asia/Kolkata] ------------sub continue----------------
+[21-Feb-2019 23:39:25 Asia/Kolkata] session{"sessionsid":"907","tel":"tel:8801866742387","menu":"main","pg":"","created_at":"2019-02-21 23:39:18","others":"name","name":null,"msisdn":null,"age":null,"sex":null,"update_ts":"2019-02-21 23:39:18"}
+[21-Feb-2019 23:39:25 Asia/Kolkata] subscriber menu - main
+[21-Feb-2019 23:39:27 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[21-Feb-2019 23:39:27 Asia/Kolkata] already registered
+[21-Feb-2019 23:39:27 Asia/Kolkata] ------------sub continue----------------
+[21-Feb-2019 23:39:27 Asia/Kolkata] session{"sessionsid":"907","tel":"tel:8801866742387","menu":"main","pg":"","created_at":"2019-02-21 23:39:18","others":"name","name":null,"msisdn":null,"age":null,"sex":null,"update_ts":"2019-02-21 23:39:18"}
+[21-Feb-2019 23:39:27 Asia/Kolkata] subscriber menu - main
+[21-Feb-2019 23:39:36 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[21-Feb-2019 23:39:36 Asia/Kolkata] already registered
+[21-Feb-2019 23:39:36 Asia/Kolkata] ------------sub continue----------------
+[21-Feb-2019 23:39:36 Asia/Kolkata] session{"sessionsid":"907","tel":"tel:8801866742387","menu":"main","pg":"","created_at":"2019-02-21 23:39:18","others":"name","name":null,"msisdn":null,"age":null,"sex":null,"update_ts":"2019-02-21 23:39:18"}
+[21-Feb-2019 23:39:36 Asia/Kolkata] subscriber menu - main
+[21-Feb-2019 23:39:36 Asia/Kolkata] type---menu
+[21-Feb-2019 23:39:36 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  'gender-init' 
+									WHERE `sessionsid` =  '907'
+[21-Feb-2019 23:40:06 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[21-Feb-2019 23:40:06 Asia/Kolkata] already registered
+[21-Feb-2019 23:40:06 Asia/Kolkata] ------------sub continue----------------
+[21-Feb-2019 23:40:06 Asia/Kolkata] session{"sessionsid":"907","tel":"tel:8801866742387","menu":"gender-init","pg":"","created_at":"2019-02-21 23:39:18","others":"name","name":null,"msisdn":null,"age":null,"sex":null,"update_ts":"2019-02-21 23:39:36"}
+[21-Feb-2019 23:40:06 Asia/Kolkata] subscriber menu - gender-init
+[21-Feb-2019 23:40:06 Asia/Kolkata] ---------gender--------------check
+[21-Feb-2019 23:40:06 Asia/Kolkata] ---------male--------------
+[21-Feb-2019 23:40:06 Asia/Kolkata] type---menu
+[21-Feb-2019 23:40:06 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  'age-init' 
+									WHERE `sessionsid` =  '907'
+[21-Feb-2019 23:40:06 Asia/Kolkata] type---gender
+[21-Feb-2019 23:40:06 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`sex` =  '1' 
+									WHERE `sessionsid` =  '907'
+[21-Feb-2019 23:40:21 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[21-Feb-2019 23:40:21 Asia/Kolkata] already registered
+[21-Feb-2019 23:40:21 Asia/Kolkata] ------------sub continue----------------
+[21-Feb-2019 23:40:21 Asia/Kolkata] session{"sessionsid":"907","tel":"tel:8801866742387","menu":"age-init","pg":"","created_at":"2019-02-21 23:39:18","others":"name","name":null,"msisdn":null,"age":null,"sex":"1","update_ts":"2019-02-21 23:40:06"}
+[21-Feb-2019 23:40:21 Asia/Kolkata] subscriber menu - age-init
+[21-Feb-2019 23:40:21 Asia/Kolkata] type---age
+[21-Feb-2019 23:40:21 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  '',
+									`pg` =  '0',
+									`age` =  '1',
+									`others` =  'age-init'
+									WHERE `sessionsid` =  '907'
+[21-Feb-2019 23:40:21 Asia/Kolkata] aa---$1
+[21-Feb-2019 23:40:21 Asia/Kolkata] type---menu
+[21-Feb-2019 23:40:21 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  'friend-list-1' 
+									WHERE `sessionsid` =  '907'
+[21-Feb-2019 23:40:31 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[21-Feb-2019 23:40:31 Asia/Kolkata] already registered
+[21-Feb-2019 23:40:31 Asia/Kolkata] ------------sub continue----------------
+[21-Feb-2019 23:40:31 Asia/Kolkata] session{"sessionsid":"907","tel":"tel:8801866742387","menu":"friend-list-1","pg":"0","created_at":"2019-02-21 23:39:18","others":"age-init","name":null,"msisdn":null,"age":"1","sex":"1","update_ts":"2019-02-21 23:40:21"}
+[21-Feb-2019 23:40:31 Asia/Kolkata] subscriber menu - friend-list-1
+[21-Feb-2019 23:40:35 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[21-Feb-2019 23:40:35 Asia/Kolkata] already registered
+[21-Feb-2019 23:40:35 Asia/Kolkata] ------------sub continue----------------
+[21-Feb-2019 23:40:35 Asia/Kolkata] session{"sessionsid":"907","tel":"tel:8801866742387","menu":"friend-list-1","pg":"0","created_at":"2019-02-21 23:39:18","others":"age-init","name":null,"msisdn":null,"age":"1","sex":"1","update_ts":"2019-02-21 23:40:21"}
+[21-Feb-2019 23:40:35 Asia/Kolkata] subscriber menu - friend-list-1
+[24-Feb-2019 20:49:51 Asia/Kolkata] PHP Fatal error:  Uncaught Exception: Some of the required parameters are not provided in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/libs/MoUssdReceiver.php:40
+Stack trace:
+#0 /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/ussdap.php(23): UssdReceiver->__construct()
+#1 {main}
+  thrown in /home/kash/Cactz/Projects/meet app/src/connectIt/USSD-PHP-API-master/libs/MoUssdReceiver.php on line 40
+[24-Feb-2019 20:50:08 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[24-Feb-2019 20:50:08 Asia/Kolkata] already registered
+[24-Feb-2019 20:50:08 Asia/Kolkata] subscriber - mo init
+[24-Feb-2019 20:50:08 Asia/Kolkata] enter--------*213*99#
+[24-Feb-2019 20:50:08 Asia/Kolkata] set session
+[24-Feb-2019 20:50:08 Asia/Kolkata] {"sessionid":"123","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[24-Feb-2019 20:50:17 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[24-Feb-2019 20:50:17 Asia/Kolkata] already registered
+[24-Feb-2019 20:50:17 Asia/Kolkata] ------------sub continue----------------
+[24-Feb-2019 20:50:17 Asia/Kolkata] session{"sessionsid":"123","tel":"tel:8801866742387","menu":"main","pg":"","created_at":"2019-02-24 20:50:08","others":"name","name":null,"msisdn":null,"age":null,"sex":null,"update_ts":"2019-02-24 20:50:08"}
+[24-Feb-2019 20:50:17 Asia/Kolkata] subscriber menu - main
+[24-Feb-2019 20:50:17 Asia/Kolkata] type---menu
+[24-Feb-2019 20:50:17 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  'gender-init' 
+									WHERE `sessionsid` =  '123'
+[24-Feb-2019 20:50:21 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[24-Feb-2019 20:50:21 Asia/Kolkata] already registered
+[24-Feb-2019 20:50:21 Asia/Kolkata] ------------sub continue----------------
+[24-Feb-2019 20:50:21 Asia/Kolkata] session{"sessionsid":"123","tel":"tel:8801866742387","menu":"gender-init","pg":"","created_at":"2019-02-24 20:50:08","others":"name","name":null,"msisdn":null,"age":null,"sex":null,"update_ts":"2019-02-24 20:50:17"}
+[24-Feb-2019 20:50:21 Asia/Kolkata] subscriber menu - gender-init
+[24-Feb-2019 20:50:21 Asia/Kolkata] ---------gender--------------check
+[24-Feb-2019 20:50:21 Asia/Kolkata] ---------male--------------
+[24-Feb-2019 20:50:21 Asia/Kolkata] type---menu
+[24-Feb-2019 20:50:21 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  'age-init' 
+									WHERE `sessionsid` =  '123'
+[24-Feb-2019 20:50:21 Asia/Kolkata] type---gender
+[24-Feb-2019 20:50:21 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`sex` =  '1' 
+									WHERE `sessionsid` =  '123'
+[24-Feb-2019 20:50:25 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[24-Feb-2019 20:50:25 Asia/Kolkata] already registered
+[24-Feb-2019 20:50:25 Asia/Kolkata] ------------sub continue----------------
+[24-Feb-2019 20:50:25 Asia/Kolkata] session{"sessionsid":"123","tel":"tel:8801866742387","menu":"age-init","pg":"","created_at":"2019-02-24 20:50:08","others":"name","name":null,"msisdn":null,"age":null,"sex":"1","update_ts":"2019-02-24 20:50:21"}
+[24-Feb-2019 20:50:25 Asia/Kolkata] subscriber menu - age-init
+[24-Feb-2019 20:50:25 Asia/Kolkata] type---age
+[24-Feb-2019 20:50:25 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  '',
+									`pg` =  '0',
+									`age` =  '1',
+									`others` =  'age-init'
+									WHERE `sessionsid` =  '123'
+[24-Feb-2019 20:50:25 Asia/Kolkata] aa---$1
+[24-Feb-2019 20:50:25 Asia/Kolkata] type---menu
+[24-Feb-2019 20:50:25 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  'friend-list-1' 
+									WHERE `sessionsid` =  '123'
+[24-Feb-2019 20:50:36 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[24-Feb-2019 20:50:36 Asia/Kolkata] already registered
+[24-Feb-2019 20:50:36 Asia/Kolkata] ------------sub continue----------------
+[24-Feb-2019 20:50:36 Asia/Kolkata] session{"sessionsid":"123","tel":"tel:8801866742387","menu":"friend-list-1","pg":"0","created_at":"2019-02-24 20:50:08","others":"age-init","name":null,"msisdn":null,"age":"1","sex":"1","update_ts":"2019-02-24 20:50:25"}
+[24-Feb-2019 20:50:36 Asia/Kolkata] subscriber menu - friend-list-1
+[24-Feb-2019 20:51:35 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[24-Feb-2019 20:51:35 Asia/Kolkata] already registered
+[24-Feb-2019 20:51:35 Asia/Kolkata] subscriber - mo init
+[24-Feb-2019 20:51:35 Asia/Kolkata] enter--------1
+[24-Feb-2019 20:51:35 Asia/Kolkata] set session
+[24-Feb-2019 20:51:36 Asia/Kolkata] {"sessionid":"124","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[24-Feb-2019 20:51:40 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[24-Feb-2019 20:51:40 Asia/Kolkata] already registered
+[24-Feb-2019 20:51:40 Asia/Kolkata] ------------sub continue----------------
+[24-Feb-2019 20:51:40 Asia/Kolkata] session{"sessionsid":"124","tel":"tel:8801866742387","menu":"main","pg":"","created_at":"2019-02-24 20:51:35","others":"name","name":null,"msisdn":null,"age":null,"sex":null,"update_ts":"2019-02-24 20:51:35"}
+[24-Feb-2019 20:51:40 Asia/Kolkata] subscriber menu - main
+[24-Feb-2019 20:51:40 Asia/Kolkata] type---menu
+[24-Feb-2019 20:51:40 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  'gender-init' 
+									WHERE `sessionsid` =  '124'
+[24-Feb-2019 20:51:44 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[24-Feb-2019 20:51:44 Asia/Kolkata] already registered
+[24-Feb-2019 20:51:44 Asia/Kolkata] ------------sub continue----------------
+[24-Feb-2019 20:51:44 Asia/Kolkata] session{"sessionsid":"124","tel":"tel:8801866742387","menu":"gender-init","pg":"","created_at":"2019-02-24 20:51:35","others":"name","name":null,"msisdn":null,"age":null,"sex":null,"update_ts":"2019-02-24 20:51:40"}
+[24-Feb-2019 20:51:44 Asia/Kolkata] subscriber menu - gender-init
+[24-Feb-2019 20:51:44 Asia/Kolkata] ---------gender--------------check
+[24-Feb-2019 20:51:44 Asia/Kolkata] ---------male--------------
+[24-Feb-2019 20:51:44 Asia/Kolkata] type---menu
+[24-Feb-2019 20:51:44 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  'age-init' 
+									WHERE `sessionsid` =  '124'
+[24-Feb-2019 20:51:45 Asia/Kolkata] type---gender
+[24-Feb-2019 20:51:45 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`sex` =  '1' 
+									WHERE `sessionsid` =  '124'
+[24-Feb-2019 20:51:49 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[24-Feb-2019 20:51:49 Asia/Kolkata] already registered
+[24-Feb-2019 20:51:49 Asia/Kolkata] ------------sub continue----------------
+[24-Feb-2019 20:51:49 Asia/Kolkata] session{"sessionsid":"124","tel":"tel:8801866742387","menu":"age-init","pg":"","created_at":"2019-02-24 20:51:35","others":"name","name":null,"msisdn":null,"age":null,"sex":"1","update_ts":"2019-02-24 20:51:45"}
+[24-Feb-2019 20:51:49 Asia/Kolkata] subscriber menu - age-init
+[24-Feb-2019 20:51:49 Asia/Kolkata] type---age
+[24-Feb-2019 20:51:49 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  '',
+									`pg` =  '0',
+									`age` =  '1',
+									`others` =  'age-init'
+									WHERE `sessionsid` =  '124'
+[24-Feb-2019 20:51:49 Asia/Kolkata] aa---$1
+[24-Feb-2019 20:51:49 Asia/Kolkata] type---menu
+[24-Feb-2019 20:51:49 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  'friend-list-1' 
+									WHERE `sessionsid` =  '124'
+[24-Feb-2019 20:52:01 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[24-Feb-2019 20:52:01 Asia/Kolkata] already registered
+[24-Feb-2019 20:52:01 Asia/Kolkata] subscriber - mo init
+[24-Feb-2019 20:52:01 Asia/Kolkata] enter--------2
+[24-Feb-2019 20:52:01 Asia/Kolkata] set session
+[24-Feb-2019 20:52:01 Asia/Kolkata] {"sessionid":"125","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[24-Feb-2019 20:52:06 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[24-Feb-2019 20:52:06 Asia/Kolkata] already registered
+[24-Feb-2019 20:52:06 Asia/Kolkata] ------------sub continue----------------
+[24-Feb-2019 20:52:06 Asia/Kolkata] session{"sessionsid":"125","tel":"tel:8801866742387","menu":"main","pg":"","created_at":"2019-02-24 20:52:01","others":"name","name":null,"msisdn":null,"age":null,"sex":null,"update_ts":"2019-02-24 20:52:01"}
+[24-Feb-2019 20:52:06 Asia/Kolkata] subscriber menu - main
+[24-Feb-2019 20:52:06 Asia/Kolkata] type---menu
+[24-Feb-2019 20:52:06 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  'gender-init' 
+									WHERE `sessionsid` =  '125'
+[24-Feb-2019 20:52:09 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[24-Feb-2019 20:52:09 Asia/Kolkata] already registered
+[24-Feb-2019 20:52:09 Asia/Kolkata] ------------sub continue----------------
+[24-Feb-2019 20:52:09 Asia/Kolkata] session{"sessionsid":"125","tel":"tel:8801866742387","menu":"gender-init","pg":"","created_at":"2019-02-24 20:52:01","others":"name","name":null,"msisdn":null,"age":null,"sex":null,"update_ts":"2019-02-24 20:52:06"}
+[24-Feb-2019 20:52:09 Asia/Kolkata] subscriber menu - gender-init
+[24-Feb-2019 20:52:09 Asia/Kolkata] ---------gender--------------check
+[24-Feb-2019 20:52:09 Asia/Kolkata] ---------male--------------
+[24-Feb-2019 20:52:09 Asia/Kolkata] type---menu
+[24-Feb-2019 20:52:09 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  'age-init' 
+									WHERE `sessionsid` =  '125'
+[24-Feb-2019 20:52:09 Asia/Kolkata] type---gender
+[24-Feb-2019 20:52:09 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`sex` =  '1' 
+									WHERE `sessionsid` =  '125'
+[24-Feb-2019 20:52:50 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[24-Feb-2019 20:52:50 Asia/Kolkata] already registered
+[24-Feb-2019 20:52:50 Asia/Kolkata] ------------sub continue----------------
+[24-Feb-2019 20:52:50 Asia/Kolkata] session{"sessionsid":"125","tel":"tel:8801866742387","menu":"age-init","pg":"","created_at":"2019-02-24 20:52:01","others":"name","name":null,"msisdn":null,"age":null,"sex":"1","update_ts":"2019-02-24 20:52:09"}
+[24-Feb-2019 20:52:50 Asia/Kolkata] subscriber menu - age-init
+[24-Feb-2019 20:52:50 Asia/Kolkata] type---age
+[24-Feb-2019 20:52:50 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  '',
+									`pg` =  '0',
+									`age` =  '2',
+									`others` =  'age-init'
+									WHERE `sessionsid` =  '125'
+[24-Feb-2019 20:52:50 Asia/Kolkata] type---menu
+[24-Feb-2019 20:52:50 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  'friend-list-2' 
+									WHERE `sessionsid` =  '125'
+[24-Feb-2019 21:09:35 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[24-Feb-2019 21:09:35 Asia/Kolkata] already registered
+[24-Feb-2019 21:09:35 Asia/Kolkata] subscriber - mo init
+[24-Feb-2019 21:09:35 Asia/Kolkata] enter--------2
+[24-Feb-2019 21:09:35 Asia/Kolkata] set session
+[24-Feb-2019 21:09:35 Asia/Kolkata] {"sessionid":"126","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[24-Feb-2019 21:09:42 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[24-Feb-2019 21:09:42 Asia/Kolkata] already registered
+[24-Feb-2019 21:09:42 Asia/Kolkata] ------------sub continue----------------
+[24-Feb-2019 21:09:42 Asia/Kolkata] session{"sessionsid":"126","tel":"tel:8801866742387","menu":"main","pg":"","created_at":"2019-02-24 21:09:35","others":"name","name":null,"msisdn":null,"age":null,"sex":null,"update_ts":"2019-02-24 21:09:35"}
+[24-Feb-2019 21:09:42 Asia/Kolkata] subscriber menu - main
+[24-Feb-2019 21:09:50 Asia/Kolkata] type---menu
+[24-Feb-2019 21:09:50 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  'gender-init' 
+									WHERE `sessionsid` =  '126'
+[24-Feb-2019 21:09:53 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[24-Feb-2019 21:09:53 Asia/Kolkata] already registered
+[24-Feb-2019 21:09:53 Asia/Kolkata] ------------sub continue----------------
+[24-Feb-2019 21:09:53 Asia/Kolkata] session{"sessionsid":"126","tel":"tel:8801866742387","menu":"gender-init","pg":"","created_at":"2019-02-24 21:09:35","others":"name","name":null,"msisdn":null,"age":null,"sex":null,"update_ts":"2019-02-24 21:09:50"}
+[24-Feb-2019 21:09:53 Asia/Kolkata] subscriber menu - gender-init
+[24-Feb-2019 21:09:53 Asia/Kolkata] ---------gender--------------check
+[24-Feb-2019 21:09:53 Asia/Kolkata] ---------male--------------
+[24-Feb-2019 21:09:53 Asia/Kolkata] type---menu
+[24-Feb-2019 21:09:53 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  'age-init' 
+									WHERE `sessionsid` =  '126'
+[24-Feb-2019 21:09:53 Asia/Kolkata] type---gender
+[24-Feb-2019 21:09:53 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`sex` =  '1' 
+									WHERE `sessionsid` =  '126'
+[24-Feb-2019 21:09:57 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[24-Feb-2019 21:09:57 Asia/Kolkata] already registered
+[24-Feb-2019 21:09:57 Asia/Kolkata] ------------sub continue----------------
+[24-Feb-2019 21:09:57 Asia/Kolkata] session{"sessionsid":"126","tel":"tel:8801866742387","menu":"age-init","pg":"","created_at":"2019-02-24 21:09:35","others":"name","name":null,"msisdn":null,"age":null,"sex":"1","update_ts":"2019-02-24 21:09:53"}
+[24-Feb-2019 21:09:57 Asia/Kolkata] subscriber menu - age-init
+[24-Feb-2019 21:09:57 Asia/Kolkata] type---age
+[24-Feb-2019 21:09:57 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  '',
+									`pg` =  '0',
+									`age` =  '1',
+									`others` =  'age-init'
+									WHERE `sessionsid` =  '126'
+[24-Feb-2019 21:10:00 Asia/Kolkata] aa---$1
+[24-Feb-2019 21:10:00 Asia/Kolkata] type---menu
+[24-Feb-2019 21:10:00 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  'friend-list-1' 
+									WHERE `sessionsid` =  '126'
+[24-Feb-2019 21:13:53 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[24-Feb-2019 21:13:53 Asia/Kolkata] already registered
+[24-Feb-2019 21:13:53 Asia/Kolkata] ------------sub continue----------------
+[24-Feb-2019 21:13:53 Asia/Kolkata] ------------pressed---------------92
+[24-Feb-2019 21:13:53 Asia/Kolkata] session{"sessionsid":"126","tel":"tel:8801866742387","menu":"friend-list-1","pg":"0","created_at":"2019-02-24 21:09:35","others":"age-init","name":null,"msisdn":null,"age":"1","sex":"1","update_ts":"2019-02-24 21:10:00"}
+[24-Feb-2019 21:13:53 Asia/Kolkata] subscriber menu - friend-list-1
+[24-Feb-2019 21:21:16 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[24-Feb-2019 21:21:16 Asia/Kolkata] already registered
+[24-Feb-2019 21:21:16 Asia/Kolkata] subscriber - mo init
+[24-Feb-2019 21:21:16 Asia/Kolkata] enter--------92
+[24-Feb-2019 21:21:16 Asia/Kolkata] set session
+[24-Feb-2019 21:21:16 Asia/Kolkata] {"sessionid":"127","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[24-Feb-2019 21:21:20 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[24-Feb-2019 21:21:20 Asia/Kolkata] already registered
+[24-Feb-2019 21:21:20 Asia/Kolkata] subscriber - mo init
+[24-Feb-2019 21:21:20 Asia/Kolkata] enter--------1
+[24-Feb-2019 21:21:20 Asia/Kolkata] set session
+[24-Feb-2019 21:21:20 Asia/Kolkata] {"errorInfo":["23000",1062,"Duplicate entry '127' for key 'PRIMARY'"]}
+[24-Feb-2019 21:21:20 Asia/Kolkata] {"sessionid":"127","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[24-Feb-2019 21:21:44 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[24-Feb-2019 21:21:44 Asia/Kolkata] already registered
+[24-Feb-2019 21:21:44 Asia/Kolkata] ------------sub continue----------------
+[24-Feb-2019 21:21:44 Asia/Kolkata] ------------pressed---------------1
+[24-Feb-2019 21:21:44 Asia/Kolkata] session{"sessionsid":"127","tel":"tel:8801866742387","menu":"main","pg":"","created_at":"2019-02-24 21:21:16","others":"name","name":null,"msisdn":null,"age":null,"sex":null,"update_ts":"2019-02-24 21:21:16"}
+[24-Feb-2019 21:21:44 Asia/Kolkata] subscriber menu - main
+[24-Feb-2019 21:21:44 Asia/Kolkata] type---menu
+[24-Feb-2019 21:21:44 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  'gender-init' 
+									WHERE `sessionsid` =  '127'
+[24-Feb-2019 21:21:49 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[24-Feb-2019 21:21:49 Asia/Kolkata] already registered
+[24-Feb-2019 21:21:49 Asia/Kolkata] ------------sub continue----------------
+[24-Feb-2019 21:21:49 Asia/Kolkata] ------------pressed---------------1
+[24-Feb-2019 21:21:49 Asia/Kolkata] session{"sessionsid":"127","tel":"tel:8801866742387","menu":"gender-init","pg":"","created_at":"2019-02-24 21:21:16","others":"name","name":null,"msisdn":null,"age":null,"sex":null,"update_ts":"2019-02-24 21:21:44"}
+[24-Feb-2019 21:21:49 Asia/Kolkata] subscriber menu - gender-init
+[24-Feb-2019 21:21:49 Asia/Kolkata] ---------gender--------------check
+[24-Feb-2019 21:21:49 Asia/Kolkata] ---------male--------------
+[24-Feb-2019 21:21:49 Asia/Kolkata] type---menu
+[24-Feb-2019 21:21:49 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  'age-init' 
+									WHERE `sessionsid` =  '127'
+[24-Feb-2019 21:21:49 Asia/Kolkata] type---gender
+[24-Feb-2019 21:21:49 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`sex` =  '1' 
+									WHERE `sessionsid` =  '127'
+[24-Feb-2019 21:21:53 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[24-Feb-2019 21:21:53 Asia/Kolkata] already registered
+[24-Feb-2019 21:21:53 Asia/Kolkata] ------------sub continue----------------
+[24-Feb-2019 21:21:53 Asia/Kolkata] ------------pressed---------------1
+[24-Feb-2019 21:21:53 Asia/Kolkata] session{"sessionsid":"127","tel":"tel:8801866742387","menu":"age-init","pg":"","created_at":"2019-02-24 21:21:16","others":"name","name":null,"msisdn":null,"age":null,"sex":"1","update_ts":"2019-02-24 21:21:49"}
+[24-Feb-2019 21:21:53 Asia/Kolkata] subscriber menu - age-init
+[24-Feb-2019 21:21:53 Asia/Kolkata] type---age
+[24-Feb-2019 21:21:53 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  '',
+									`pg` =  '0',
+									`age` =  '1',
+									`others` =  'age-init'
+									WHERE `sessionsid` =  '127'
+[24-Feb-2019 21:21:54 Asia/Kolkata] aa---$1
+[24-Feb-2019 21:21:54 Asia/Kolkata] type---menu
+[24-Feb-2019 21:21:54 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  'friend-list-1' 
+									WHERE `sessionsid` =  '127'
+[24-Feb-2019 21:21:59 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[24-Feb-2019 21:21:59 Asia/Kolkata] already registered
+[24-Feb-2019 21:21:59 Asia/Kolkata] ------------sub continue----------------
+[24-Feb-2019 21:21:59 Asia/Kolkata] ------------pressed---------------92
+[24-Feb-2019 21:21:59 Asia/Kolkata] session{"sessionsid":"127","tel":"tel:8801866742387","menu":"friend-list-1","pg":"0","created_at":"2019-02-24 21:21:16","others":"age-init","name":null,"msisdn":null,"age":"1","sex":"1","update_ts":"2019-02-24 21:21:54"}
+[24-Feb-2019 21:21:59 Asia/Kolkata] subscriber menu - friend-list-1
+[24-Feb-2019 21:23:12 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[24-Feb-2019 21:23:12 Asia/Kolkata] already registered
+[24-Feb-2019 21:23:12 Asia/Kolkata] ------------sub continue----------------
+[24-Feb-2019 21:23:12 Asia/Kolkata] ------------pressed---------------93
+[24-Feb-2019 21:23:12 Asia/Kolkata] session{"sessionsid":"127","tel":"tel:8801866742387","menu":"friend-list-1","pg":"0","created_at":"2019-02-24 21:21:16","others":"age-init","name":null,"msisdn":null,"age":"1","sex":"1","update_ts":"2019-02-24 21:21:54"}
+[24-Feb-2019 21:23:12 Asia/Kolkata] subscriber menu - friend-list-1
+[24-Feb-2019 21:24:01 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[24-Feb-2019 21:24:01 Asia/Kolkata] already registered
+[24-Feb-2019 21:24:01 Asia/Kolkata] ------------sub continue----------------
+[24-Feb-2019 21:24:01 Asia/Kolkata] ------------pressed---------------93
+[24-Feb-2019 21:24:01 Asia/Kolkata] session{"sessionsid":"127","tel":"tel:8801866742387","menu":"friend-list-1","pg":"0","created_at":"2019-02-24 21:21:16","others":"age-init","name":null,"msisdn":null,"age":"1","sex":"1","update_ts":"2019-02-24 21:21:54"}
+[24-Feb-2019 21:24:01 Asia/Kolkata] subscriber menu - friend-list-1
+[24-Feb-2019 21:24:09 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[24-Feb-2019 21:24:09 Asia/Kolkata] already registered
+[24-Feb-2019 21:24:09 Asia/Kolkata] ------------sub continue----------------
+[24-Feb-2019 21:24:09 Asia/Kolkata] ------------pressed---------------92
+[24-Feb-2019 21:24:09 Asia/Kolkata] session{"sessionsid":"127","tel":"tel:8801866742387","menu":"friend-list-1","pg":"0","created_at":"2019-02-24 21:21:16","others":"age-init","name":null,"msisdn":null,"age":"1","sex":"1","update_ts":"2019-02-24 21:21:54"}
+[24-Feb-2019 21:24:09 Asia/Kolkata] subscriber menu - friend-list-1
+[24-Feb-2019 21:24:40 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[24-Feb-2019 21:24:40 Asia/Kolkata] already registered
+[24-Feb-2019 21:24:40 Asia/Kolkata] ------------sub continue----------------
+[24-Feb-2019 21:24:40 Asia/Kolkata] ------------pressed---------------92
+[24-Feb-2019 21:24:40 Asia/Kolkata] session{"sessionsid":"127","tel":"tel:8801866742387","menu":"friend-list-1","pg":"0","created_at":"2019-02-24 21:21:16","others":"age-init","name":null,"msisdn":null,"age":"1","sex":"1","update_ts":"2019-02-24 21:21:54"}
+[24-Feb-2019 21:24:40 Asia/Kolkata] subscriber menu - friend-list-1
+[24-Feb-2019 21:25:54 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[24-Feb-2019 21:25:54 Asia/Kolkata] already registered
+[24-Feb-2019 21:25:54 Asia/Kolkata] ------------sub continue----------------
+[24-Feb-2019 21:25:54 Asia/Kolkata] ------------pressed---------------92
+[24-Feb-2019 21:25:54 Asia/Kolkata] session{"sessionsid":"127","tel":"tel:8801866742387","menu":"friend-list-1","pg":"0","created_at":"2019-02-24 21:21:16","others":"age-init","name":null,"msisdn":null,"age":"1","sex":"1","update_ts":"2019-02-24 21:21:54"}
+[24-Feb-2019 21:25:54 Asia/Kolkata] subscriber menu - friend-list-1
+[24-Feb-2019 21:25:54 Asia/Kolkata] type---menu
+[24-Feb-2019 21:25:54 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  'friend-list-1' 
+									WHERE `sessionsid` =  '127'
+[24-Feb-2019 21:28:17 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[24-Feb-2019 21:28:17 Asia/Kolkata] already registered
+[24-Feb-2019 21:28:17 Asia/Kolkata] ------------sub continue----------------
+[24-Feb-2019 21:28:17 Asia/Kolkata] ------------pressed---------------92
+[24-Feb-2019 21:28:17 Asia/Kolkata] session{"sessionsid":"127","tel":"tel:8801866742387","menu":"friend-list-1","pg":"0","created_at":"2019-02-24 21:21:16","others":"age-init","name":null,"msisdn":null,"age":"1","sex":"1","update_ts":"2019-02-24 21:21:54"}
+[24-Feb-2019 21:28:17 Asia/Kolkata] subscriber menu - friend-list-1
+[24-Feb-2019 21:28:17 Asia/Kolkata] type---menu
+[24-Feb-2019 21:28:17 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  'friend-list-1' 
+									WHERE `sessionsid` =  '127'
+[24-Feb-2019 21:29:36 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[24-Feb-2019 21:29:36 Asia/Kolkata] already registered
+[24-Feb-2019 21:29:36 Asia/Kolkata] ------------sub continue----------------
+[24-Feb-2019 21:29:36 Asia/Kolkata] ------------pressed---------------92
+[24-Feb-2019 21:29:36 Asia/Kolkata] session{"sessionsid":"127","tel":"tel:8801866742387","menu":"friend-list-1","pg":"0","created_at":"2019-02-24 21:21:16","others":"age-init","name":null,"msisdn":null,"age":"1","sex":"1","update_ts":"2019-02-24 21:21:54"}
+[24-Feb-2019 21:29:36 Asia/Kolkata] subscriber menu - friend-list-1
+[24-Feb-2019 21:29:36 Asia/Kolkata] type---menu
+[24-Feb-2019 21:29:36 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  'friend-list-1' 
+									WHERE `sessionsid` =  '127'
+[24-Feb-2019 21:29:41 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[24-Feb-2019 21:29:41 Asia/Kolkata] already registered
+[24-Feb-2019 21:29:41 Asia/Kolkata] ------------sub continue----------------
+[24-Feb-2019 21:29:41 Asia/Kolkata] ------------pressed---------------92
+[24-Feb-2019 21:29:41 Asia/Kolkata] session{"sessionsid":"127","tel":"tel:8801866742387","menu":"friend-list-1","pg":"0","created_at":"2019-02-24 21:21:16","others":"age-init","name":null,"msisdn":null,"age":"1","sex":"1","update_ts":"2019-02-24 21:21:54"}
+[24-Feb-2019 21:29:41 Asia/Kolkata] subscriber menu - friend-list-1
+[24-Feb-2019 21:29:41 Asia/Kolkata] type---menu
+[24-Feb-2019 21:29:41 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  'friend-list-1' 
+									WHERE `sessionsid` =  '127'
+[24-Feb-2019 21:30:41 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[24-Feb-2019 21:30:41 Asia/Kolkata] already registered
+[24-Feb-2019 21:30:41 Asia/Kolkata] ------------sub continue----------------
+[24-Feb-2019 21:30:41 Asia/Kolkata] ------------pressed---------------92
+[24-Feb-2019 21:30:41 Asia/Kolkata] session{"sessionsid":"127","tel":"tel:8801866742387","menu":"friend-list-1","pg":"0","created_at":"2019-02-24 21:21:16","others":"age-init","name":null,"msisdn":null,"age":"1","sex":"1","update_ts":"2019-02-24 21:21:54"}
+[24-Feb-2019 21:30:41 Asia/Kolkata] subscriber menu - friend-list-1
+[24-Feb-2019 21:30:41 Asia/Kolkata] type---menu
+[24-Feb-2019 21:30:41 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  'friend-list-1' 
+									WHERE `sessionsid` =  '127'
+[24-Feb-2019 21:31:42 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[24-Feb-2019 21:31:42 Asia/Kolkata] already registered
+[24-Feb-2019 21:31:42 Asia/Kolkata] ------------sub continue----------------
+[24-Feb-2019 21:31:42 Asia/Kolkata] ------------pressed---------------92
+[24-Feb-2019 21:31:42 Asia/Kolkata] session{"sessionsid":"127","tel":"tel:8801866742387","menu":"friend-list-1","pg":"0","created_at":"2019-02-24 21:21:16","others":"age-init","name":null,"msisdn":null,"age":"1","sex":"1","update_ts":"2019-02-24 21:21:54"}
+[24-Feb-2019 21:31:42 Asia/Kolkata] subscriber menu - friend-list-1
+[24-Feb-2019 21:31:42 Asia/Kolkata] type---menu
+[24-Feb-2019 21:31:42 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  'friend-list-1' 
+									WHERE `sessionsid` =  '127'
+[24-Feb-2019 21:32:13 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[24-Feb-2019 21:32:13 Asia/Kolkata] already registered
+[24-Feb-2019 21:32:13 Asia/Kolkata] subscriber - mo init
+[24-Feb-2019 21:32:13 Asia/Kolkata] enter--------92
+[24-Feb-2019 21:32:13 Asia/Kolkata] set session
+[24-Feb-2019 21:32:13 Asia/Kolkata] {"sessionid":"128","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[24-Feb-2019 21:32:18 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[24-Feb-2019 21:32:18 Asia/Kolkata] already registered
+[24-Feb-2019 21:32:18 Asia/Kolkata] ------------sub continue----------------
+[24-Feb-2019 21:32:18 Asia/Kolkata] ------------pressed---------------1
+[24-Feb-2019 21:32:18 Asia/Kolkata] session{"sessionsid":"128","tel":"tel:8801866742387","menu":"main","pg":"","created_at":"2019-02-24 21:32:13","others":"name","name":null,"msisdn":null,"age":null,"sex":null,"update_ts":"2019-02-24 21:32:13"}
+[24-Feb-2019 21:32:18 Asia/Kolkata] subscriber menu - main
+[24-Feb-2019 21:32:18 Asia/Kolkata] type---menu
+[24-Feb-2019 21:32:18 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  'gender-init' 
+									WHERE `sessionsid` =  '128'
+[24-Feb-2019 21:32:20 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[24-Feb-2019 21:32:20 Asia/Kolkata] already registered
+[24-Feb-2019 21:32:20 Asia/Kolkata] ------------sub continue----------------
+[24-Feb-2019 21:32:20 Asia/Kolkata] ------------pressed---------------1
+[24-Feb-2019 21:32:20 Asia/Kolkata] session{"sessionsid":"128","tel":"tel:8801866742387","menu":"gender-init","pg":"","created_at":"2019-02-24 21:32:13","others":"name","name":null,"msisdn":null,"age":null,"sex":null,"update_ts":"2019-02-24 21:32:18"}
+[24-Feb-2019 21:32:20 Asia/Kolkata] subscriber menu - gender-init
+[24-Feb-2019 21:32:20 Asia/Kolkata] ---------gender--------------check
+[24-Feb-2019 21:32:20 Asia/Kolkata] ---------male--------------
+[24-Feb-2019 21:32:20 Asia/Kolkata] type---menu
+[24-Feb-2019 21:32:20 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  'age-init' 
+									WHERE `sessionsid` =  '128'
+[24-Feb-2019 21:32:21 Asia/Kolkata] type---gender
+[24-Feb-2019 21:32:21 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`sex` =  '1' 
+									WHERE `sessionsid` =  '128'
+[24-Feb-2019 21:32:25 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[24-Feb-2019 21:32:25 Asia/Kolkata] already registered
+[24-Feb-2019 21:32:25 Asia/Kolkata] ------------sub continue----------------
+[24-Feb-2019 21:32:25 Asia/Kolkata] ------------pressed---------------1
+[24-Feb-2019 21:32:25 Asia/Kolkata] session{"sessionsid":"128","tel":"tel:8801866742387","menu":"age-init","pg":"","created_at":"2019-02-24 21:32:13","others":"name","name":null,"msisdn":null,"age":null,"sex":"1","update_ts":"2019-02-24 21:32:21"}
+[24-Feb-2019 21:32:25 Asia/Kolkata] subscriber menu - age-init
+[24-Feb-2019 21:32:25 Asia/Kolkata] type---age
+[24-Feb-2019 21:32:25 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  '',
+									`pg` =  '0',
+									`age` =  '1',
+									`others` =  'age-init'
+									WHERE `sessionsid` =  '128'
+[24-Feb-2019 21:32:25 Asia/Kolkata] aa---$1
+[24-Feb-2019 21:32:25 Asia/Kolkata] type---menu
+[24-Feb-2019 21:32:25 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  'friend-list-1' 
+									WHERE `sessionsid` =  '128'
+[24-Feb-2019 21:32:33 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[24-Feb-2019 21:32:33 Asia/Kolkata] already registered
+[24-Feb-2019 21:32:33 Asia/Kolkata] ------------sub continue----------------
+[24-Feb-2019 21:32:33 Asia/Kolkata] ------------pressed---------------92
+[24-Feb-2019 21:32:33 Asia/Kolkata] session{"sessionsid":"128","tel":"tel:8801866742387","menu":"friend-list-1","pg":"0","created_at":"2019-02-24 21:32:13","others":"age-init","name":null,"msisdn":null,"age":"1","sex":"1","update_ts":"2019-02-24 21:32:25"}
+[24-Feb-2019 21:32:33 Asia/Kolkata] subscriber menu - friend-list-1
+[24-Feb-2019 21:32:33 Asia/Kolkata] type---menu
+[24-Feb-2019 21:32:33 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  'friend-list-1' 
+									WHERE `sessionsid` =  '128'
+[24-Feb-2019 21:33:56 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[24-Feb-2019 21:33:56 Asia/Kolkata] already registered
+[24-Feb-2019 21:33:56 Asia/Kolkata] ------------sub continue----------------
+[24-Feb-2019 21:33:56 Asia/Kolkata] ------------pressed---------------92
+[24-Feb-2019 21:33:56 Asia/Kolkata] session{"sessionsid":"128","tel":"tel:8801866742387","menu":"friend-list-1","pg":"0","created_at":"2019-02-24 21:32:13","others":"age-init","name":null,"msisdn":null,"age":"1","sex":"1","update_ts":"2019-02-24 21:32:25"}
+[24-Feb-2019 21:33:56 Asia/Kolkata] subscriber menu - friend-list-1
+[24-Feb-2019 21:33:57 Asia/Kolkata] type---menu
+[24-Feb-2019 21:33:57 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  'friend-list-1' 
+									WHERE `sessionsid` =  '128'
+[24-Feb-2019 21:37:26 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[24-Feb-2019 21:37:26 Asia/Kolkata] already registered
+[24-Feb-2019 21:37:26 Asia/Kolkata] ------------sub continue----------------
+[24-Feb-2019 21:37:26 Asia/Kolkata] ------------pressed---------------92
+[24-Feb-2019 21:37:26 Asia/Kolkata] session{"sessionsid":"128","tel":"tel:8801866742387","menu":"friend-list-1","pg":"0","created_at":"2019-02-24 21:32:13","others":"age-init","name":null,"msisdn":null,"age":"1","sex":"1","update_ts":"2019-02-24 21:32:25"}
+[24-Feb-2019 21:37:26 Asia/Kolkata] subscriber menu - friend-list-1
+[24-Feb-2019 21:37:26 Asia/Kolkata] type---menu
+[24-Feb-2019 21:37:26 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  'friend-list-1' 
+									WHERE `sessionsid` =  '128'
+[24-Feb-2019 21:40:22 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[24-Feb-2019 21:40:22 Asia/Kolkata] already registered
+[24-Feb-2019 21:40:22 Asia/Kolkata] ------------sub continue----------------
+[24-Feb-2019 21:40:22 Asia/Kolkata] ------------pressed---------------92
+[24-Feb-2019 21:40:22 Asia/Kolkata] rcvr -92***** cuch====friend-list-1
+[24-Feb-2019 21:40:22 Asia/Kolkata] session{"sessionsid":"128","tel":"tel:8801866742387","menu":"friend-list-1","pg":"0","created_at":"2019-02-24 21:32:13","others":"age-init","name":null,"msisdn":null,"age":"1","sex":"1","update_ts":"2019-02-24 21:32:25"}
+[24-Feb-2019 21:40:22 Asia/Kolkata] subscriber menu - friend-list-1
+[24-Feb-2019 21:40:22 Asia/Kolkata] type---menu
+[24-Feb-2019 21:40:22 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  'friend-list-1' 
+									WHERE `sessionsid` =  '128'
+[24-Feb-2019 21:40:57 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[24-Feb-2019 21:40:57 Asia/Kolkata] already registered
+[24-Feb-2019 21:40:57 Asia/Kolkata] ------------sub continue----------------
+[24-Feb-2019 21:40:57 Asia/Kolkata] ------------pressed---------------92
+[24-Feb-2019 21:40:57 Asia/Kolkata] rcvr -92***** cuch====friend-list-1
+[24-Feb-2019 21:40:57 Asia/Kolkata] -------------------92 flist 1
+[24-Feb-2019 21:40:57 Asia/Kolkata] session{"sessionsid":"128","tel":"tel:8801866742387","menu":"friend-list-1","pg":"0","created_at":"2019-02-24 21:32:13","others":"age-init","name":null,"msisdn":null,"age":"1","sex":"1","update_ts":"2019-02-24 21:32:25"}
+[24-Feb-2019 21:40:57 Asia/Kolkata] subscriber menu - friend-list-2
+[24-Feb-2019 21:42:20 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[24-Feb-2019 21:42:20 Asia/Kolkata] already registered
+[24-Feb-2019 21:42:20 Asia/Kolkata] ------------sub continue----------------
+[24-Feb-2019 21:42:20 Asia/Kolkata] ------------pressed---------------93
+[24-Feb-2019 21:42:20 Asia/Kolkata] rcvr -93***** cuch====friend-list-1
+[24-Feb-2019 21:42:20 Asia/Kolkata] session{"sessionsid":"128","tel":"tel:8801866742387","menu":"friend-list-1","pg":"0","created_at":"2019-02-24 21:32:13","others":"age-init","name":null,"msisdn":null,"age":"1","sex":"1","update_ts":"2019-02-24 21:32:25"}
+[24-Feb-2019 21:42:20 Asia/Kolkata] subscriber menu - friend-list-1
+[24-Feb-2019 21:42:20 Asia/Kolkata] type---menu
+[24-Feb-2019 21:42:20 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  'friend-list-1' 
+									WHERE `sessionsid` =  '128'
+[24-Feb-2019 21:42:30 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[24-Feb-2019 21:42:30 Asia/Kolkata] already registered
+[24-Feb-2019 21:42:30 Asia/Kolkata] ------------sub continue----------------
+[24-Feb-2019 21:42:30 Asia/Kolkata] ------------pressed---------------92
+[24-Feb-2019 21:42:30 Asia/Kolkata] rcvr -92***** cuch====friend-list-1
+[24-Feb-2019 21:42:30 Asia/Kolkata] -------------------92 flist 1
+[24-Feb-2019 21:42:30 Asia/Kolkata] session{"sessionsid":"128","tel":"tel:8801866742387","menu":"friend-list-1","pg":"0","created_at":"2019-02-24 21:32:13","others":"age-init","name":null,"msisdn":null,"age":"1","sex":"1","update_ts":"2019-02-24 21:32:25"}
+[24-Feb-2019 21:42:30 Asia/Kolkata] subscriber menu - friend-list-2
+[24-Feb-2019 21:42:34 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[24-Feb-2019 21:42:34 Asia/Kolkata] already registered
+[24-Feb-2019 21:42:34 Asia/Kolkata] ------------sub continue----------------
+[24-Feb-2019 21:42:34 Asia/Kolkata] ------------pressed---------------93
+[24-Feb-2019 21:42:34 Asia/Kolkata] rcvr -93***** cuch====friend-list-1
+[24-Feb-2019 21:42:34 Asia/Kolkata] session{"sessionsid":"128","tel":"tel:8801866742387","menu":"friend-list-1","pg":"0","created_at":"2019-02-24 21:32:13","others":"age-init","name":null,"msisdn":null,"age":"1","sex":"1","update_ts":"2019-02-24 21:32:25"}
+[24-Feb-2019 21:42:34 Asia/Kolkata] subscriber menu - friend-list-1
+[24-Feb-2019 21:42:34 Asia/Kolkata] type---menu
+[24-Feb-2019 21:42:34 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  'friend-list-1' 
+									WHERE `sessionsid` =  '128'
+[24-Feb-2019 22:01:03 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[24-Feb-2019 22:01:03 Asia/Kolkata] already registered
+[24-Feb-2019 22:01:03 Asia/Kolkata] ------------sub continue----------------
+[24-Feb-2019 22:01:03 Asia/Kolkata] ------------pressed---------------92
+[24-Feb-2019 22:01:03 Asia/Kolkata] rcvr -92***** cuch====friend-list-1
+[24-Feb-2019 22:01:03 Asia/Kolkata] -------------------92 flist 1
+[24-Feb-2019 22:01:03 Asia/Kolkata] session{"sessionsid":"128","tel":"tel:8801866742387","menu":"friend-list-1","pg":"0","created_at":"2019-02-24 21:32:13","others":"age-init","name":null,"msisdn":null,"age":"1","sex":"1","update_ts":"2019-02-24 21:32:25"}
+[24-Feb-2019 22:01:03 Asia/Kolkata] subscriber menu - friend-list-2
+[24-Feb-2019 22:01:08 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[24-Feb-2019 22:01:08 Asia/Kolkata] already registered
+[24-Feb-2019 22:01:08 Asia/Kolkata] ------------sub continue----------------
+[24-Feb-2019 22:01:08 Asia/Kolkata] ------------pressed---------------93
+[24-Feb-2019 22:01:08 Asia/Kolkata] rcvr -93***** cuch====friend-list-1
+[24-Feb-2019 22:01:08 Asia/Kolkata] session{"sessionsid":"128","tel":"tel:8801866742387","menu":"friend-list-1","pg":"0","created_at":"2019-02-24 21:32:13","others":"age-init","name":null,"msisdn":null,"age":"1","sex":"1","update_ts":"2019-02-24 21:32:25"}
+[24-Feb-2019 22:01:08 Asia/Kolkata] subscriber menu - friend-list-1
+[24-Feb-2019 22:01:08 Asia/Kolkata] type---menu
+[24-Feb-2019 22:01:08 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  'friend-list-1' 
+									WHERE `sessionsid` =  '128'
+[24-Feb-2019 22:01:34 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[24-Feb-2019 22:01:35 Asia/Kolkata] already registered
+[24-Feb-2019 22:01:35 Asia/Kolkata] ------------sub continue----------------
+[24-Feb-2019 22:01:35 Asia/Kolkata] ------------pressed---------------92
+[24-Feb-2019 22:01:35 Asia/Kolkata] rcvr -92***** cuch====friend-list-1
+[24-Feb-2019 22:01:35 Asia/Kolkata] -------------------92 flist 1
+[24-Feb-2019 22:01:35 Asia/Kolkata] session{"sessionsid":"128","tel":"tel:8801866742387","menu":"friend-list-1","pg":"0","created_at":"2019-02-24 21:32:13","others":"age-init","name":null,"msisdn":null,"age":"1","sex":"1","update_ts":"2019-02-24 21:32:25"}
+[24-Feb-2019 22:01:35 Asia/Kolkata] subscriber menu - friend-list-2
+[24-Feb-2019 22:01:39 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[24-Feb-2019 22:01:39 Asia/Kolkata] already registered
+[24-Feb-2019 22:01:39 Asia/Kolkata] ------------sub continue----------------
+[24-Feb-2019 22:01:39 Asia/Kolkata] ------------pressed---------------93
+[24-Feb-2019 22:01:39 Asia/Kolkata] rcvr -93***** cuch====friend-list-1
+[24-Feb-2019 22:01:39 Asia/Kolkata] session{"sessionsid":"128","tel":"tel:8801866742387","menu":"friend-list-1","pg":"0","created_at":"2019-02-24 21:32:13","others":"age-init","name":null,"msisdn":null,"age":"1","sex":"1","update_ts":"2019-02-24 21:32:25"}
+[24-Feb-2019 22:01:39 Asia/Kolkata] subscriber menu - friend-list-1
+[24-Feb-2019 22:01:39 Asia/Kolkata] type---menu
+[24-Feb-2019 22:01:39 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  'friend-list-1' 
+									WHERE `sessionsid` =  '128'
+[24-Feb-2019 23:07:13 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[24-Feb-2019 23:07:13 Asia/Kolkata] already registered
+[24-Feb-2019 23:07:13 Asia/Kolkata] subscriber - mo init
+[24-Feb-2019 23:07:13 Asia/Kolkata] enter--------93
+[24-Feb-2019 23:07:13 Asia/Kolkata] set session
+[24-Feb-2019 23:07:13 Asia/Kolkata] {"sessionid":"129","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[24-Feb-2019 23:07:22 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[24-Feb-2019 23:07:22 Asia/Kolkata] already registered
+[24-Feb-2019 23:07:22 Asia/Kolkata] ------------sub continue----------------
+[24-Feb-2019 23:07:22 Asia/Kolkata] ------------pressed---------------3
+[24-Feb-2019 23:07:22 Asia/Kolkata] rcvr -3***** cuch====main
+[24-Feb-2019 23:07:22 Asia/Kolkata] session{"sessionsid":"129","tel":"tel:8801866742387","menu":"main","pg":"","created_at":"2019-02-24 23:07:13","others":"name","name":null,"msisdn":null,"age":null,"sex":null,"update_ts":"2019-02-24 23:07:13"}
+[24-Feb-2019 23:07:22 Asia/Kolkata] subscriber menu - main
+[24-Feb-2019 23:08:48 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[24-Feb-2019 23:08:48 Asia/Kolkata] already registered
+[24-Feb-2019 23:08:48 Asia/Kolkata] ------------sub continue----------------
+[24-Feb-2019 23:08:48 Asia/Kolkata] ------------pressed---------------3
+[24-Feb-2019 23:08:48 Asia/Kolkata] rcvr -3***** cuch====main
+[24-Feb-2019 23:08:48 Asia/Kolkata] session{"sessionsid":"129","tel":"tel:8801866742387","menu":"main","pg":"","created_at":"2019-02-24 23:07:13","others":"name","name":null,"msisdn":null,"age":null,"sex":null,"update_ts":"2019-02-24 23:07:13"}
+[24-Feb-2019 23:08:48 Asia/Kolkata] subscriber menu - main
+[24-Feb-2019 23:09:00 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[24-Feb-2019 23:09:00 Asia/Kolkata] already registered
+[24-Feb-2019 23:09:00 Asia/Kolkata] subscriber - mo init
+[24-Feb-2019 23:09:00 Asia/Kolkata] enter--------3
+[24-Feb-2019 23:09:00 Asia/Kolkata] set session
+[24-Feb-2019 23:09:00 Asia/Kolkata] {"sessionid":"130","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[24-Feb-2019 23:09:06 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[24-Feb-2019 23:09:06 Asia/Kolkata] already registered
+[24-Feb-2019 23:09:06 Asia/Kolkata] ------------sub continue----------------
+[24-Feb-2019 23:09:06 Asia/Kolkata] ------------pressed---------------3
+[24-Feb-2019 23:09:06 Asia/Kolkata] rcvr -3***** cuch====main
+[24-Feb-2019 23:09:06 Asia/Kolkata] session{"sessionsid":"130","tel":"tel:8801866742387","menu":"main","pg":"","created_at":"2019-02-24 23:09:00","others":"name","name":null,"msisdn":null,"age":null,"sex":null,"update_ts":"2019-02-24 23:09:00"}
+[24-Feb-2019 23:09:06 Asia/Kolkata] subscriber menu - main
+[24-Feb-2019 23:09:38 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[24-Feb-2019 23:09:38 Asia/Kolkata] already registered
+[24-Feb-2019 23:09:38 Asia/Kolkata] ------------sub continue----------------
+[24-Feb-2019 23:09:38 Asia/Kolkata] ------------pressed---------------3
+[24-Feb-2019 23:09:38 Asia/Kolkata] rcvr -3***** cuch====main
+[24-Feb-2019 23:09:38 Asia/Kolkata] session{"sessionsid":"130","tel":"tel:8801866742387","menu":"main","pg":"","created_at":"2019-02-24 23:09:00","others":"name","name":null,"msisdn":null,"age":null,"sex":null,"update_ts":"2019-02-24 23:09:00"}
+[24-Feb-2019 23:09:38 Asia/Kolkata] subscriber menu - main
+[24-Feb-2019 23:10:17 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[24-Feb-2019 23:10:17 Asia/Kolkata] already registered
+[24-Feb-2019 23:10:17 Asia/Kolkata] ------------sub continue----------------
+[24-Feb-2019 23:10:17 Asia/Kolkata] ------------pressed---------------3
+[24-Feb-2019 23:10:17 Asia/Kolkata] rcvr -3***** cuch====main
+[24-Feb-2019 23:10:17 Asia/Kolkata] session{"sessionsid":"130","tel":"tel:8801866742387","menu":"main","pg":"","created_at":"2019-02-24 23:09:00","others":"name","name":null,"msisdn":null,"age":null,"sex":null,"update_ts":"2019-02-24 23:09:00"}
+[24-Feb-2019 23:10:17 Asia/Kolkata] subscriber menu - main
+[24-Feb-2019 23:12:04 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[24-Feb-2019 23:12:04 Asia/Kolkata] already registered
+[24-Feb-2019 23:12:04 Asia/Kolkata] ------------sub continue----------------
+[24-Feb-2019 23:12:04 Asia/Kolkata] ------------pressed---------------3
+[24-Feb-2019 23:12:04 Asia/Kolkata] rcvr -3***** cuch====main
+[24-Feb-2019 23:12:04 Asia/Kolkata] session{"sessionsid":"130","tel":"tel:8801866742387","menu":"main","pg":"","created_at":"2019-02-24 23:09:00","others":"name","name":null,"msisdn":null,"age":null,"sex":null,"update_ts":"2019-02-24 23:09:00"}
+[24-Feb-2019 23:12:04 Asia/Kolkata] subscriber menu - main
+[24-Feb-2019 23:13:17 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[24-Feb-2019 23:13:17 Asia/Kolkata] already registered
+[24-Feb-2019 23:13:17 Asia/Kolkata] ------------sub continue----------------
+[24-Feb-2019 23:13:17 Asia/Kolkata] ------------pressed---------------3
+[24-Feb-2019 23:13:17 Asia/Kolkata] rcvr -3***** cuch====main
+[24-Feb-2019 23:13:17 Asia/Kolkata] session{"sessionsid":"130","tel":"tel:8801866742387","menu":"main","pg":"","created_at":"2019-02-24 23:09:00","others":"name","name":null,"msisdn":null,"age":null,"sex":null,"update_ts":"2019-02-24 23:09:00"}
+[24-Feb-2019 23:13:17 Asia/Kolkata] subscriber menu - main
+[24-Feb-2019 23:13:59 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[24-Feb-2019 23:13:59 Asia/Kolkata] already registered
+[24-Feb-2019 23:13:59 Asia/Kolkata] ------------sub continue----------------
+[24-Feb-2019 23:13:59 Asia/Kolkata] ------------pressed---------------3
+[24-Feb-2019 23:13:59 Asia/Kolkata] rcvr -3***** cuch====main
+[24-Feb-2019 23:13:59 Asia/Kolkata] session{"sessionsid":"130","tel":"tel:8801866742387","menu":"main","pg":"","created_at":"2019-02-24 23:09:00","others":"name","name":null,"msisdn":null,"age":null,"sex":null,"update_ts":"2019-02-24 23:09:00"}
+[24-Feb-2019 23:13:59 Asia/Kolkata] subscriber menu - main
+[24-Feb-2019 23:14:13 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[24-Feb-2019 23:14:13 Asia/Kolkata] already registered
+[24-Feb-2019 23:14:13 Asia/Kolkata] ------------sub continue----------------
+[24-Feb-2019 23:14:13 Asia/Kolkata] ------------pressed---------------3
+[24-Feb-2019 23:14:13 Asia/Kolkata] rcvr -3***** cuch====main
+[24-Feb-2019 23:14:13 Asia/Kolkata] session{"sessionsid":"130","tel":"tel:8801866742387","menu":"main","pg":"","created_at":"2019-02-24 23:09:00","others":"name","name":null,"msisdn":null,"age":null,"sex":null,"update_ts":"2019-02-24 23:09:00"}
+[24-Feb-2019 23:14:13 Asia/Kolkata] subscriber menu - main
+[24-Feb-2019 23:16:02 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[24-Feb-2019 23:16:02 Asia/Kolkata] already registered
+[24-Feb-2019 23:16:02 Asia/Kolkata] ------------sub continue----------------
+[24-Feb-2019 23:16:02 Asia/Kolkata] ------------pressed---------------3
+[24-Feb-2019 23:16:02 Asia/Kolkata] rcvr -3***** cuch====main
+[24-Feb-2019 23:16:02 Asia/Kolkata] session{"sessionsid":"130","tel":"tel:8801866742387","menu":"main","pg":"","created_at":"2019-02-24 23:09:00","others":"name","name":null,"msisdn":null,"age":null,"sex":null,"update_ts":"2019-02-24 23:09:00"}
+[24-Feb-2019 23:16:02 Asia/Kolkata] subscriber menu - main
+[24-Feb-2019 23:16:08 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[24-Feb-2019 23:16:08 Asia/Kolkata] already registered
+[24-Feb-2019 23:16:08 Asia/Kolkata] ------------sub continue----------------
+[24-Feb-2019 23:16:08 Asia/Kolkata] ------------pressed---------------93
+[24-Feb-2019 23:16:08 Asia/Kolkata] rcvr -93***** cuch====main
+[24-Feb-2019 23:16:08 Asia/Kolkata] session{"sessionsid":"130","tel":"tel:8801866742387","menu":"main","pg":"","created_at":"2019-02-24 23:09:00","others":"name","name":null,"msisdn":null,"age":null,"sex":null,"update_ts":"2019-02-24 23:09:00"}
+[24-Feb-2019 23:16:08 Asia/Kolkata] subscriber menu - main
+[24-Feb-2019 23:16:22 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[24-Feb-2019 23:16:22 Asia/Kolkata] already registered
+[24-Feb-2019 23:16:22 Asia/Kolkata] ------------sub continue----------------
+[24-Feb-2019 23:16:22 Asia/Kolkata] ------------pressed---------------93
+[24-Feb-2019 23:16:22 Asia/Kolkata] rcvr -93***** cuch====main
+[24-Feb-2019 23:16:22 Asia/Kolkata] session{"sessionsid":"130","tel":"tel:8801866742387","menu":"main","pg":"","created_at":"2019-02-24 23:09:00","others":"name","name":null,"msisdn":null,"age":null,"sex":null,"update_ts":"2019-02-24 23:09:00"}
+[24-Feb-2019 23:16:22 Asia/Kolkata] subscriber menu - main
+[24-Feb-2019 23:16:49 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[24-Feb-2019 23:16:49 Asia/Kolkata] already registered
+[24-Feb-2019 23:16:49 Asia/Kolkata] ------------sub continue----------------
+[24-Feb-2019 23:16:49 Asia/Kolkata] ------------pressed---------------93
+[24-Feb-2019 23:16:49 Asia/Kolkata] rcvr -93***** cuch====main
+[24-Feb-2019 23:16:49 Asia/Kolkata] session{"sessionsid":"130","tel":"tel:8801866742387","menu":"main","pg":"","created_at":"2019-02-24 23:09:00","others":"name","name":null,"msisdn":null,"age":null,"sex":null,"update_ts":"2019-02-24 23:09:00"}
+[24-Feb-2019 23:16:49 Asia/Kolkata] subscriber menu - main
+[24-Feb-2019 23:18:21 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[24-Feb-2019 23:18:21 Asia/Kolkata] already registered
+[24-Feb-2019 23:18:21 Asia/Kolkata] ------------sub continue----------------
+[24-Feb-2019 23:18:21 Asia/Kolkata] ------------pressed---------------93
+[24-Feb-2019 23:18:21 Asia/Kolkata] rcvr -93***** cuch====
+[24-Feb-2019 23:18:21 Asia/Kolkata] sessionfalse
+[24-Feb-2019 23:18:21 Asia/Kolkata] subscriber menu - 
+[24-Feb-2019 23:18:21 Asia/Kolkata] type---
+[24-Feb-2019 23:18:21 Asia/Kolkata] update---UPDATE  `sessions` SET 
+									`menu` =  'main',
+									`pg` =  '0',
+									`others` =  '',
+									`msisdn` =  ''
+									WHERE `sessionsid` =  ''
+[24-Feb-2019 23:18:26 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[24-Feb-2019 23:18:26 Asia/Kolkata] already registered
+[24-Feb-2019 23:18:26 Asia/Kolkata] subscriber - mo init
+[24-Feb-2019 23:18:26 Asia/Kolkata] enter--------93
+[24-Feb-2019 23:18:26 Asia/Kolkata] set session
+[24-Feb-2019 23:18:26 Asia/Kolkata] {"sessionid":"131","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[24-Feb-2019 23:18:33 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[24-Feb-2019 23:18:33 Asia/Kolkata] already registered
+[24-Feb-2019 23:18:33 Asia/Kolkata] ------------sub continue----------------
+[24-Feb-2019 23:18:33 Asia/Kolkata] ------------pressed---------------3
+[24-Feb-2019 23:18:33 Asia/Kolkata] rcvr -3***** cuch====main
+[24-Feb-2019 23:18:33 Asia/Kolkata] session{"sessionsid":"131","tel":"tel:8801866742387","menu":"main","pg":"","created_at":"2019-02-24 23:18:26","others":"name","name":null,"msisdn":null,"age":null,"sex":null,"update_ts":"2019-02-24 23:18:26"}
+[24-Feb-2019 23:18:33 Asia/Kolkata] subscriber menu - main
+[24-Feb-2019 23:18:38 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[24-Feb-2019 23:18:38 Asia/Kolkata] already registered
+[24-Feb-2019 23:18:38 Asia/Kolkata] ------------sub continue----------------
+[24-Feb-2019 23:18:38 Asia/Kolkata] ------------pressed---------------93
+[24-Feb-2019 23:18:38 Asia/Kolkata] rcvr -93***** cuch====main
+[24-Feb-2019 23:18:38 Asia/Kolkata] session{"sessionsid":"131","tel":"tel:8801866742387","menu":"main","pg":"","created_at":"2019-02-24 23:18:26","others":"name","name":null,"msisdn":null,"age":null,"sex":null,"update_ts":"2019-02-24 23:18:26"}
+[24-Feb-2019 23:18:38 Asia/Kolkata] subscriber menu - main
+[24-Feb-2019 23:18:51 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[24-Feb-2019 23:18:51 Asia/Kolkata] already registered
+[24-Feb-2019 23:18:51 Asia/Kolkata] ------------sub continue----------------
+[24-Feb-2019 23:18:51 Asia/Kolkata] ------------pressed---------------93
+[24-Feb-2019 23:18:51 Asia/Kolkata] rcvr -93***** cuch====main
+[24-Feb-2019 23:18:51 Asia/Kolkata] session{"sessionsid":"131","tel":"tel:8801866742387","menu":"main","pg":"","created_at":"2019-02-24 23:18:26","others":"name","name":null,"msisdn":null,"age":null,"sex":null,"update_ts":"2019-02-24 23:18:26"}
+[24-Feb-2019 23:18:51 Asia/Kolkata] subscriber menu - main
+[24-Feb-2019 23:18:52 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[24-Feb-2019 23:18:52 Asia/Kolkata] already registered
+[24-Feb-2019 23:18:52 Asia/Kolkata] ------------sub continue----------------
+[24-Feb-2019 23:18:52 Asia/Kolkata] ------------pressed---------------93
+[24-Feb-2019 23:18:52 Asia/Kolkata] rcvr -93***** cuch====main
+[24-Feb-2019 23:18:52 Asia/Kolkata] session{"sessionsid":"131","tel":"tel:8801866742387","menu":"main","pg":"","created_at":"2019-02-24 23:18:26","others":"name","name":null,"msisdn":null,"age":null,"sex":null,"update_ts":"2019-02-24 23:18:26"}
+[24-Feb-2019 23:18:52 Asia/Kolkata] subscriber menu - main
+[24-Feb-2019 23:18:52 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[24-Feb-2019 23:18:52 Asia/Kolkata] already registered
+[24-Feb-2019 23:18:52 Asia/Kolkata] ------------sub continue----------------
+[24-Feb-2019 23:18:52 Asia/Kolkata] ------------pressed---------------93
+[24-Feb-2019 23:18:52 Asia/Kolkata] rcvr -93***** cuch====main
+[24-Feb-2019 23:18:52 Asia/Kolkata] session{"sessionsid":"131","tel":"tel:8801866742387","menu":"main","pg":"","created_at":"2019-02-24 23:18:26","others":"name","name":null,"msisdn":null,"age":null,"sex":null,"update_ts":"2019-02-24 23:18:26"}
+[24-Feb-2019 23:18:52 Asia/Kolkata] subscriber menu - main
+[24-Feb-2019 23:18:53 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[24-Feb-2019 23:18:53 Asia/Kolkata] already registered
+[24-Feb-2019 23:18:53 Asia/Kolkata] ------------sub continue----------------
+[24-Feb-2019 23:18:53 Asia/Kolkata] ------------pressed---------------93
+[24-Feb-2019 23:18:53 Asia/Kolkata] rcvr -93***** cuch====main
+[24-Feb-2019 23:18:53 Asia/Kolkata] session{"sessionsid":"131","tel":"tel:8801866742387","menu":"main","pg":"","created_at":"2019-02-24 23:18:26","others":"name","name":null,"msisdn":null,"age":null,"sex":null,"update_ts":"2019-02-24 23:18:26"}
+[24-Feb-2019 23:18:53 Asia/Kolkata] subscriber menu - main
+[24-Feb-2019 23:18:53 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[24-Feb-2019 23:18:53 Asia/Kolkata] already registered
+[24-Feb-2019 23:18:53 Asia/Kolkata] ------------sub continue----------------
+[24-Feb-2019 23:18:53 Asia/Kolkata] ------------pressed---------------93
+[24-Feb-2019 23:18:53 Asia/Kolkata] rcvr -93***** cuch====main
+[24-Feb-2019 23:18:53 Asia/Kolkata] session{"sessionsid":"131","tel":"tel:8801866742387","menu":"main","pg":"","created_at":"2019-02-24 23:18:26","others":"name","name":null,"msisdn":null,"age":null,"sex":null,"update_ts":"2019-02-24 23:18:26"}
+[24-Feb-2019 23:18:53 Asia/Kolkata] subscriber menu - main
+[24-Feb-2019 23:18:53 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[24-Feb-2019 23:18:53 Asia/Kolkata] already registered
+[24-Feb-2019 23:18:53 Asia/Kolkata] ------------sub continue----------------
+[24-Feb-2019 23:18:53 Asia/Kolkata] ------------pressed---------------93
+[24-Feb-2019 23:18:53 Asia/Kolkata] rcvr -93***** cuch====main
+[24-Feb-2019 23:18:53 Asia/Kolkata] session{"sessionsid":"131","tel":"tel:8801866742387","menu":"main","pg":"","created_at":"2019-02-24 23:18:26","others":"name","name":null,"msisdn":null,"age":null,"sex":null,"update_ts":"2019-02-24 23:18:26"}
+[24-Feb-2019 23:18:53 Asia/Kolkata] subscriber menu - main
+[24-Feb-2019 23:19:58 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[24-Feb-2019 23:19:58 Asia/Kolkata] already registered
+[24-Feb-2019 23:19:58 Asia/Kolkata] ------------sub continue----------------
+[24-Feb-2019 23:19:58 Asia/Kolkata] ------------pressed---------------93
+[24-Feb-2019 23:19:58 Asia/Kolkata] rcvr -93***** cuch====main
+[24-Feb-2019 23:19:58 Asia/Kolkata] session{"sessionsid":"131","tel":"tel:8801866742387","menu":"main","pg":"","created_at":"2019-02-24 23:18:26","others":"name","name":null,"msisdn":null,"age":null,"sex":null,"update_ts":"2019-02-24 23:18:26"}
+[24-Feb-2019 23:19:58 Asia/Kolkata] subscriber menu - main
+[24-Feb-2019 23:20:14 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[24-Feb-2019 23:20:14 Asia/Kolkata] already registered
+[24-Feb-2019 23:20:14 Asia/Kolkata] subscriber - mo init
+[24-Feb-2019 23:20:14 Asia/Kolkata] enter--------93
+[24-Feb-2019 23:20:14 Asia/Kolkata] set session
+[24-Feb-2019 23:20:14 Asia/Kolkata] {"sessionid":"132","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[24-Feb-2019 23:20:20 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[24-Feb-2019 23:20:20 Asia/Kolkata] already registered
+[24-Feb-2019 23:20:20 Asia/Kolkata] subscriber - mo init
+[24-Feb-2019 23:20:20 Asia/Kolkata] enter--------3
+[24-Feb-2019 23:20:20 Asia/Kolkata] set session
+[24-Feb-2019 23:20:20 Asia/Kolkata] {"errorInfo":["23000",1062,"Duplicate entry '132' for key 'PRIMARY'"]}
+[24-Feb-2019 23:20:20 Asia/Kolkata] {"sessionid":"132","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[24-Feb-2019 23:20:30 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[24-Feb-2019 23:20:30 Asia/Kolkata] already registered
+[24-Feb-2019 23:20:30 Asia/Kolkata] ------------sub continue----------------
+[24-Feb-2019 23:20:30 Asia/Kolkata] ------------pressed---------------3
+[24-Feb-2019 23:20:30 Asia/Kolkata] rcvr -3***** cuch====main
+[24-Feb-2019 23:20:30 Asia/Kolkata] session{"sessionsid":"132","tel":"tel:8801866742387","menu":"main","pg":"","created_at":"2019-02-24 23:20:14","others":"name","name":null,"msisdn":null,"age":null,"sex":null,"update_ts":"2019-02-24 23:20:14"}
+[24-Feb-2019 23:20:30 Asia/Kolkata] subscriber menu - main
+[24-Feb-2019 23:21:17 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[24-Feb-2019 23:21:17 Asia/Kolkata] already registered
+[24-Feb-2019 23:21:17 Asia/Kolkata] ------------sub continue----------------
+[24-Feb-2019 23:21:17 Asia/Kolkata] ------------pressed---------------93
+[24-Feb-2019 23:21:17 Asia/Kolkata] rcvr -93***** cuch====main
+[24-Feb-2019 23:21:17 Asia/Kolkata] session{"sessionsid":"132","tel":"tel:8801866742387","menu":"main","pg":"","created_at":"2019-02-24 23:20:14","others":"name","name":null,"msisdn":null,"age":null,"sex":null,"update_ts":"2019-02-24 23:20:14"}
+[24-Feb-2019 23:21:17 Asia/Kolkata] subscriber menu - main
+[24-Feb-2019 23:24:07 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[24-Feb-2019 23:24:07 Asia/Kolkata] already registered
+[24-Feb-2019 23:24:07 Asia/Kolkata] ------------sub continue----------------
+[24-Feb-2019 23:24:07 Asia/Kolkata] ------------pressed---------------93
+[24-Feb-2019 23:24:07 Asia/Kolkata] rcvr -93***** cuch====main
+[24-Feb-2019 23:24:07 Asia/Kolkata] session{"sessionsid":"132","tel":"tel:8801866742387","menu":"main","pg":"","created_at":"2019-02-24 23:20:14","others":"name","name":null,"msisdn":null,"age":null,"sex":null,"update_ts":"2019-02-24 23:20:14"}
+[24-Feb-2019 23:24:07 Asia/Kolkata] subscriber menu - main
+[24-Feb-2019 23:25:04 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[24-Feb-2019 23:25:04 Asia/Kolkata] already registered
+[24-Feb-2019 23:25:04 Asia/Kolkata] ------------sub continue----------------
+[24-Feb-2019 23:25:04 Asia/Kolkata] ------------pressed---------------93
+[24-Feb-2019 23:25:04 Asia/Kolkata] rcvr -93***** cuch====main
+[24-Feb-2019 23:25:04 Asia/Kolkata] set session
+[24-Feb-2019 23:25:04 Asia/Kolkata] {"errorInfo":["23000",1062,"Duplicate entry '132' for key 'PRIMARY'"]}
+[24-Feb-2019 23:25:04 Asia/Kolkata] {"sessionid":"132","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[24-Feb-2019 23:25:04 Asia/Kolkata] session{"sessionsid":"132","tel":"tel:8801866742387","menu":"main","pg":"","created_at":"2019-02-24 23:20:14","others":"name","name":null,"msisdn":null,"age":null,"sex":null,"update_ts":"2019-02-24 23:20:14"}
+[24-Feb-2019 23:25:04 Asia/Kolkata] subscriber menu - main
+[24-Feb-2019 23:25:13 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[24-Feb-2019 23:25:13 Asia/Kolkata] already registered
+[24-Feb-2019 23:25:13 Asia/Kolkata] ------------sub continue----------------
+[24-Feb-2019 23:25:13 Asia/Kolkata] ------------pressed---------------3
+[24-Feb-2019 23:25:13 Asia/Kolkata] rcvr -3***** cuch====main
+[24-Feb-2019 23:25:13 Asia/Kolkata] session{"sessionsid":"132","tel":"tel:8801866742387","menu":"main","pg":"","created_at":"2019-02-24 23:20:14","others":"name","name":null,"msisdn":null,"age":null,"sex":null,"update_ts":"2019-02-24 23:20:14"}
+[24-Feb-2019 23:25:13 Asia/Kolkata] subscriber menu - main
+[24-Feb-2019 23:25:19 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[24-Feb-2019 23:25:19 Asia/Kolkata] already registered
+[24-Feb-2019 23:25:19 Asia/Kolkata] ------------sub continue----------------
+[24-Feb-2019 23:25:19 Asia/Kolkata] ------------pressed---------------93
+[24-Feb-2019 23:25:19 Asia/Kolkata] rcvr -93***** cuch====main
+[24-Feb-2019 23:25:19 Asia/Kolkata] set session
+[24-Feb-2019 23:25:19 Asia/Kolkata] {"errorInfo":["23000",1062,"Duplicate entry '132' for key 'PRIMARY'"]}
+[24-Feb-2019 23:25:19 Asia/Kolkata] {"sessionid":"132","tel":"tel:8801866742387","menu":"main","pg":"","others":"name"}
+[24-Feb-2019 23:25:19 Asia/Kolkata] session{"sessionsid":"132","tel":"tel:8801866742387","menu":"main","pg":"","created_at":"2019-02-24 23:20:14","others":"name","name":null,"msisdn":null,"age":null,"sex":null,"update_ts":"2019-02-24 23:20:14"}
+[24-Feb-2019 23:25:19 Asia/Kolkata] subscriber menu - main
+[24-Feb-2019 23:25:48 Asia/Kolkata] sub info --- {"id":"1","name":"Kavinda Rochana","sex":"1","age":"25","msisdn":"8801866742387","create_ts":"2019-02-18 18:35:37","update_ts":"2019-02-18 18:35:37"}
+[24-Feb-2019 23:25:48 Asia/Kolkata] already registered
+[24-Feb-2019 23:25:48 Asia/Kolkata] ------------sub continue----------------
+[24-Feb-2019 23:25:48 Asia/Kolkata] ------------pressed---------------2
+[24-Feb-2019 23:25:48 Asia/Kolkata] rcvr -2***** cuch====main
+[24-Feb-2019 23:25:48 Asia/Kolkata] session{"sessionsid":"132","tel":"tel:8801866742387","menu":"main","pg":"","created_at":"2019-02-24 23:20:14","others":"name","name":null,"msisdn":null,"age":null,"sex":null,"update_ts":"2019-02-24 23:20:14"}
+[24-Feb-2019 23:25:48 Asia/Kolkata] subscriber menu - main
