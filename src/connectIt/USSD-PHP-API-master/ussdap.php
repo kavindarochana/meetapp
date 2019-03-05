@@ -229,7 +229,14 @@ Gender : '.$gender.'
 		if ($receiver->getMessage() == 93 &&  $sessiondetails['menu'] == "friend-list-2") {
 			$cuch_menu = 'friend-list-1';
 		}
+
+		if ($receiver->getMessage() == 92 &&  $sessiondetails['menu'] == "friend-list-2") {
+			$cuch_menu = 'friend-list-3';
+		}
 		
+		if ($receiver->getMessage() == 93 &&  $sessiondetails['menu'] == "friend-list-3") {
+			$cuch_menu = 'friend-list-2';
+		}
 		
 
 		error_log('session' . json_encode($sessiondetails));
@@ -321,7 +328,11 @@ Gender : '.$gender.'
 
 			case "friend-list-1":
 			//$operations->saveSesssion($conn, 'age', $receiver->getMessage());
-			$sender->ussd($sessionId, $responseMsg['friend-list-1'], $address, 'mt-fin');
+
+			error_log(json_encode( $operations->getFriends($conn)));
+			//$sender->ussd($sessionId, $responseMsg['friend-list-1'], $address, 'mt-fin');
+			$sender->ussd($sessionId, $operations->getFriends($conn), $address, 'mt-fin');
+			
 			$operations->saveSesssion($conn, 'menu', 'friend-list-1');
 			// $operations->saveSesssion($conn, 'age', $receiver->getMessage());
 			// $operations->session_menu = "age-init";
@@ -329,7 +340,17 @@ Gender : '.$gender.'
 
 			case "friend-list-2":
 			//$operations->saveSesssion($conn, 'age', $receiver->getMessage());
-			$sender->ussd($sessionId, "flist 2", $address);
+			$sender->ussd($sessionId,  $operations->getFriends($conn, 2), $address, 'mt-fin');
+			$operations->saveSesssion($conn, 'menu', 'friend-list-2');
+			// $operations->saveSesssion($conn, 'menu', 'friend-list-1');
+			// $operations->saveSesssion($conn, 'age', $receiver->getMessage());
+			// $operations->session_menu = "age-init";
+			break;
+
+			case "friend-list-3":
+			//$operations->saveSesssion($conn, 'age', $receiver->getMessage());
+			$sender->ussd($sessionId,  $operations->getFriends($conn, 3), $address, 'mt-fin');
+			$operations->saveSesssion($conn, 'menu', 'friend-list-3');
 			// $operations->saveSesssion($conn, 'menu', 'friend-list-1');
 			// $operations->saveSesssion($conn, 'age', $receiver->getMessage());
 			// $operations->session_menu = "age-init";

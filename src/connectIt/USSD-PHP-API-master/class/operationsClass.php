@@ -127,6 +127,52 @@ class Operations
 	}
 
 
+	public function getFriends($conn, $page=1, $uid = null) {
+
+		$sql = 'SELECT * FROM `tbl_subscriber`';
+		$sql_prepare = $conn->prepare($sql);
+    	$result = $conn -> query($sql);
+		while ($user = $result->fetch(PDO::FETCH_ASSOC)) {
+			$i[] = ['id' => $user['id'] , 'name' => explode(' ',trim($user['name']))[0]];
+		  }
+		
+
+
+		if ($page == 1) {
+			return 'Select age range for looking for
+
+1. '.@$i[0]['name'].'
+2. '.@$i[1]['name'].'
+3. '.@$i[2]['name'].'
+4. '.@$i[3]['name'].'
+5. '.@$i[4]['name'].'
+
+92.Next';
+		} else if ($page == 2) {
+			return 'Select age range for looking for
+	
+6. '.@$i[5]['name'].'
+7. '.@$i[6]['name'].'
+8. '.@$i[7]['name'].'
+9. '.@$i[8]['name'].'
+10. '.@$i[9]['name'].'
+			
+92.Next
+93.Back';
+		} else {
+			return 'Select age range for looking for
+	
+11. '.@$i[10]['name'].'
+12. '.@$i[11]['name'].'
+13. '.@$i[12]['name'].'
+14. '.@$i[13]['name'].'
+15. '.@$i[14]['name'].'
+			
+			93.Back';
+		}
+	}
+
+
 }
 
 ?>
