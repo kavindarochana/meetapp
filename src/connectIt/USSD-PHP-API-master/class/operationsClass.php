@@ -127,19 +127,48 @@ class Operations
 	}
 
 
-	public function getFriends($conn, $page=1, $uid = null) {
+	public function getFriends($conn, $page=1, $uid = null, $age = null, $frq = null, $request = null) {
 
-		$sql = 'SELECT * FROM `tbl_subscriber`';
-		$sql_prepare = $conn->prepare($sql);
-    	$result = $conn -> query($sql);
-		while ($user = $result->fetch(PDO::FETCH_ASSOC)) {
-			$i[] = ['id' => $user['id'] , 'name' => explode(' ',trim($user['name']))[0]];
-		  }
+		// $sql = 'SELECT * FROM `tbl_subscriber`';
+
+		// $redis = new Redis();
+		// $redis->connect("127.0.0.1", 6379);
+ 
+		// if ($redis->get($uid.'list')) {
+			$sql = "SELECT * FROM `tbl_subscriber` WHERE id != $uid AND id NOT in (SELECT frq FROM tbl_friends where frq = $uid) AND 
+					id not in (SELECT frs FROM tbl_friends where frs = $uid) order by create_ts DESC LIMIT 15";
+
+			error_log('fselect----'.$sql);
+			$sql_prepare = $conn->prepare($sql);
+			$result = $conn -> query($sql);
+			while ($user = $result->fetch(PDO::FETCH_ASSOC)) {
+				$i[] = ['id' => $user['id'] , 'name' => explode(' ',trim($user['name']))[0]];
+			}
+
+			// if ($redis && !$request) {
+			// 	$redis->setex($uid.'list', 30, json_encode($i));
+				
+			// }
+		// } else {
+		// 	$i = $redis->get($uid.'list');
+		// 	$i = json_decode($i);
+		// 	error_log('ulist' . json_encode($i));
+		// }
 		
+		if ($request) {
+			$frs = $i[$frq]['id'];
+			$q = "INSERT INTO `tbl_friends`(`frq`, `frs`) VALUES ($uid, $frs)";
+			$sql_prepare = $conn->prepare($q);
+			if ($q->execute()) {
+				return 'Your friend request sent to '. $i['name'];
+			} else {
+				return 'Your friend request can not be process right now. Pleae try again later ';
+			}
+		}  
 
 
 		if ($page == 1) {
-			return 'Select age range for looking for
+			return 'Select a friend from below list
 
 1. '.@$i[0]['name'].'
 2. '.@$i[1]['name'].'
@@ -149,7 +178,7 @@ class Operations
 
 92.Next';
 		} else if ($page == 2) {
-			return 'Select age range for looking for
+			return 'Select a friend from below list
 	
 6. '.@$i[5]['name'].'
 7. '.@$i[6]['name'].'
@@ -160,7 +189,7 @@ class Operations
 92.Next
 93.Back';
 		} else {
-			return 'Select age range for looking for
+			return 'Select a friend from below list
 	
 11. '.@$i[10]['name'].'
 12. '.@$i[11]['name'].'

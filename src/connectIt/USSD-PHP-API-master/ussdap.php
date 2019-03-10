@@ -159,7 +159,7 @@ if (!@$subInfo['msisdn']) {
 
 1. Male
 2. Female',
-		"age-limit" => ' Select age range for looking for
+		"age-limit" => 'Select age range for looking for
 	
 1. 18-30
 2. 30-40
@@ -171,17 +171,7 @@ UID : '.$subInfo['id'].'
 Age : '.$subInfo['age'].',
 Gender : '.$gender.'
 
-93. Back',		
-
-"friend-list-1" => ' Select age range for looking for
-	
-1. KS
-2. KSKS
-3. SK
-4. SKSK
-5. KSSK
-
-92.Next'
+93. Back',
 	];
 
 	if ($ussdOperation == "mo-init") {
@@ -236,6 +226,11 @@ Gender : '.$gender.'
 		
 		if ($receiver->getMessage() == 93 &&  $sessiondetails['menu'] == "friend-list-3") {
 			$cuch_menu = 'friend-list-2';
+		}
+
+		if ($receiver->getMessage() <= 15 &&  ($sessiondetails['menu'] == "friend-list-1" || $sessiondetails['menu'] == "friend-list-2" || $sessiondetails['menu'] == "friend-list-3")) {
+			$sender->ussd($sessionId, 'reque', $address);
+			return;
 		}
 		
 
@@ -314,7 +309,7 @@ Gender : '.$gender.'
 				if($receiver->getMessage() == '1' ) {error_log('aa---$'.$receiver->getMessage());
 					$operations->saveSesssion($conn, 'menu', 'friend-list-1');
 					//$operations->session_menu = "friend-list-1";
-					$sender->ussd($sessionId, $responseMsg['friend-list-1'], $address, 'mt-fin');
+					$sender->ussd($sessionId,  $operations->getFriends($conn, 1, $subInfo['id']), $address, 'mt-fin');
 				}else if($receiver->getMessage() == '2'){
 					$operations->saveSesssion($conn, 'menu', 'friend-list-2');
 					//$operations->session_menu = "friend-list-1";
@@ -328,10 +323,10 @@ Gender : '.$gender.'
 
 			case "friend-list-1":
 			//$operations->saveSesssion($conn, 'age', $receiver->getMessage());
-
-			error_log(json_encode( $operations->getFriends($conn)));
+			error_log('flist 1');
+			error_log(json_encode($operations->getFriends($conn, 1, $subInfo['id'])));
 			//$sender->ussd($sessionId, $responseMsg['friend-list-1'], $address, 'mt-fin');
-			$sender->ussd($sessionId, $operations->getFriends($conn), $address, 'mt-fin');
+			$sender->ussd($sessionId, $operations->getFriends($conn, 1, $subInfo['id']), $subInfo['id'], $address, 'mt-fin');
 			
 			$operations->saveSesssion($conn, 'menu', 'friend-list-1');
 			// $operations->saveSesssion($conn, 'age', $receiver->getMessage());
@@ -339,8 +334,9 @@ Gender : '.$gender.'
 			break;	
 
 			case "friend-list-2":
+			error_log('flist 2');
 			//$operations->saveSesssion($conn, 'age', $receiver->getMessage());
-			$sender->ussd($sessionId,  $operations->getFriends($conn, 2), $address, 'mt-fin');
+			$sender->ussd($sessionId,  $operations->getFriends($conn, 2, $subInfo['id']), $address, 'mt-fin');
 			$operations->saveSesssion($conn, 'menu', 'friend-list-2');
 			// $operations->saveSesssion($conn, 'menu', 'friend-list-1');
 			// $operations->saveSesssion($conn, 'age', $receiver->getMessage());
@@ -348,8 +344,9 @@ Gender : '.$gender.'
 			break;
 
 			case "friend-list-3":
+			error_log('flist 3');
 			//$operations->saveSesssion($conn, 'age', $receiver->getMessage());
-			$sender->ussd($sessionId,  $operations->getFriends($conn, 3), $address, 'mt-fin');
+			$sender->ussd($sessionId,  $operations->getFriends($conn, 3, $subInfo['id']), $address, 'mt-fin');
 			$operations->saveSesssion($conn, 'menu', 'friend-list-3');
 			// $operations->saveSesssion($conn, 'menu', 'friend-list-1');
 			// $operations->saveSesssion($conn, 'age', $receiver->getMessage());
